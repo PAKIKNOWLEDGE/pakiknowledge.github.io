@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开发 on 帕琪的小屋</title>
+    <link>https://pakiknowledge.github.io/tags/%E5%BC%80%E5%8F%91/</link>
+    <description>Recent content in 开发 on 帕琪的小屋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pakiknowledge.github.io/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于Github Pages无法正常访问后的一堆破事</title>
+      <link>https://pakiknowledge.github.io/post/2020-8-11-gitpages/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pakiknowledge.github.io/post/2020-8-11-gitpages/</guid>
+      <description>Github Pages就是人间之屑啊。 嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（</description>
+    </item>
+    
+  </channel>
+</rss>

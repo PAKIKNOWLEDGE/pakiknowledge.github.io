@@ -1,10 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>帕琪的小屋</title>
     <link>https://pakiknowledge.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on 帕琪的小屋</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://pakiknowledge.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pakiknowledge.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BOFXVI个人精选</title>
+      <link>https://pakiknowledge.github.io/post/bofxvi/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pakiknowledge.github.io/post/bofxvi/</guid>
+      <description>帕琪KNOWLEDGE个人的bofxvi选集。 Victory Sense SenseRave Tech Victory Sense KAH (movie : movie:自動車 原付 illust:りゅうら) 7Keys 会场链接 BGA IDOLL Bass House IDOLL 七草くりむ</description>
+    </item>
+    
+    <item>
+      <title>深渊之梦</title>
+      <link>https://pakiknowledge.github.io/post/2020-8-30-dream/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pakiknowledge.github.io/post/2020-8-30-dream/</guid>
+      <description>不可避免的，同千千万万的“旅人”一样，坠入了这无底的深渊。 深渊充满着恐惧，但恐惧归根结底来自于内心的污秽。来自中世纪对极恶之地的描写根本不值</description>
+    </item>
+    
+    <item>
+      <title>不朽的王城</title>
+      <link>https://pakiknowledge.github.io/post/2020-8-21-king/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pakiknowledge.github.io/post/2020-8-21-king/</guid>
+      <description>王城中止战火，士兵斩断悲伤。 在坚固的城墙面前，战火识趣地止步了。悲伤的冥河得以不在流淌。对待一切事物，似乎可以变得从容不迫了。没有人再去在意</description>
+    </item>
+    
+    <item>
+      <title>关于Github Pages无法正常访问后的一堆破事</title>
+      <link>https://pakiknowledge.github.io/post/2020-8-11-gitpages/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pakiknowledge.github.io/post/2020-8-11-gitpages/</guid>
+      <description>Github Pages就是人间之屑啊。 嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pakiknowledge.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pakiknowledge.github.io/about/</guid>
+      <description>About Me Huabing Zhao is a software architect, an Istio Member and an ONAP PTL. He has a solid experience in the information and telecommunication technology industry for more than 17 years. Throughout his career, he has built a number of large-scale, cross-country software systems, most of them are still running in production. He loves open source and has been contributing to various open source projects, he is a member</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pakiknowledge.github.io/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pakiknowledge.github.io/notes/</guid>
+      <description>Go 语言学习笔记 Envoy 学习笔记</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pakiknowledge.github.io/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pakiknowledge.github.io/search/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts Archive</title>
+      <link>https://pakiknowledge.github.io/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pakiknowledge.github.io/archive/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

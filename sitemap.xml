@@ -2,10 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pakiknowledge.github.io/categories/</loc>
+    <loc>https://pakiknowledge.github.io/post/bofxvi/</loc>
+    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pakiknowledge.github.io/</loc>
+    <loc>https://pakiknowledge.github.io/tags/collage/</loc>
+    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/post/</loc>
+    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pakiknowledge.github.io/tags/</loc>
+    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/</loc>
+    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/tags/%E9%9F%B3%E6%B8%B8/</loc>
+    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/post/2020-8-30-dream/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/post/2020-8-21-king/</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/post/2020-8-11-gitpages/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/tags/%E5%90%90%E6%A7%BD/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/tags/%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/about/</loc>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/notes/</loc>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/search/placeholder/</loc>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/categories/</loc>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/archive/</loc>
+  </url><url>
+    <loc>https://pakiknowledge.github.io/search/</loc>
   </url>
 </urlset>
