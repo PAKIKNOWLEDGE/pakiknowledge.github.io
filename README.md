@@ -1,1 +1,0 @@
-# pakiknowledge.github.io
