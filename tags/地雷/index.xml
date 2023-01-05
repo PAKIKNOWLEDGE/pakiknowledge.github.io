@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>地雷 on 帕琪的小屋</title>
-    <link>https://pakiknowledge.github.io/tags/%E5%9C%B0%E9%9B%B7/</link>
+    <link>https://pakiknowledge.pages.dev/tags/%E5%9C%B0%E9%9B%B7/</link>
     <description>Recent content in 地雷 on 帕琪的小屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pakiknowledge.github.io/tags/%E5%9C%B0%E9%9B%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E5%9C%B0%E9%9B%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>地雷：</title>
-      <link>https://pakiknowledge.github.io/post/%E5%9C%B0%E9%9B%B7/</link>
+      <link>https://pakiknowledge.pages.dev/post/%E5%9C%B0%E9%9B%B7/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://pakiknowledge.github.io/post/%E5%9C%B0%E9%9B%B7/</guid>
+      <guid>https://pakiknowledge.pages.dev/post/%E5%9C%B0%E9%9B%B7/</guid>
       <description>1.Github桌面端报错（本文头图状况） 在push的时候出现： 解决：重新配置SSH 在git里 ssh-keygen -t rsa -C &amp;#34;your_email@example.com&amp;#34; 到”C:\Users\用户名\.ss</description>
     </item>
     
