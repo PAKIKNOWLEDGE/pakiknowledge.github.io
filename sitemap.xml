@@ -2,28 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pakiknowledge.pages.dev/post/</loc>
+    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.pages.dev/tags/</loc>
+    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.pages.dev/post/lr2-gas/</loc>
+    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.pages.dev/</loc>
+    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.pages.dev/tags/%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pakiknowledge.pages.dev/tags/%E9%9F%B3%E6%B8%B8/</loc>
+    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pakiknowledge.pages.dev/tags/2023/</loc>
     <lastmod>2023-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pakiknowledge.pages.dev/tags/gal/</loc>
     <lastmod>2023-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pakiknowledge.pages.dev/post/</loc>
-    <lastmod>2023-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pakiknowledge.pages.dev/tags/</loc>
-    <lastmod>2023-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://pakiknowledge.pages.dev/tags/%E5%9C%B0%E9%9B%B7/</loc>
     <lastmod>2023-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pakiknowledge.pages.dev/post/%E5%9C%B0%E9%9B%B7/</loc>
-    <lastmod>2023-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pakiknowledge.pages.dev/</loc>
-    <lastmod>2023-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pakiknowledge.pages.dev/tags/%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2023-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pakiknowledge.pages.dev/post/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</loc>
@@ -42,9 +48,6 @@
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pakiknowledge.pages.dev/tags/collage/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pakiknowledge.pages.dev/tags/%E9%9F%B3%E6%B8%B8/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pakiknowledge.pages.dev/post/2020-8-30-dream/</loc>

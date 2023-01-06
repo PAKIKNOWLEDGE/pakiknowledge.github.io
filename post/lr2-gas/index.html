@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="在LR2中使用GAS方法的相关问题" />
+    <meta property="og:title" content="在LR2中使用GAS方法的相关问题" />
+    <meta property="twitter:title" content="在LR2中使用GAS方法的相关问题" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Posts | </title>
+    <title>在LR2中使用GAS方法的相关问题 | </title>
 
-    <link rel="canonical" href="/post/">
+    <link rel="canonical" href="/post/lr2-gas/">
 
     
     
@@ -145,14 +145,45 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/OsqKsuiXhKI.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('https://s1.ax1x.com/2023/01/06/pSEVAqe.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>帕琪的小屋 </h1>
-                    
-		    <span class="subheading">不为所动，做更专业的自己</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/%E9%9F%B3%E6%B8%B8" title="音游">
+                            音游
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E5%BC%80%E5%8F%91" title="开发">
+                            开发
+                        </a>
+                        
+                    </div>
+                    <h1>在LR2中使用GAS方法的相关问题</h1>
+                    <h2 class="subheading">代理消失的世界是崩坏的世界</h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                     &#34;PAKIKNOWLEDGE&#34;
+                             
+                            on 
+                            Friday, January 6, 2023
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -165,19 +196,89 @@
 <article>
     <div class="container">
         <div class="row">
+
             
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
 
-         	
+                
+                <blockquote>
+<p>前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所以操作。</p>
+</blockquote>
+<h1 id="1-gas是什么">1 GAS是什么</h1>
+<p>就是自动灯，这里不再赘述。</p>
+<hr>
+<h1 id="2-在lr2中使用gas的方法">2 在LR2中使用GAS的方法：</h1>
+<p>首先，这个GAS似乎是与<a href="https://bokutachi.xyz/">Bokutachi IR</a>绑定使用的，在使用GAS之前你需要先连上这个IR。这个IR的官网直连是可以进入的，但是仍然需要代理。</p>
+<p><a href="https://imgse.com/i/pSEV4sO">
+  <img src="https://s1.ax1x.com/2023/01/06/pSEV4sO.png" alt="pSEV4sO.png">
+
+</a></p>
+<p>点击注册会提示你看规则，需要看30秒，这里还告诉你禁止创建小号，看完进行注册的时候<strong>坑就来了</strong>。</p>
+<p><a href="https://imgse.com/i/pSEZiYn">
+  <img src="https://s1.ax1x.com/2023/01/06/pSEZiYn.md.png" alt="pSEZiYn.md.png">
+
+</a></p>
+<p>哈哈！如果你这时候没用挂代理的话就会发现<strong>Captcha failed</strong>了！那么这是怎么回事呢？其实就是因为没挂代理谷歌验证码加载不出来。这个问题在你裸连登录的时候同样会遇到，所以前言就建议全程挂代理。</p>
+<hr>
+<p>注册完之后需要去邮箱里点确认链接，请确保你的代理还是开着的情况下去邮箱验证。验证完登录你就会看到类似的界面：</p>
+<p>
+  <img src="https://s1.ax1x.com/2023/01/06/pSEZcnS.png" alt="pSEZcnS.png">
+
+</p>
+<p><a href="https://imgse.com/i/pSEZcnS"></a></p>
+<p>这个时候在确保IR已登录的情况下去<a href="https://bokutachi.xyz/client-file-flow/CXLR2Hook">这里</a>，你会下载到一个叫<code>BokutachiAuth.json</code>的文件，请把他放到LR2的根目录。</p>
+<p>这时候你基本已经要成功了！</p>
+<p>然后再去<a href="https://github.com/MatVeiQaaa/BokutachiHook/releases">这里</a>下载bokutachi IR的启动器，再去<a href="https://github.com/MatVeiQaaa/LR2GAS/releases">这里</a>得到<code>LR2GAS.dll</code>把所有文件放在LR2的根目录。</p>
+<p>然后这时候你的LR2目录大概是这样子：</p>
+<p><a href="https://imgse.com/i/pSEZbBF">
+  <img src="https://s1.ax1x.com/2023/01/06/pSEZbBF.png" alt="pSEZbBF.png">
+
+</a></p>
+<p>然后这里笔者遇到了个坑，那就是直接点击BokutachiLauncher.exe启动会直接闪退，但是对这个软件使用<strong>LEGUI</strong>之后就正常了，推测是转区一类的问题，请各位自行避雷。还有一个好消息是你现在可以把你的代理关掉了，在裸连的情况下你依然可以正常连上bokutachiIR并使用GAS插件。</p>
+<p>FIN!</p>
+
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/%E5%9C%B0%E9%9B%B7/" data-toggle="tooltip" data-placement="top" title="地雷：">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+
                 
 
 
 
-
             </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
             
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -194,7 +295,7 @@
                         
                         
                         <a href="/tags/2023" title="2023">
-                        2023
+                            2023
                         </a>
                         
                         
@@ -208,7 +309,7 @@
                         
                         
                         <a href="/tags/%E5%BC%80%E5%8F%91" title="开发">
-                        开发
+                            开发
                         </a>
                         
                         
@@ -216,13 +317,13 @@
                         
                         
                         <a href="/tags/%E9%9A%8F%E7%AC%94" title="随笔">
-                        随笔
+                            随笔
                         </a>
                         
                         
                         
                         <a href="/tags/%E9%9F%B3%E6%B8%B8" title="音游">
-                        音游
+                            音游
                         </a>
                         
                         
@@ -311,7 +412,7 @@
             
            
                    <li>
-                       <a href='/post/index.xml' rel="alternate" type="application/rss+xml" title="帕琪的小屋" >
+                       <a href='' rel="alternate" type="application/rss+xml" title="帕琪的小屋" >
                            <span class="fa-stack fa-lg">
                                <i class="fas fa-circle fa-stack-2x"></i>
                                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
