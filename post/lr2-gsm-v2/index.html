@@ -15,15 +15,15 @@
     
 
     
-    <meta name="title" content="Posts Archive" />
-    <meta property="og:title" content="Posts Archive" />
-    <meta property="twitter:title" content="Posts Archive" />
+    <meta name="title" content="LR2自动灯简易配置方法" />
+    <meta property="og:title" content="LR2自动灯简易配置方法" />
+    <meta property="twitter:title" content="LR2自动灯简易配置方法" />
     
 
     
-    <meta name="description" content="Archive of historical posts.">
-    <meta property="og:description" content="Archive of historical posts." />
-    <meta property="twitter:description" content="Archive of historical posts." />
+    <meta name="description" content="。">
+    <meta property="og:description" content="。" />
+    <meta property="twitter:description" content="。" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Posts Archive | </title>
+    <title>LR2自动灯简易配置方法 | </title>
 
-    <link rel="canonical" href="/archive/">
+    <link rel="canonical" href="/post/lr2-gsm-v2/">
 
     
     
@@ -145,14 +145,45 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/OsqKsuiXhKI.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img1/E-XdCRgVQAAbh0C.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>帕琪的小屋 </h1>
-                    
-		    <span class="subheading">不为所动，做更专业的自己</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/%E9%9F%B3%E6%B8%B8" title="音游">
+                            音游
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E5%BC%80%E5%8F%91" title="开发">
+                            开发
+                        </a>
+                        
+                    </div>
+                    <h1>LR2自动灯简易配置方法</h1>
+                    <h2 class="subheading">排斥二次元的IR咱们就别用了！！111</h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                     &#34;pakiknowledge as lolikong&#34;
+                             
+                            on 
+                            Friday, January 6, 2023
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -162,274 +193,161 @@
 
 
 
+<article>
+    <div class="container">
+        <div class="row">
 
-<div data-pagefind-ignore="all" class="container">
-    <div class="row">
-   	    <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container
-        ">
-            <div class="archive-list">
-                
-                
-                    
-                    
-                        
-                            
-                            <h1 class="title is-4 has-text-weight-normal">2023</h1>
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-
-                    <ul>
-                    
-                        <li>
-                            <span>01/06</span> — 
-                            <a href="/post/lr2-gas/">
-                                在LR2中使用GAS方法的相关问题
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <span>01/06</span> — 
-                            <a href="/post/lr2-gsm-v2/">
-                                LR2自动灯简易配置方法
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <span>01/05</span> — 
-                            <a href="/post/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/">
-                                放課後シンデレラ-築島 つくし线 FIN
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <span>01/05</span> — 
-                            <a href="/post/%E5%9C%B0%E9%9B%B7/">
-                                地雷：
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <span>01/04</span> — 
-                            <a href="/post/whyblog/">
-                                为什么重拾博客？
-                            </a>
-                        </li>
-                    
-                    </ul>
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
                 
-                
-                
-                    
-                    
-                        
-                            
-                            <h1 class="title is-4 has-text-weight-normal">2020</h1>
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
+                <blockquote>
+<p>前言：由于笔者在访问GitHub仍然遇到诸多困难，所以请确保在开始配置之前您可以顺利的访问GitHub，此外仍然强烈建议开启或者保留代理软件作为最后手段。</p>
+</blockquote>
+<hr>
+<h1 id="1-gsm是什么以及为什么这篇教程会有v2">1 gsm是什么，以及为什么这篇教程会有V2</h1>
+<p>gsm就是自动灯，这里不再赘述。那么之前已经写过一篇有关的教程了，为什么会有第二版呢？首先是次要的，就是原先的配置流程相对较为麻烦，而现在有了更简易方法。（特别感谢BMS群群友<a href="https://space.bilibili.com/17747138">quailty</a>，是他发现了绕过IR使用插件的方法）之后是<strong>主要原因，就是原先这个插件需要配合<a href="https://bokutachi.xyz/">Bokutachi IR</a>进行使用，而该网站的规则中居然骂萝莉是乐色，我觉得这是不可接受了，因为首先笔者就是萝莉控，这种IR不如别用了！</strong></p>
+<p>
+  <img src="/img1/QQ%e6%88%aa%e5%9b%be20230106211804.png" alt="QQ截图20230106211804.png">
 
-                    <ul>
-                    
-                        <li>
-                            <span>11/22</span> — 
-                            <a href="/post/bofxvi/">
-                                BOFXVI个人精选
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <span>08/30</span> — 
-                            <a href="/post/2020-8-30-dream/">
-                                深渊之梦
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <span>08/21</span> — 
-                            <a href="/post/2020-8-21-king/">
-                                不朽的王城
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <span>08/11</span> — 
-                            <a href="/post/2020-8-11-gitpages/">
-                                关于Github Pages无法正常访问后的一堆破事
-                            </a>
-                        </li>
-                    
-                    </ul>
+</p>
+<hr>
+<h1 id="2-怎样使用">2 怎样使用</h1>
+<p>首先去<a href="https://github.com/MatVeiQaaa/BokutachiHook/releases">这里</a>下载bokutachi IR的启动器，再去<a href="https://github.com/MatVeiQaaa/LR2GAS/releases">这里</a>得到<code>LR2GAS.dll</code>把所有文件放在LR2的根目录。</p>
+<p>最后请确保<code>BokutachiHook.dll</code> <code>BokutachiLauncher.exe</code> <code>libcurl.dll</code> <code>zlib1.dll</code>和<code>LR2GAS.dll</code>这些文件在你的LR2跟目录（也就是说，要和<code>LRHbody.exe</code>处于同个目录）</p>
+<hr>
+<h2 id="之后是比较关键的一步">之后是比较关键的一步</h2>
+<p>在LR2游戏目录创建一个叫<code>BokutachiAuth.json</code>(请注意后缀！！)的文件，之后在里面填入：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#ff79c6">&#34;apiKey&#34;</span>:<span style="color:#f1fa8c">&#34;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#34;</span>,
+</span></span><span style="display:flex;"><span>   <span style="color:#ff79c6">&#34;url&#34;</span>:<span style="color:#f1fa8c">&#34;xxxxxx&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>只要apiKey恰好40字节，url不是空就可以过校验(<strong>也就是说url填lolisaiko都行，哈哈！</strong>)</p>
+<p>再次感谢<a href="https://space.bilibili.com/17747138">quailty</a>，他伟大的贡献了这部分决定性的内容。</p>
+<p>这之后，启动<code>BokutachiLauncher.exe</code>就可以体验自动灯了！</p>
+<p>然后贴一个上一篇文章的避雷部分，懒得重写直接复制了：</p>
+<blockquote>
+<p>直接点击BokutachiLauncher.exe启动会直接闪退，但是对这个程序使用<strong>LEGUI</strong>之后就正常了，推测是转区一类的问题，请各位自行避雷。</p>
+</blockquote>
+<p>最后感谢BMS群提供帮助的各位，也感谢代码作者，请不要吝啬您的star。希望大家都能愉快的使用自动灯插件，祝大家生活愉快！</p>
+
 
                 
-                
-            </div>
-       	</div>
-        
 
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-	
-    <section class="visible-md visible-lg">
-	
-        <div class="short-about">
-            
-            <a href="/about">
-               <img src="/img/FlEQiGPaAAEqovl.jpg" alt="avatar" style="cursor: pointer" />
-            </a>
-            
-            
-                <p> BMS KB七段/重度BEMANI厨/东方project/帕秋莉厨/格斗游戏新人/半吊子游戏王玩家</p>
-            
-           
-           <ul class="list-inline">
-               
-               <li>
-                   <a href="mailto:2772962906@qq.com">
-                      <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                      </span>
-                   </a>
-               </li>
-               
-               
-               <li>
-                   <a href="https://twitter.com/alex_rafao">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/yourgithub">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-            
-            
-               
-               
-               
-               
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/lr2-gas/" data-toggle="tooltip" data-placement="top" title="在LR2中使用GAS方法的相关问题">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
                 </ul>
+                
+
+                
+
+
+
             </div>
-    </section>
-	
-    
-    
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
-        <div class="tags">
+
             
             
-               
-                    <a href="/tags/2023" title="2023">
-                        2023
-                    </a>
-               
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
             
-               
+
             
-               
-            
-               
-            
-               
-            
-               
-                    <a href="/tags/%E5%BC%80%E5%8F%91" title="开发">
-                        开发
-                    </a>
-               
-            
-               
-            
-               
-                    <a href="/tags/%E9%9A%8F%E7%AC%94" title="随笔">
-                        随笔
-                    </a>
-               
-            
-               
-                    <a href="/tags/%E9%9F%B3%E6%B8%B8" title="音游">
-                        音游
-                    </a>
-               
-            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/2023" title="2023">
+                            2023
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/%E5%BC%80%E5%8F%91" title="开发">
+                            开发
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/%E9%9A%8F%E7%AC%94" title="随笔">
+                            随笔
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E9%9F%B3%E6%B8%B8" title="音游">
+                            音游
+                        </a>
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://hakula.xyz/">hakula.xyz</a></li>
+                        
+                        <li><a target="_blank" href="https://space.bilibili.com/150222835">问号玛力欧（呕）</a></li>
+                        
+                        <li><a target="_blank" href="https://space.bilibili.com/424139334/video">穹顶今天有暗星</a></li>
+                        
+                        <li><a target="_blank" href="https://afleartley0103.hatenablog.com/">AFLeartLey</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
         </div>
-    </section>
-    
+    </div>
+</article>
 
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FRIENDS</h5>
-        <ul class="list-inline">
-            
-            <li><a target="_blank" href="https://hakula.xyz/">hakula.xyz</a></li>
-            
-            <li><a target="_blank" href="https://space.bilibili.com/150222835">问号玛力欧（呕）</a></li>
-            
-            <li><a target="_blank" href="https://space.bilibili.com/424139334/video">穹顶今天有暗星</a></li>
-            
-            <li><a target="_blank" href="https://afleartley0103.hatenablog.com/">AFLeartLey</a></li>
-            
-        </ul>
-    </section>
-    
-    
-</div>
-
-	</div>
-</div>
-
-
-<hr />
 
 
 
