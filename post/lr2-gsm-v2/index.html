@@ -216,10 +216,38 @@
 </p>
 <hr>
 <h1 id="2-怎样使用">2 怎样使用</h1>
+<p>最新版经过群友不懈努力已更新：由<a href="https://space.bilibili.com/17747138">quailty</a>强力驱动</p>
+<p><a href="https://wwrg.lanzouy.com/iPH6k0kbn4rg">简易整合补丁</a></p>
+<p>这里顺便贴一段README节选</p>
+<p>补丁说明</p>
+<ol>
+<li>绕过 BokutachiLauncher 本地鉴权，无需注册 Bokutachi IR 即可使用 LR2 自动灯插件</li>
+<li>基于 LR2GAS v1.1 进行二次开发，对自动灯插件做出如下调整</li>
+</ol>
+<pre><code>1) 修复所有音符结束后按 ESC 退出，结算界面的 Gauge 趋势展示接近结束时可能掉零的问题
+2) 修复 HARD Gauge 在低 Total 下的减少量与 LR2 自带 Gauge 不一致的问题
+3) 修复结束游玩时，Gauge 保持为游玩结束时所显示类型的问题，调整为保持进入游玩界面时的的设置
+4) 修复多线程之间数据竞争引起的包括但不限于 Gauge 数值计算错误、LR2 闪退或无响应等问题
+</code></pre>
+<p>注意事项
+自动灯只对非段位以及非 Course 的 EASY / GROOVE / HARD Gauge 生效</p>
+<p>开发说明</p>
+<ol>
+<li>BokutachiHook 代码仓库 <a href="https://github.com/MatVeiQaaa/BokutachiHook">https://github.com/MatVeiQaaa/BokutachiHook</a></li>
+<li>LR2GAS 代码仓库 <a href="https://github.com/MatVeiQaaa/LR2GAS/blob/main/LR2GAS">https://github.com/MatVeiQaaa/LR2GAS/blob/main/LR2GAS</a></li>
+<li>修改版 LR2GAS 源码在本压缩包的 LR2GAS-opt 目录</li>
+</ol>
+<p>重要声明
+自动灯插件涉及 DLL 注入，本质上属于外挂，请谨慎使用</p>
+<p>by quailty 01/07/2023</p>
+<hr>
+<p>（以下内容已过时）</p>
+<blockquote>
 <p>首先去<a href="https://github.com/MatVeiQaaa/BokutachiHook/releases">这里</a>下载bokutachi IR的启动器，再去<a href="https://github.com/MatVeiQaaa/LR2GAS/releases">这里</a>得到<code>LR2GAS.dll</code>把所有文件放在LR2的根目录。</p>
 <p>最后请确保<code>BokutachiHook.dll</code> <code>BokutachiLauncher.exe</code> <code>libcurl.dll</code> <code>zlib1.dll</code>和<code>LR2GAS.dll</code>这些文件在你的LR2跟目录（也就是说，要和<code>LRHbody.exe</code>处于同个目录）</p>
+</blockquote>
 <hr>
-<h2 id="之后是比较关键的一步">之后是比较关键的一步</h2>
+<h2 id="之后是比较关键的一步已过时">之后是比较关键的一步（已过时）</h2>
 <p>在LR2游戏目录创建一个叫<code>BokutachiAuth.json</code>(请注意后缀！！)的文件，之后在里面填入：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>   <span style="color:#ff79c6">&#34;apiKey&#34;</span>:<span style="color:#f1fa8c">&#34;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#34;</span>,
@@ -233,7 +261,7 @@
 <p>直接点击BokutachiLauncher.exe启动会直接闪退，但是对这个程序使用<strong>LEGUI</strong>之后就正常了，推测是转区一类的问题，请各位自行避雷。</p>
 </blockquote>
 <hr>
-<h1 id="3-tips">3. tips</h1>
+<h1 id="3-tips已过时">3. tips（已过时）</h1>
 <p>在使用场景中，如果您打开HARD选项，那么当你hard血归0后，gsm插件会帮您过渡到Groove/Easy血，但是你完成游戏后，<strong>灯的选项会回到你clear的那个选项</strong>，比如说你开着白进去落到easy并EC了，你的灯会变成绿灯，如果还想凹白就得手动调回来。（这里群友建议，想凹白就不要开自动灯了。）而且当你快速重开游戏之后，<strong>灯无论如何都会变成easy gauge</strong>，这里敬请各位注意！</p>
 <blockquote>
 <p>【★】练了 ★8 / st1 - 139324 2023/1/6 21:43:46
