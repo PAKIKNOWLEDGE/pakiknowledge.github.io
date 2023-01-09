@@ -217,32 +217,50 @@
 <hr>
 <h1 id="2-怎样使用">2 怎样使用</h1>
 <p>最新版经过群友不懈努力已更新：由<a href="https://space.bilibili.com/17747138">quailty</a>强力驱动</p>
-<p><a href="https://wwrg.lanzouy.com/iPH6k0kbn4rg">简易整合补丁</a></p>
-<p>这里顺便贴一段README节选</p>
-<blockquote>
+<p><a href="https://wwrg.lanzouy.com/i9IFh0kks8cj">简易整合补丁</a></p>
+<p>这里顺便贴一段README</p>
+<p>使用说明</p>
+<ol>
+<li>解压除  LR2GAS-opt 目录外的所有文件到 LR2body.exe / LRHbody.exe 的同级目录中</li>
+<li>运行 BokutachiLauncher.exe，会优先启动 LR2body.exe，如需启动 LRHbody.exe，请先删除 LR2body.exe</li>
+<li>设置 Gauge 类型作为自动灯的最高等级，比如设置 EASY 那么最高就是 EASY，设置 HARD 那么最高就是 HARD</li>
+<li>享受自动灯带来的愉快点灯体验</li>
+</ol>
 <p>补丁说明</p>
 <ol>
-<li>绕过 BokutachiLauncher 本地鉴权，无需注册 Bokutachi IR 即可使用 LR2 自动灯插件</li>
-<li>基于 LR2GAS v1.1 进行二次开发，对自动灯插件做出如下调整</li>
-</ol>
-<pre><code>1) 修复所有音符结束后按 ESC 退出，结算界面的 Gauge 趋势展示接近结束时可能掉零的问题
+<li>基于 BokutachiHook v1.5.3，绕过 BokutachiLauncher 本地鉴权，无需注册 Bokutachi IR 即可使用 LR2 自动灯插件</li>
+<li>基于 LR2GAS v1.1 进行二次开发，对自动灯插件做出如下调整
+1) 修复所有音符结束后按 ESC 退出，结算界面的 Gauge 趋势展示接近结束时可能降至 0 的问题
 2) 修复 HARD Gauge 在低 Total 下的减少量与 LR2 自带 Gauge 不一致的问题
-3) 修复结束游玩时，Gauge 保持为游玩结束时所显示类型的问题，调整为保持进入游玩界面时的的设置
-4) 修复多线程之间数据竞争引起的包括但不限于 Gauge 数值计算错误、LR2 闪退或无响应等问题
-</code></pre>
-<p>注意事项
-自动灯只对非段位以及非 Course 的 EASY / GROOVE / HARD Gauge 生效</p>
+3) 修复多线程之间数据竞争引起的包括但不限于 Gauge 数值计算错误、LR2 本体闪退或无响应等问题
+4) 修复结束游玩时，Gauge 保持为游玩结束时所显示类型的问题，调整为保持进入游玩界面时的的设置
+5) 修复 G-Battle 下自动灯生效的问题，实际上 G-Battle 不允许使用自动灯
+6) 修复 Replay 的结算界面的 Gauge 趋势展示与实际 Gauge 趋势不符的问题
+7) 修复结算时 Gauge 类型低于初始设置导致 Replay 结算 Failed 的问题，Replay 过程中会使用自动灯
+8) 支持设置 Gauge 类型作为自动灯的最高等级，比如设置 GROOVE 那么最高就是 GROOVE
+9) 优化了 Gauge 切换逻辑，当 HARD 失败时如果 GROOVE Gauge &lt; 80 则直接变为 EASY Gauge
+10) 修复当 HARD Gauge &lt;= 32 时 EASY / GROOVE Gauge 后台计算也吃补正导致与 LR2 自带 Gauge 不一致的问题</li>
+</ol>
+<p>注意事项</p>
+<ol>
+<li>自动灯只对不在 段位认定 / Course / Battle / G-Battle 的 EASY / GROOVE / HARD Gauge 生效</li>
+<li>使用自动灯时如果设置初始 Gauge 类型为 GROOVE，在任意判定后 Gauge &lt; 80 就会变为 EASY Gauge</li>
+<li>使用自动灯打出的 Replay 如果 Gauge 类型中途变低，在不使用自动灯时也会结算 Failed</li>
+<li>如果希望将分数上传至 Bokutachi IR，需要到 <a href="https://bokutachi.xyz/">https://bokutachi.xyz/</a> 注册并下载 BokutachiAuth.json 进行替换</li>
+</ol>
 <p>开发说明</p>
 <ol>
 <li>BokutachiHook 代码仓库 <a href="https://github.com/MatVeiQaaa/BokutachiHook">https://github.com/MatVeiQaaa/BokutachiHook</a></li>
 <li>LR2GAS 代码仓库 <a href="https://github.com/MatVeiQaaa/LR2GAS/blob/main/LR2GAS">https://github.com/MatVeiQaaa/LR2GAS/blob/main/LR2GAS</a></li>
-<li>修改版 LR2GAS 源码在本压缩包的 LR2GAS-opt 目录</li>
+<li>优化版 LR2GAS 源代码在本压缩包的 LR2GAS-opt 目录，未来可能会托管到 github</li>
 </ol>
-<p>重要声明
-自动灯插件涉及 DLL 注入，本质上属于外挂，请谨慎使用</p>
-<p>by quailty 01/07/2023</p>
-</blockquote>
-<hr>
+<p>重要声明</p>
+<ol>
+<li>支持原作者！</li>
+<li>自动灯插件涉及 DLL 注入，本质上属于外挂，请谨慎使用！</li>
+</ol>
+<h2 id="v110-released-by-quailty-on-20230109">版本说明
+v.1.1.0 released by quailty on 2023.01.09</h2>
 <p>（以下内容已过时）</p>
 <blockquote>
 <p>首先去<a href="https://github.com/MatVeiQaaa/BokutachiHook/releases">这里</a>下载bokutachi IR的启动器，再去<a href="https://github.com/MatVeiQaaa/LR2GAS/releases">这里</a>得到<code>LR2GAS.dll</code>把所有文件放在LR2的根目录。</p>
