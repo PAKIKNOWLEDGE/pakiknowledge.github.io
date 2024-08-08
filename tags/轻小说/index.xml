@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>轻小说 on 帕琪的小屋</title>
-    <link>https://pakiknowledge.pages.dev/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/</link>
+    <link>http://localhost:1313/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/</link>
     <description>Recent content in 轻小说 on 帕琪的小屋</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>日轻analysis：《邻家天使》/《邻座的艾琳同学》</title>
-      <link>https://pakiknowledge.pages.dev/post/light-novel-analysis-1/</link>
+      <link>http://localhost:1313/post/light-novel-analysis-1/</link>
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pakiknowledge.pages.dev/post/light-novel-analysis-1/</guid>
+      <guid>http://localhost:1313/post/light-novel-analysis-1/</guid>
       <description>（BANNER是AI生的，喂了张K77进去，这人打欧冠次回合AC米兰真的灾难表呃呃呃，看了糟心，真的老独！） 0.先上结论 《邻家天使》目前看到</description>
     </item>
-    
   </channel>
 </rss>

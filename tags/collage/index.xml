@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collage on 帕琪的小屋</title>
-    <link>https://pakiknowledge.pages.dev/tags/collage/</link>
+    <link>http://localhost:1313/tags/collage/</link>
     <description>Recent content in Collage on 帕琪的小屋</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/collage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/collage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BOFXVI个人精选</title>
-      <link>https://pakiknowledge.pages.dev/post/bofxvi/</link>
+      <link>http://localhost:1313/post/bofxvi/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pakiknowledge.pages.dev/post/bofxvi/</guid>
+      <guid>http://localhost:1313/post/bofxvi/</guid>
       <description>帕琪KNOWLEDGE个人的bofxvi选集。 Victory Sense SenseRave Tech Victory Sense KAH (movie : movie:自動車 原付 illust:りゅうら) 7Keys 会场链接 BGA IDOLL Bass House IDOLL 七草くりむ</description>
     </item>
-    
   </channel>
 </rss>
