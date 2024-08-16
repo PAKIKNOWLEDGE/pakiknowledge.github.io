@@ -1,540 +1,124 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="zh-CN">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>关于Github Pages无法正常访问后的一堆破事 - 帕琪的小屋</title><meta name="Description" content="This is my cool site"><meta property="og:url" content="http://localhost:1313/post/2020-8-11-gitpages/">
+  <meta property="og:site_name" content="帕琪的小屋">
+  <meta property="og:title" content="关于Github Pages无法正常访问后的一堆破事">
+  <meta property="og:description" content="Github Pages就是人间之屑啊。 嘛，就是这样，Github Pages突然就炸了，我想了很">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2020-08-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-08-14T23:34:36+08:00">
+    <meta property="article:tag" content="开发">
+    <meta property="article:tag" content="吐槽">
 
-    
-    <meta property="og:site_name" content="帕琪的小屋">
-    <meta property="og:type" content="article">
-
-    
-    <meta property="og:image" content="http://localhost:1313///img/OsqKsuiXhKI.jpg">
-    <meta property="twitter:image" content="http://localhost:1313///img/OsqKsuiXhKI.jpg" />
-    
-
-    
-    <meta name="title" content="关于Github Pages无法正常访问后的一堆破事" />
-    <meta property="og:title" content="关于Github Pages无法正常访问后的一堆破事" />
-    <meta property="twitter:title" content="关于Github Pages无法正常访问后的一堆破事" />
-    
-
-    
-    <meta name="description" content="。">
-    <meta property="og:description" content="。" />
-    <meta property="twitter:description" content="。" />
-    
-
-    
-    <meta property="twitter:card" content="summary" />
-    
-    
-
-    <meta name="keyword"  content="">
-    <link rel="shortcut icon" href="/img/favicon.ico">
-
-    <title>关于Github Pages无法正常访问后的一堆破事 | </title>
-
-    <link rel="canonical" href="/post/2020-8-11-gitpages/">
-
-    
-    
-    
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-
-    
-    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
-
-    
-    <link rel="stylesheet" href="/css/zanshang.css">
-
-    
-    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
-
-    
-    
-
-    
-    <script src="/js/jquery.min.js"></script>
-
-    
-    <script src="/js/bootstrap.min.js"></script>
-
-    
-    <script src="/js/hux-blog.min.js"></script>
-
-    
-    <script src="/js/lazysizes.min.js"></script>
-
-    
-    
-
-</head>
-
-
-
-
-
-
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-
-    <div class="container-fluid">
-        
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">帕琪的小屋</a>
-        </div>
-
-        
-        
-        <div id="huxblog_navbar">
-            <div class="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/">All Posts</a>
-                    </li>
-                    
-                        
-                    
-                    
-		    
-		            <li>
-                        <a href="/search"><i class="fa fa-search"></i></a>
-		           </li>
-                </ul>
-            </div>
-        </div>
-        
-    </div>
-    
-</nav>
-<script>
-    
-    
-    
-    var $body   = document.body;
-    var $toggle = document.querySelector('.navbar-toggle');
-    var $navbar = document.querySelector('#huxblog_navbar');
-    var $collapse = document.querySelector('.navbar-collapse');
-
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
-        
-            $navbar.className = " ";
-            
-            setTimeout(function(){
-                
-                if($navbar.className.indexOf('in') < 0) {
-                    $collapse.style.height = "0px"
-                }
-            },400)
-        }else{
-        
-            $collapse.style.height = "auto"
-            $navbar.className += " in";
-        }
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="关于Github Pages无法正常访问后的一堆破事">
+  <meta name="twitter:description" content="Github Pages就是人间之屑啊。 嘛，就是这样，Github Pages突然就炸了，我想了很">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/post/2020-8-11-gitpages/" /><link rel="next" href="http://localhost:1313/post/2020-8-21-king/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "关于Github Pages无法正常访问后的一堆破事",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/post\/2020-8-11-gitpages\/"
+        },"genre": "post","keywords": "开发, 吐槽","wordcount":  232 ,
+        "url": "http:\/\/localhost:1313\/post\/2020-8-11-gitpages\/","datePublished": "2020-08-11T00:00:00+00:00","dateModified": "2024-08-14T23:34:36+08:00","license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "     \"帕琪knowledge\""
+            },"description": ""
     }
-</script>
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-
-
-
-<style type="text/css">
-    header.intro-header {
-        background-image: url('/img1/aO92zn.jpg')
-    }
-</style>
-
-<header class="intro-header" >
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <div class="tags">
-                        
-                        <a class="tag" href="/tags/%E5%BC%80%E5%8F%91" title="开发">
-                            开发
-                        </a>
-                        
-                        <a class="tag" href="/tags/%E5%90%90%E6%A7%BD" title="吐槽">
-                            吐槽
-                        </a>
-                        
-                    </div>
-                    <h1>关于Github Pages无法正常访问后的一堆破事</h1>
-                    <h2 class="subheading"></h2>
-                    <span class="meta">
-                        
-                            Posted by 
-                            
-                                     &#34;帕琪knowledge&#34;
-                             
-                            on 
-                            Tuesday, August 11, 2020
-                            
-                            
-                            
-                            
-                    </span>
-                </div>
-            </div>
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="帕琪的小屋">My cool site</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/">internal 文章 archive</a><a class="menu-item" href="/categories/">internal 分类 th</a><a class="menu-item" href="/tags/">internal 标签 tags</a><a class="menu-item" href="/about/">internal 关于 user-circle</a><a class="menu-item" href="/">  </a><a class="menu-item" href="/">  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
         </div>
     </div>
-</header>
-
-
-
-
-<article>
-    <div class="container">
-        <div class="row">
-
-            
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
-
-                
-                <blockquote>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="帕琪的小屋">My cool site</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/">internal文章archive</a><a class="menu-item" href="/categories/">internal分类th</a><a class="menu-item" href="/tags/">internal标签tags</a><a class="menu-item" href="/about/">internal关于user-circle</a><a class="menu-item" href="/"></a><a class="menu-item" href="/"></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>切换主题</a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="page single special"><div class="single-card"><h1 class="single-title animate__animated animate__pulse animate__faster">关于Github Pages无法正常访问后的一堆破事</h1><div class="content" id="content"><blockquote>
 <p>Github Pages就是人间之屑啊。</p>
 </blockquote>
 <hr>
-<p>
-  <img src="/img1/aO92zn.jpg" alt="avatar">
-
-</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/aO92zn.jpg"
+        data-srcset="/img1/aO92zn.jpg, /img1/aO92zn.jpg 1.5x, /img1/aO92zn.jpg 2x"
+        data-sizes="auto"
+        alt="/img1/aO92zn.jpg"
+        title="avatar" /></p>
 <p>嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（gitee）上，框架依旧使用Jekyll，因为生成的设备迁移都要优于hexo。但是这中途也碰到很多种问题，例如gitee的域名太长，原博客的配置文件絮乱等。后来的解决方案呢，是把静态文件继续放在GitHub的仓库上，然后把仓库名改成适合gitee的<em>短域名</em>的形式，然后利用gitee的同步功能就可以啦！</p>
 <h1 id="总之今后还请多多关照s">总之今后还请多多关照！s</h1>
-
-
-                
-
-                
-                <hr>
-                <ul class="pager">
-                    
-                    
-                    <li class="next">
-                        <a href="/post/2020-8-21-king/" data-toggle="tooltip" data-placement="top" title="不朽的王城">Next
-                            Post &rarr;</a>
-                    </li>
-                    
-                </ul>
-                
-
-                
-
-
-
-            </div>
-
-            
-            
-            <div class="
-                col-lg-2 col-lg-offset-0
-                visible-lg-block
-                sidebar-container
-                catalog-container">
-                <div class="side-catalog">
-                    <hr class="hidden-sm hidden-xs">
-                    <h5>
-                        <a class="catalog-toggle" href="#">CATALOG</a>
-                    </h5>
-                    <ul class="catalog-body"></ul>
-                </div>
-            </div>
-            
-
-            
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-                
-                
-                <section>
-                    <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
-                    <div class="tags">
-                        
-                        
-                        
-                        <a href="/tags/2023" title="2023">
-                            2023
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        <a href="/tags/avg" title="avg">
-                            avg
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        <a href="/tags/gal" title="gal">
-                            gal
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        <a href="/tags/%E5%BC%80%E5%8F%91" title="开发">
-                            开发
-                        </a>
-                        
-                        
-                        
-                        <a href="/tags/%E6%B8%B8%E6%88%8F" title="游戏">
-                            游戏
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        <a href="/tags/%E9%9A%8F%E7%AC%94" title="随笔">
-                            随笔
-                        </a>
-                        
-                        
-                        
-                        <a href="/tags/%E9%9F%B3%E6%B8%B8" title="音游">
-                            音游
-                        </a>
-                        
-                        
-                    </div>
-                </section>
-                
-
-                
-                
-                <section>
-                    <hr>
-                    <h5>FRIENDS</h5>
-                    <ul class="list-inline">
-                        
-                        <li><a target="_blank" href="https://hakula.xyz/">hakula.xyz</a></li>
-                        
-                        <li><a target="_blank" href="https://space.bilibili.com/150222835">问号玛力欧（呕）</a></li>
-                        
-                        <li><a target="_blank" href="https://space.bilibili.com/424139334/video">穹顶今天有暗星</a></li>
-                        
-                        <li><a target="_blank" href="https://afleartley0103.hatenablog.com/">AFLeartLey</a></li>
-                        
-                    </ul>
-                </section>
-                
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2024-08-14</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://localhost:1313/post/2020-8-11-gitpages/" data-title="关于Github Pages无法正常访问后的一堆破事" data-hashtags="开发,吐槽"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://localhost:1313/post/2020-8-11-gitpages/" data-hashtag="开发"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/post/2020-8-11-gitpages/" data-title="关于Github Pages无法正常访问后的一堆破事"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://localhost:1313/post/2020-8-11-gitpages/" data-title="关于Github Pages无法正常访问后的一堆破事"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/post/2020-8-11-gitpages/" data-title="关于Github Pages无法正常访问后的一堆破事"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
-</article>
 
-
-
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">                  
-                    
-                    <li>
-                        <a href="mailto:2772962906@qq.com">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		           
-                    
-                    <li>
-                        <a href="https://twitter.com/alex_rafao">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    
-                    
-
-		            
-                    
-                    
-                    <li>
-                        <a target="_blank" href="https://github.com/yourgithub">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		            
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-            
-            
-            
-           
-                   <li>
-                       <a href='' rel="alternate" type="application/rss+xml" title="帕琪的小屋" >
-                           <span class="fa-stack fa-lg">
-                               <i class="fas fa-circle fa-stack-2x"></i>
-                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-                           </span>
-                       </a>
-                   </li>
-            
-             </ul>
-		<p class="copyright text-muted">
-                    Copyright &copy; 帕琪的小屋 2024
-                    <br>
-                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
-                    </iframe>
-                </p>
-            </div>
-        </div>
+    <div class="post-info-more">
+        <section class="post-tags"><span class="post-tags">
+                    <i class="fas fa-tags fa-fw" aria-hidden="true"></i><a href="/tags/%E5%BC%80%E5%8F%91/">开发</a>, <a href="/tags/%E5%90%90%E6%A7%BD/">吐槽</a></span></section>
+        <section class="post-back">
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
     </div>
-</footer>
 
+    <div class="post-nav">
+            <a href="/post/2020-8-21-king/" class="next" rel="next" title="不朽的王城">不朽的王城<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.132.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreferrer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">帕琪knowledge</a></span></div>
+        </div>
+    </footer></div>
 
-
-
-<script>
-    function loadAsync(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-
-
-
-
-
-
-<script>
-    
-    if($('#tag_cloud').length !== 0){
-        loadAsync("/js/jquery.tagcloud.js",function(){
-            $.fn.tagcloud.defaults = {
-                
-                color: {start: '#bbbbee', end: '#0085a1'},
-            };
-            $('#tag_cloud a').tagcloud();
-        })
-    }
-</script>
-
-
-<script>
-    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
-        var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
-    })
-</script>
-
-
-
-
-
-
-<script type="text/javascript">
-    function generateCatalog(selector) {
-
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
-        a = P.find('h1,h2,h3,h4,h5,h6');
-
-        
-        $(selector).html('')
-
-        
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
-            l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
-    }
-
-    generateCatalog(".catalog-body");
-
-    
-    $(".catalog-toggle").click((function (e) {
-        e.preventDefault();
-        $('.side-catalog').toggleClass("fold")
-    }))
-
-    
-
-
-    loadAsync("\/js\/jquery.nav.js", function () {
-        $('.catalog-body').onePageNav({
-            currentClass: "active",
-            changeHash: !1,
-            easing: "swing",
-            filter: "",
-            scrollSpeed: 700,
-            scrollOffset: 0,
-            scrollThreshold: .2,
-            begin: null,
-            end: null,
-            scrollChange: null,
-            padding: 80
-        });
-    });
-</script>
-
-
-
-
-
-
-</body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

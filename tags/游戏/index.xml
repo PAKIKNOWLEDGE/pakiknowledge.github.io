@@ -1,26 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>游戏 on 帕琪的小屋</title>
-    <link>http://localhost:1313/tags/%E6%B8%B8%E6%88%8F/</link>
-    <description>Recent content in 游戏 on 帕琪的小屋</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%B8%B8%E6%88%8F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>放課後シンデレラ-田寄多乃实 线 FIN</title>
-      <link>http://localhost:1313/post/tayadorikitami/</link>
-      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/tayadorikitami/</guid>
-      <description>1 总览 多乃实线我个人认为是《放学后的灰姑娘女孩》中最优秀的一条线，推完此线后，该作终结，我也没有再继续推本就计划外的青梅和学姐、以及超级候补</description>
-    </item>
-    <item>
-      <title>放課後シンデレラ-築島 つくし线 FIN</title>
-      <link>http://localhost:1313/post/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
-      <description>[ ] 寒假在家消极学习，就想着又想推GAL了，于是就选了钩子社的这一作（我一开始就是奔着废萌去的) 放課後シンデレラ,其实我本来想推2的，听说2</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>游戏 - 标签 - 帕琪的小屋</title>
+        <link>https://pakiknowledge.pages.dev/tags/%E6%B8%B8%E6%88%8F/</link>
+        <description>游戏 - 标签 - 帕琪的小屋</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
+            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 14 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E6%B8%B8%E6%88%8F/" rel="self" type="application/rss+xml" /><item>
+    <title>放課後シンデレラ-田寄多乃实 线 FIN</title>
+    <link>https://pakiknowledge.pages.dev/tayadorikitami/</link>
+    <pubDate>Fri, 14 Apr 2023 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;pakiknowledge&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/tayadorikitami/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/taev02a.png" referrerpolicy="no-referrer">
+            </div>1 总览 多乃实线我个人认为是《放学后的灰姑娘女孩》中最优秀的一条线，推完此线后，该作终结，我也没有再继续推本就计划外的青梅和学姐、以及超级候补]]></description>
+</item>
+<item>
+    <title>放課後シンデレラ-築島 つくし线 FIN</title>
+    <link>https://pakiknowledge.pages.dev/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
+    <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;pakiknowledge as 清&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/222.jpg" referrerpolicy="no-referrer">
+            </div>[] 寒假在家消极学习，就想着又想推GAL了，于是就选了钩子社的这一作（我一开始就是奔着废萌去的) 放課後シンデレラ,其实我本来想推2的，听说2的]]></description>
+</item>
+</channel>
 </rss>

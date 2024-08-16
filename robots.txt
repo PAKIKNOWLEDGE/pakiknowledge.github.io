@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://pakiknowledge.pages.dev/sitemap.xml

@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Collage on 帕琪的小屋</title>
-    <link>http://localhost:1313/tags/collage/</link>
-    <description>Recent content in Collage on 帕琪的小屋</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/collage/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BOFXVI个人精选</title>
-      <link>http://localhost:1313/post/bofxvi/</link>
-      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/bofxvi/</guid>
-      <description>帕琪KNOWLEDGE个人的bofxvi选集。 Victory Sense SenseRave Tech Victory Sense KAH (movie : movie:自動車 原付 illust:りゅうら) 7Keys 会场链接 BGA IDOLL Bass House IDOLL 七草くりむ</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Collage - 标签 - 帕琪的小屋</title>
+        <link>https://pakiknowledge.pages.dev/tags/collage/</link>
+        <description>Collage - 标签 - 帕琪的小屋</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
+            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/collage/" rel="self" type="application/rss+xml" /><item>
+    <title>BOFXVI个人精选</title>
+    <link>https://pakiknowledge.pages.dev/bofxvi/</link>
+    <pubDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/bofxvi/</guid>
+    <description><![CDATA[帕琪KNOWLEDGE个人的bofxvi选集。 Victory Sense SenseRave Tech Victory Sense KAH (movie : movie:自動車 原付 illust:りゅうら) 7Keys 会场链接 BGA IDOLL Bass House IDOLL 七草くりむ]]></description>
+</item>
+</channel>
 </rss>

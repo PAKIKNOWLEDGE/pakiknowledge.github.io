@@ -1,131 +1,108 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>帕琪的小屋</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on 帕琪的小屋</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>未来/未知/炒作？</title>
-      <link>http://localhost:1313/post/future-hype/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/future-hype/</guid>
-      <description>属实搞笑，2024年的第一篇文章居然拖到现在才来写。博主马上要前往一所广东省会城市偏僻民办大学了，说到这里，可能很多人也有不同的看法，我自己</description>
-    </item>
-    <item>
-      <title>日轻analysis：《邻家天使》/《邻座的艾琳同学》</title>
-      <link>http://localhost:1313/post/light-novel-analysis-1/</link>
-      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/light-novel-analysis-1/</guid>
-      <description>（BANNER是AI生的，喂了张K77进去，这人打欧冠次回合AC米兰真的灾难表呃呃呃，看了糟心，真的老独！） 0.先上结论 《邻家天使》目前看到</description>
-    </item>
-    <item>
-      <title>放課後シンデレラ-田寄多乃实 线 FIN</title>
-      <link>http://localhost:1313/post/tayadorikitami/</link>
-      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/tayadorikitami/</guid>
-      <description>1 总览 多乃实线我个人认为是《放学后的灰姑娘女孩》中最优秀的一条线，推完此线后，该作终结，我也没有再继续推本就计划外的青梅和学姐、以及超级候补</description>
-    </item>
-    <item>
-      <title>妄想税</title>
-      <link>http://localhost:1313/post/dont-think/</link>
-      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/dont-think/</guid>
-      <description>为什么我们常说生活难以预测，那是因为生活中有太多太多的变量。比如我现在就告诉你，由于开学第一周没有晚练极大的提升了我的生活质量。生活的定义往</description>
-    </item>
-    <item>
-      <title>LR2自动灯简易配置方法</title>
-      <link>http://localhost:1313/post/lr2-gas-v2/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/lr2-gas-v2/</guid>
-      <description>前言：由于笔者在访问GitHub仍然遇到诸多困难，所以请确保在开始配置之前您可以顺利的访问GitHub，此外仍然强烈建议开启或者保留代理软件</description>
-    </item>
-    <item>
-      <title>在LR2中使用GAS方法的相关问题</title>
-      <link>http://localhost:1313/post/lr2-gas/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/lr2-gas/</guid>
-      <description>前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。 1 GAS是什么 就是自动</description>
-    </item>
-    <item>
-      <title>地雷：</title>
-      <link>http://localhost:1313/post/%E5%9C%B0%E9%9B%B7/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/%E5%9C%B0%E9%9B%B7/</guid>
-      <description>1.Github桌面端报错（本文头图状况） 在push的时候出现： 解决：重新配置SSH 在git里 ssh-keygen -t rsa -C &amp;#34;your_email@example.com&amp;#34; 到”C:\Users\用户名\.ss</description>
-    </item>
-    <item>
-      <title>放課後シンデレラ-築島 つくし线 FIN</title>
-      <link>http://localhost:1313/post/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
-      <description>[ ] 寒假在家消极学习，就想着又想推GAL了，于是就选了钩子社的这一作（我一开始就是奔着废萌去的) 放課後シンデレラ,其实我本来想推2的，听说2</description>
-    </item>
-    <item>
-      <title>为什么重拾博客？</title>
-      <link>http://localhost:1313/post/whyblog/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/whyblog/</guid>
-      <description>为什么重新想起了博客？ 会想起这个东西，主要是因为某个契机。在谷歌找galgame资讯的时候误入了一个博客，看着人家从2011年一直坚持到现在</description>
-    </item>
-    <item>
-      <title>BOFXVI个人精选</title>
-      <link>http://localhost:1313/post/bofxvi/</link>
-      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/bofxvi/</guid>
-      <description>帕琪KNOWLEDGE个人的bofxvi选集。 Victory Sense SenseRave Tech Victory Sense KAH (movie : movie:自動車 原付 illust:りゅうら) 7Keys 会场链接 BGA IDOLL Bass House IDOLL 七草くりむ</description>
-    </item>
-    <item>
-      <title>深渊之梦</title>
-      <link>http://localhost:1313/post/2020-8-30-dream/</link>
-      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020-8-30-dream/</guid>
-      <description>不可避免的，同千千万万的“旅人”一样，坠入了这无底的深渊。 深渊充满着恐惧，但恐惧归根结底来自于内心的污秽。来自中世纪对极恶之地的描写根本不值</description>
-    </item>
-    <item>
-      <title>不朽的王城</title>
-      <link>http://localhost:1313/post/2020-8-21-king/</link>
-      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020-8-21-king/</guid>
-      <description>王城中止战火，士兵斩断悲伤。 在坚固的城墙面前，战火识趣地止步了。悲伤的冥河得以不在流淌。对待一切事物，似乎可以变得从容不迫了。没有人再去在意</description>
-    </item>
-    <item>
-      <title>关于Github Pages无法正常访问后的一堆破事</title>
-      <link>http://localhost:1313/post/2020-8-11-gitpages/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020-8-11-gitpages/</guid>
-      <description>Github Pages就是人间之屑啊。 嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/</guid>
-      <description>Go 语言学习笔记 Envoy 学习笔记</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/search/placeholder/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/placeholder/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Posts Archive</title>
-      <link>http://localhost:1313/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archive/</guid>
-      <description></description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>帕琪的小屋</title>
+        <link>https://pakiknowledge.pages.dev/</link>
+        <description>精神垃圾置物场</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
+            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 22 Aug 2024 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="https://pakiknowledge.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>未来/未知/炒作？</title>
+    <link>https://pakiknowledge.pages.dev/future-hype/</link>
+    <pubDate>Tue, 23 Jul 2024 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;pakiknowledge as DEATH&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/future-hype/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/GSrN23UacAA1uSg.png" referrerpolicy="no-referrer">
+            </div>属实搞笑，2024年的第一篇文章居然拖到现在才来写。博主马上要前往一所广东省会城市偏僻民办大学了，说到这里，可能很多人也有不同的看法，我自己]]></description>
+</item>
+<item>
+    <title>日轻analysis：《邻家天使》/《邻座的艾琳同学》</title>
+    <link>https://pakiknowledge.pages.dev/light-novel-analysis-1/</link>
+    <pubDate>Fri, 21 Apr 2023 00:00:00 &#43;0000</pubDate>
+    <author>     pakiknowledge as &#39;erin angel&#39;</author>
+    <guid>https://pakiknowledge.pages.dev/light-novel-analysis-1/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/18393925_0_final.png" referrerpolicy="no-referrer">
+            </div>（BANNER是AI生的，喂了张K77进去，这人打欧冠次回合AC米兰真的灾难表呃呃呃，看了糟心，真的老独！） 0.先上结论 《邻家天使》目前看到]]></description>
+</item>
+<item>
+    <title>放課後シンデレラ-田寄多乃实 线 FIN</title>
+    <link>https://pakiknowledge.pages.dev/tayadorikitami/</link>
+    <pubDate>Fri, 14 Apr 2023 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;pakiknowledge&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/tayadorikitami/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/taev02a.png" referrerpolicy="no-referrer">
+            </div>1 总览 多乃实线我个人认为是《放学后的灰姑娘女孩》中最优秀的一条线，推完此线后，该作终结，我也没有再继续推本就计划外的青梅和学姐、以及超级候补]]></description>
+</item>
+<item>
+    <title>妄想税</title>
+    <link>https://pakiknowledge.pages.dev/dont-think/</link>
+    <pubDate>Mon, 06 Feb 2023 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;pakiknowledge is thinking&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/dont-think/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/104703878_p0.jpg" referrerpolicy="no-referrer">
+            </div>为什么我们常说生活难以预测，那是因为生活中有太多太多的变量。比如我现在就告诉你，由于开学第一周没有晚练极大的提升了我的生活质量。生活的定义往]]></description>
+</item>
+<item>
+    <title>LR2自动灯简易配置方法</title>
+    <link>https://pakiknowledge.pages.dev/lr2-gas-v2/</link>
+    <pubDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;pakiknowledge as lolicom&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/lr2-gas-v2/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/E-XdCRgVQAAbh0C.jpg" referrerpolicy="no-referrer">
+            </div>前言：由于笔者在访问GitHub仍然遇到诸多困难，所以请确保在开始配置之前您可以顺利的访问GitHub，此外仍然强烈建议开启或者保留代理软件]]></description>
+</item>
+<item>
+    <title>在LR2中使用GAS方法的相关问题</title>
+    <link>https://pakiknowledge.pages.dev/lr2-gas/</link>
+    <pubDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;PAKIKNOWLEDGE&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/lr2-gas/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/pSEVAqe.jpg" referrerpolicy="no-referrer">
+            </div>前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。 1 GAS是什么 就是自动]]></description>
+</item>
+<item>
+    <title>地雷：</title>
+    <link>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</link>
+    <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;pakiknowledge as PAILEIBING&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/pSkMy11.png" referrerpolicy="no-referrer">
+            </div>1.Github桌面端报错（本文头图状况） 在push的时候出现： 解决：重新配置SSH 1 2 3 在git里 ssh-keygen -t rsa -C &#34;your_email@example.com&#34; 到”C:\Users\用户名\]]></description>
+</item>
+<item>
+    <title>放課後シンデレラ-築島 つくし线 FIN</title>
+    <link>https://pakiknowledge.pages.dev/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
+    <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;pakiknowledge as 清&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/222.jpg" referrerpolicy="no-referrer">
+            </div>[] 寒假在家消极学习，就想着又想推GAL了，于是就选了钩子社的这一作（我一开始就是奔着废萌去的) 放課後シンデレラ,其实我本来想推2的，听说2的]]></description>
+</item>
+<item>
+    <title>为什么重拾博客？</title>
+    <link>https://pakiknowledge.pages.dev/whyblog/</link>
+    <pubDate>Wed, 04 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;pakiknowledge as &#39;destiny&#39;&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/whyblog/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/pSkKXWR.jpg" referrerpolicy="no-referrer">
+            </div>为什么重新想起了博客？ 会想起这个东西，主要是因为某个契机。在谷歌找galgame资讯的时候误入了一个博客，看着人家从2011年一直坚持到现在]]></description>
+</item>
+<item>
+    <title>BOFXVI个人精选</title>
+    <link>https://pakiknowledge.pages.dev/bofxvi/</link>
+    <pubDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/bofxvi/</guid>
+    <description><![CDATA[帕琪KNOWLEDGE个人的bofxvi选集。 Victory Sense SenseRave Tech Victory Sense KAH (movie : movie:自動車 原付 illust:りゅうら) 7Keys 会场链接 BGA IDOLL Bass House IDOLL 七草くりむ]]></description>
+</item>
+</channel>
 </rss>
