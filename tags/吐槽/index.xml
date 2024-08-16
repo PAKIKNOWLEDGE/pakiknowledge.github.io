@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>吐槽 - 标签 - 帕琪的小屋</title>
-        <link>http://localhost:1313/tags/%E5%90%90%E6%A7%BD/</link>
+        <link>https://pakiknowledge.pages.dev/tags/%E5%90%90%E6%A7%BD/</link>
         <description>吐槽 - 标签 - 帕琪的小屋</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
-            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 11 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%90%90%E6%A7%BD/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 11 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E5%90%90%E6%A7%BD/" rel="self" type="application/rss+xml" /><item>
     <title>关于Github Pages无法正常访问后的一堆破事</title>
-    <link>http://localhost:1313/2020-8-11-gitpages/</link>
+    <link>https://pakiknowledge.pages.dev/2020-8-11-gitpages/</link>
     <pubDate>Tue, 11 Aug 2020 00:00:00 &#43;0000</pubDate>
     <author>     &#34;帕琪knowledge&#34;</author>
-    <guid>http://localhost:1313/2020-8-11-gitpages/</guid>
+    <guid>https://pakiknowledge.pages.dev/2020-8-11-gitpages/</guid>
     <description><![CDATA[Github Pages就是人间之屑啊。 嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（]]></description>
 </item>
 </channel>
