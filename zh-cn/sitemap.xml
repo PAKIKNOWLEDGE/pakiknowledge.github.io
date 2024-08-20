@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://pakiknowledge.pages.dev/posts/</loc><lastmod>2024-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://pakiknowledge.pages.dev/</loc><lastmod>2024-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://pakiknowledge.pages.dev/posts/</loc><lastmod>2024-08-21T05:27:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/</loc><lastmod>2024-08-21T05:27:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://pakiknowledge.pages.dev/en/"
@@ -12,9 +12,10 @@
                     hreflang="zh-cn"
                     href="https://pakiknowledge.pages.dev/"
                     /></url><url>
+            <loc>https://pakiknowledge.pages.dev/newdevide/</loc><lastmod>2024-08-21T05:27:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/rebirth20248/</loc><lastmod>2024-08-16T22:35:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://pakiknowledge.pages.dev/tags/2024/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://pakiknowledge.pages.dev/tags/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://pakiknowledge.pages.dev/tags/2024/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://pakiknowledge.pages.dev/en/tags/"
@@ -23,8 +24,8 @@
                     hreflang="zh-cn"
                     href="https://pakiknowledge.pages.dev/tags/"
                     /></url><url>
-            <loc>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://pakiknowledge.pages.dev/future-hype/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/future-hype/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/</loc><lastmod>2023-04-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/light-novel-analysis-1/</loc><lastmod>2023-04-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/tags/avg/</loc><lastmod>2023-04-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
