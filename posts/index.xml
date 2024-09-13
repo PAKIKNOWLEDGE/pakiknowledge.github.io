@@ -4,7 +4,17 @@
         <link>https://pakiknowledge.pages.dev/posts/</link>
         <description>所有文章 | 帕琪的小屋</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
-            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 21 Aug 2024 05:27:08 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Sep 2024 21:25:48 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/posts/" rel="self" type="application/rss+xml" /><item>
+    <title></title>
+    <link>https://pakiknowledge.pages.dev/skrillex-thefounder/</link>
+    <pubDate>Fri, 13 Sep 2024 21:25:48 &#43;0800</pubDate>
+    <author>pakiknowledge</author>
+    <guid>https://pakiknowledge.pages.dev/skrillex-thefounder/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/unnamed.jpg" referrerpolicy="no-referrer">
+            </div>前言 作为2015年就开始听skrillex的听众，我不能说是skrillex音乐风格演变的研究专家，但起码我是一名见证者。最近又开始回听20]]></description>
+</item>
+<item>
     <title>新设备更换记录</title>
     <link>https://pakiknowledge.pages.dev/newdevide/</link>
     <pubDate>Wed, 21 Aug 2024 05:27:08 &#43;0800</pubDate>
@@ -93,16 +103,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSkMy11.png" referrerpolicy="no-referrer">
             </div>1.Github桌面端报错（本文头图状况） 在push的时候出现： 解决：重新配置SSH 1 2 3 在git里 ssh-keygen -t rsa -C &#34;your_email@example.com&#34; 到”C:\Users\用户名\]]></description>
-</item>
-<item>
-    <title>放課後シンデレラ-築島 つくし线 FIN</title>
-    <link>https://pakiknowledge.pages.dev/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
-    <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
-    <author>     &#34;pakiknowledge as 清&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/222.jpg" referrerpolicy="no-referrer">
-            </div>[] 寒假在家消极学习，就想着又想推GAL了，于是就选了钩子社的这一作（我一开始就是奔着废萌去的) 放課後シンデレラ,其实我本来想推2的，听说2的]]></description>
 </item>
 </channel>
 </rss>
