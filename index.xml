@@ -4,9 +4,17 @@
         <link>https://pakiknowledge.pages.dev/</link>
         <description>精神垃圾置物场</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
-            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Sep 2024 21:25:48 &#43;0800</lastBuildDate>
+            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 10 Nov 2024 16:09:59 &#43;0800</lastBuildDate>
             <atom:link href="https://pakiknowledge.pages.dev/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Think20241110</title>
+    <link>https://pakiknowledge.pages.dev/think20241110/</link>
+    <pubDate>Sun, 10 Nov 2024 16:09:59 &#43;0800</pubDate>
+    <author>pakiknowledge</author>
+    <guid>https://pakiknowledge.pages.dev/think20241110/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Skrillex：缔造者</title>
     <link>https://pakiknowledge.pages.dev/skrillex-thefounder/</link>
     <pubDate>Fri, 13 Sep 2024 21:25:48 &#43;0800</pubDate>
@@ -95,16 +103,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSEVAqe.jpg" referrerpolicy="no-referrer">
             </div>前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。 1 GAS是什么 就是自动]]></description>
-</item>
-<item>
-    <title>地雷：</title>
-    <link>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</link>
-    <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
-    <author>     &#34;pakiknowledge as PAILEIBING&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/pSkMy11.png" referrerpolicy="no-referrer">
-            </div>1.Github桌面端报错（本文头图状况） 在push的时候出现： 解决：重新配置SSH 1 2 3 在git里 ssh-keygen -t rsa -C &#34;your_email@example.com&#34; 到”C:\Users\用户名\]]></description>
 </item>
 </channel>
 </rss>
