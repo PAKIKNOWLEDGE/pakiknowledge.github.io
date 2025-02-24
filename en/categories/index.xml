@@ -1,8 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Category - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/en/categories/</link>
+        <link>http://localhost:1313/en/categories/</link>
         <description>Categories - Category - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
-            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://pakiknowledge.pages.dev/en/categories/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:1313/en/categories/" rel="self" type="application/rss+xml" /></channel>
 </rss>

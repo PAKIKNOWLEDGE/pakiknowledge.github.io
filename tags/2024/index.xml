@@ -1,38 +1,42 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>2024 - 标签 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/tags/2024/</link>
+        <link>http://localhost:1313/tags/2024/</link>
         <description>2024 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
-            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Sep 2024 21:25:48 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/2024/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 13 Sep 2024 21:25:48 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/2024/" rel="self" type="application/rss+xml" /><item>
     <title>Skrillex：缔造者</title>
-    <link>https://pakiknowledge.pages.dev/skrillex-thefounder/</link>
+    <link>http://localhost:1313/skrillex-thefounder/</link>
     <pubDate>Fri, 13 Sep 2024 21:25:48 &#43;0800</pubDate>
-    <author>pakiknowledge</author>
-    <guid>https://pakiknowledge.pages.dev/skrillex-thefounder/</guid>
+    <author>8777</author>
+    <guid>http://localhost:1313/skrillex-thefounder/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/unnamed.jpg" referrerpolicy="no-referrer">
-            </div>前言 作为2015年就开始听skrillex的听众，我不能说是skrillex音乐风格演变的研究专家，但起码我是一名见证者。最近又开始回听20]]></description>
+            </div><h2 id="前言">前言</h2>
+<p>作为2015年就开始听skrillex的听众，我不能说是skrillex音乐风格演变的研究专家，但起码我是一名见证者。最近又开始回听2012年的老专<code>The Best Of Skrillex Vol.1</code>,帧帧回忆浮上心头。一段小学生活，一段半夜起来蹦迪的日子，一段胡吃海塞听EDM的日子，一段会聚集一群人在房间里听Brostep蹦床单的日子，一段响度为王的日子。</p>]]></description>
 </item>
 <item>
     <title>个人博客换主题/重生构建开发记录</title>
-    <link>https://pakiknowledge.pages.dev/rebirth20248/</link>
+    <link>http://localhost:1313/rebirth20248/</link>
     <pubDate>Fri, 16 Aug 2024 22:35:24 &#43;0800</pubDate>
-    <author>pakiknowledge</author>
-    <guid>https://pakiknowledge.pages.dev/rebirth20248/</guid>
+    <author>8777</author>
+    <guid>http://localhost:1313/rebirth20248/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GVGJvAAaEAA9UWZ.jpg" referrerpolicy="no-referrer">
-            </div>呵呵，大家好啊，别来无恙。本来毕业完我该产出一堆内容的，但是文还没写呢，主题先炸了。好的，现在我们就来看看是怎么炸的，怎么修的。 0.时间序流]]></description>
+            </div><p>呵呵，大家好啊，别来无恙。本来毕业完我该产出一堆内容的，但是文还没写呢，主题先炸了。好的，现在我们就来看看是怎么炸的，怎么修的。</p>
+<hr>
+<h1 id="0时间序流">0.时间序流</h1>
+<h2 id="2024-8-9永远无法到达的八月">2024-8-9：永远无法到达的八月</h2>
+<p>8月9日，七夕前一天，坐拥新电脑新手机新游戏机的我准备来记录一下手头开发环境的更新，于是我照常的：</p>]]></description>
 </item>
 <item>
     <title>未来/未知/炒作？</title>
-    <link>https://pakiknowledge.pages.dev/future-hype/</link>
+    <link>http://localhost:1313/future-hype/</link>
     <pubDate>Tue, 23 Jul 2024 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as DEATH&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/future-hype/</guid>
+    <guid>http://localhost:1313/future-hype/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GSrN23UacAA1uSg.png" referrerpolicy="no-referrer">
-            </div>属实搞笑，2024年的第一篇文章居然拖到现在才来写。博主马上要前往一所广东省会城市偏僻民办大学了，说到这里，可能很多人也有不同的看法，我自己]]></description>
+            </div><p>属实搞笑，2024年的第一篇文章居然拖到现在才来写。博主马上要前往一所广东省会城市偏僻民办大学了，说到这里，可能很多人也有不同的看法，我自己个人也难免多想。例如，上网一查学校有很多黑料（然而不可全信）；很多人也唱衰，用一个大学一场考试一个成绩一个数值去定义一个人。我暂且不争论，我想，不如我们谈谈体验吧。</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -1,36 +1,48 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>音游 - 标签 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/tags/%E9%9F%B3%E6%B8%B8/</link>
+        <link>http://localhost:1313/tags/%E9%9F%B3%E6%B8%B8/</link>
         <description>音游 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
-            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E9%9F%B3%E6%B8%B8/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%9F%B3%E6%B8%B8/" rel="self" type="application/rss+xml" /><item>
     <title>LR2自动灯简易配置方法</title>
-    <link>https://pakiknowledge.pages.dev/lr2-gas-v2/</link>
+    <link>http://localhost:1313/lr2-gas-v2/</link>
     <pubDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as lolicom&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/lr2-gas-v2/</guid>
+    <guid>http://localhost:1313/lr2-gas-v2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/E-XdCRgVQAAbh0C.jpg" referrerpolicy="no-referrer">
-            </div>前言：由于笔者在访问GitHub仍然遇到诸多困难，所以请确保在开始配置之前您可以顺利的访问GitHub，此外仍然强烈建议开启或者保留代理软件]]></description>
+            </div><blockquote>
+<p>前言：由于笔者在访问GitHub仍然遇到诸多困难，所以请确保在开始配置之前您可以顺利的访问GitHub，此外仍然强烈建议开启或者保留代理软件作为最后手段。</p>]]></description>
 </item>
 <item>
     <title>在LR2中使用GAS方法的相关问题</title>
-    <link>https://pakiknowledge.pages.dev/lr2-gas/</link>
+    <link>http://localhost:1313/lr2-gas/</link>
     <pubDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;PAKIKNOWLEDGE&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/lr2-gas/</guid>
+    <guid>http://localhost:1313/lr2-gas/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSEVAqe.jpg" referrerpolicy="no-referrer">
-            </div>前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。 1 GAS是什么 就是自动]]></description>
+            </div><blockquote>
+<p>前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。</p></blockquote>
+<h1 id="1-gas是什么">1 GAS是什么</h1>
+<p>就是自动灯，这里不再赘述。</p>]]></description>
 </item>
 <item>
     <title>BOFXVI个人精选</title>
-    <link>https://pakiknowledge.pages.dev/bofxvi/</link>
+    <link>http://localhost:1313/bofxvi/</link>
     <pubDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</pubDate>
     <author>     &#34;&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/bofxvi/</guid>
-    <description><![CDATA[帕琪KNOWLEDGE个人的bofxvi选集。 Victory Sense SenseRave Tech Victory Sense KAH (movie : movie:自動車 原付 illust:りゅうら) 7Keys 会场链接 BGA IDOLL Bass House IDOLL 七草くりむ]]></description>
+    <guid>http://localhost:1313/bofxvi/</guid>
+    <description><![CDATA[<p></p>
+<blockquote>
+<p>帕琪KNOWLEDGE个人的bofxvi选集。</p></blockquote>
+<hr>
+<h2 id="victory-sense">Victory Sense</h2>
+<p>SenseRave Tech</p>
+<p>Victory Sense</p>
+<p>KAH (movie : movie:自動車 原付 illust:りゅうら)
+7Keys</p>
+<p><a href="http://manbow.nothing.sh/event/event.cgi?action=More_def&amp;num=219&amp;event=133" target="_blank" rel="noopener noreffer ">会场链接</a></p>]]></description>
 </item>
 </channel>
 </rss>

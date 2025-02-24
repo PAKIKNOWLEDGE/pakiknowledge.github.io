@@ -1,28 +1,39 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>2023 - 标签 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/tags/2023/</link>
+        <link>http://localhost:1313/tags/2023/</link>
         <description>2023 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2772962906@qq.com (pakiknowledge)</managingEditor>
-            <webMaster>2772962906@qq.com (pakiknowledge)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/2023/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/2023/" rel="self" type="application/rss+xml" /><item>
     <title>地雷：</title>
-    <link>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</link>
+    <link>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</link>
     <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as PAILEIBING&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</guid>
+    <guid>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSkMy11.png" referrerpolicy="no-referrer">
-            </div>1.Github桌面端报错（本文头图状况） 在push的时候出现： 解决：重新配置SSH 1 2 3 在git里 ssh-keygen -t rsa -C &#34;your_email@example.com&#34; 到”C:\Users\用户名\]]></description>
+            </div><h1 id="1github桌面端报错本文头图状况">1.Github桌面端报错（本文头图状况）</h1>
+<h2 id="q1">在push的时候出现：
+</h2>
+<p>解决：<strong>重新配置SSH</strong></p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-chevron-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> 在git里
+</span></span><span class="line"><span class="cl"> ssh-keygen -t rsa -C &#34;your_email@example.com&#34;
+</span></span><span class="line"><span class="cl"> 到”C:\Users\用户名\.ssh“，用编辑器打开id_rsa.pub文件，复制里面的一串代码（全部都要复制）。</span></span></code></pre></div></div><p>登录GitHub账户，单击右上角的头像，选择Settings,选择SSH and GPG keys，然后单击绿色的“New SSH key”，标题随便起一个名字，key就是上面一步复制的id_rsa.pub文件里的代码.</p>]]></description>
 </item>
 <item>
     <title>为什么重拾博客？</title>
-    <link>https://pakiknowledge.pages.dev/whyblog/</link>
+    <link>http://localhost:1313/whyblog/</link>
     <pubDate>Wed, 04 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as &#39;destiny&#39;&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/whyblog/</guid>
+    <guid>http://localhost:1313/whyblog/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSkKXWR.jpg" referrerpolicy="no-referrer">
-            </div>为什么重新想起了博客？ 会想起这个东西，主要是因为某个契机。在谷歌找galgame资讯的时候误入了一个博客，看着人家从2011年一直坚持到现在]]></description>
+            </div><h1 id="为什么重新想起了博客">为什么重新想起了博客？</h1>
+<p>会想起这个东西，主要是因为某个契机。在谷歌找galgame资讯的时候误入了一个<a href="https://plumz.me/" target="_blank" rel="noopener noreffer ">博客</a>，看着人家从2011年一直坚持到现在一直在坚持写，而反观自己，人生的断片就这样被自己在不经意间抛弃了，而回首过往，只剩下的很模糊的混沌一片。这是多么可惜啊!幸福往往就是这一个个断片拼接而成的，而我却抛弃了她。我以为是琐事，我拒绝了繁琐，从而我也丢弃了绚烂。人真的会麻木，而回首这些断片，却可以让你接触生活真正的色彩。不知道这次开始写博客能坚持多久呢？比起2020年，我已变了太多。在夕阳下拾遗，让我们对着晚霞不回头的向前走吧。</p>]]></description>
 </item>
 </channel>
 </rss>
