@@ -1,14 +1,25 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>开发 - 标签 - 帕琪的小屋</title>
-        <link>http://localhost:1313/tags/%E5%BC%80%E5%8F%91/</link>
+        <link>https://pakiknowledge.pages.dev/tags/%E5%BC%80%E5%8F%91/</link>
         <description>开发 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 16 Aug 2024 22:35:24 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%BC%80%E5%8F%91/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 24 Feb 2025 16:19:46 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E5%BC%80%E5%8F%91/" rel="self" type="application/rss+xml" /><item>
+    <title>hugo0.144.2版把我害惨了？让我们来谈谈这个问题吧</title>
+    <link>https://pakiknowledge.pages.dev/2025224newproblem/</link>
+    <pubDate>Mon, 24 Feb 2025 16:19:46 &#43;0800</pubDate>
+    <author>Panasonic user 8777</author>
+    <guid>https://pakiknowledge.pages.dev/2025224newproblem/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/GkbgwRSXMAA2N5-.jpg" referrerpolicy="no-referrer">
+            </div><h2 id="0-问题复现和起因">0 问题复现和起因</h2>
+<p>偶然之下，我动用了<strong>Chocolatey</strong>这个运行在Windows平台上的包管理器来安装hugo。（当然，我也用这个来装git，这真方便。）这个包管理器给我装载了hugo0.144.2版，还不用我手动加环境变量。但是当我把数据迁过来之后，我像往常一样<code>hugo</code>跑了起来,然而&hellip;</p>]]></description>
+</item>
+<item>
     <title>个人博客换主题/重生构建开发记录</title>
-    <link>http://localhost:1313/rebirth20248/</link>
+    <link>https://pakiknowledge.pages.dev/rebirth20248/</link>
     <pubDate>Fri, 16 Aug 2024 22:35:24 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>http://localhost:1313/rebirth20248/</guid>
+    <guid>https://pakiknowledge.pages.dev/rebirth20248/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GVGJvAAaEAA9UWZ.jpg" referrerpolicy="no-referrer">
             </div><p>呵呵，大家好啊，别来无恙。本来毕业完我该产出一堆内容的，但是文还没写呢，主题先炸了。好的，现在我们就来看看是怎么炸的，怎么修的。</p>
@@ -19,10 +30,10 @@
 </item>
 <item>
     <title>LR2自动灯简易配置方法</title>
-    <link>http://localhost:1313/lr2-gas-v2/</link>
+    <link>https://pakiknowledge.pages.dev/lr2-gas-v2/</link>
     <pubDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as lolicom&#34;</author>
-    <guid>http://localhost:1313/lr2-gas-v2/</guid>
+    <guid>https://pakiknowledge.pages.dev/lr2-gas-v2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/E-XdCRgVQAAbh0C.jpg" referrerpolicy="no-referrer">
             </div><blockquote>
@@ -30,10 +41,10 @@
 </item>
 <item>
     <title>在LR2中使用GAS方法的相关问题</title>
-    <link>http://localhost:1313/lr2-gas/</link>
+    <link>https://pakiknowledge.pages.dev/lr2-gas/</link>
     <pubDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;PAKIKNOWLEDGE&#34;</author>
-    <guid>http://localhost:1313/lr2-gas/</guid>
+    <guid>https://pakiknowledge.pages.dev/lr2-gas/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSEVAqe.jpg" referrerpolicy="no-referrer">
             </div><blockquote>
@@ -43,10 +54,10 @@
 </item>
 <item>
     <title>地雷：</title>
-    <link>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</link>
+    <link>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</link>
     <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as PAILEIBING&#34;</author>
-    <guid>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</guid>
+    <guid>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSkMy11.png" referrerpolicy="no-referrer">
             </div><h1 id="1github桌面端报错本文头图状况">1.Github桌面端报错（本文头图状况）</h1>
@@ -64,10 +75,10 @@
 </item>
 <item>
     <title>为什么重拾博客？</title>
-    <link>http://localhost:1313/whyblog/</link>
+    <link>https://pakiknowledge.pages.dev/whyblog/</link>
     <pubDate>Wed, 04 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as &#39;destiny&#39;&#34;</author>
-    <guid>http://localhost:1313/whyblog/</guid>
+    <guid>https://pakiknowledge.pages.dev/whyblog/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSkKXWR.jpg" referrerpolicy="no-referrer">
             </div><h1 id="为什么重新想起了博客">为什么重新想起了博客？</h1>
@@ -75,10 +86,10 @@
 </item>
 <item>
     <title>关于Github Pages无法正常访问后的一堆破事</title>
-    <link>http://localhost:1313/2020-8-11-gitpages/</link>
+    <link>https://pakiknowledge.pages.dev/2020-8-11-gitpages/</link>
     <pubDate>Tue, 11 Aug 2020 00:00:00 &#43;0000</pubDate>
     <author>     &#34;帕琪knowledge&#34;</author>
-    <guid>http://localhost:1313/2020-8-11-gitpages/</guid>
+    <guid>https://pakiknowledge.pages.dev/2020-8-11-gitpages/</guid>
     <description><![CDATA[<blockquote>
 <p>Github Pages就是人间之屑啊。</p></blockquote>
 <hr>

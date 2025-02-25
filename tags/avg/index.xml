@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>AVG - 标签 - 帕琪的小屋</title>
-        <link>http://localhost:1313/tags/avg/</link>
+        <link>https://pakiknowledge.pages.dev/tags/avg/</link>
         <description>AVG - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 14 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/avg/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 14 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/avg/" rel="self" type="application/rss+xml" /><item>
     <title>放課後シンデレラ-田寄多乃实 线 FIN</title>
-    <link>http://localhost:1313/tayadorikitami/</link>
+    <link>https://pakiknowledge.pages.dev/tayadorikitami/</link>
     <pubDate>Fri, 14 Apr 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge&#34;</author>
-    <guid>http://localhost:1313/tayadorikitami/</guid>
+    <guid>https://pakiknowledge.pages.dev/tayadorikitami/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/taev02a.png" referrerpolicy="no-referrer">
             </div><h1 id="1--总览">1  总览</h1>
@@ -16,10 +16,10 @@
 </item>
 <item>
     <title>放課後シンデレラ-築島 つくし线 FIN</title>
-    <link>http://localhost:1313/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
+    <link>https://pakiknowledge.pages.dev/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
     <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as 清&#34;</author>
-    <guid>http://localhost:1313/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
+    <guid>https://pakiknowledge.pages.dev/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/222.jpg" referrerpolicy="no-referrer">
             </div><p>[]</p>

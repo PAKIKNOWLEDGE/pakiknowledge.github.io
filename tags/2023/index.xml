@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>2023 - 标签 - 帕琪的小屋</title>
-        <link>http://localhost:1313/tags/2023/</link>
+        <link>https://pakiknowledge.pages.dev/tags/2023/</link>
         <description>2023 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/2023/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/2023/" rel="self" type="application/rss+xml" /><item>
     <title>地雷：</title>
-    <link>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</link>
+    <link>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</link>
     <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as PAILEIBING&#34;</author>
-    <guid>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</guid>
+    <guid>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSkMy11.png" referrerpolicy="no-referrer">
             </div><h1 id="1github桌面端报错本文头图状况">1.Github桌面端报错（本文头图状况）</h1>
@@ -26,10 +26,10 @@
 </item>
 <item>
     <title>为什么重拾博客？</title>
-    <link>http://localhost:1313/whyblog/</link>
+    <link>https://pakiknowledge.pages.dev/whyblog/</link>
     <pubDate>Wed, 04 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as &#39;destiny&#39;&#34;</author>
-    <guid>http://localhost:1313/whyblog/</guid>
+    <guid>https://pakiknowledge.pages.dev/whyblog/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSkKXWR.jpg" referrerpolicy="no-referrer">
             </div><h1 id="为什么重新想起了博客">为什么重新想起了博客？</h1>
