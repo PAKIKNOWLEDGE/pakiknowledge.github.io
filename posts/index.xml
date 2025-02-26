@@ -1,25 +1,38 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>所有文章 | 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 25 Feb 2025 08:56:07 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 25 Feb 2025 16:35:53 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>城市脉动:从化区</title>
+    <link>http://localhost:1313/city-ch/</link>
+    <pubDate>Tue, 25 Feb 2025 16:35:53 &#43;0800</pubDate>
+    <author>风见 幽香</author>
+    <guid>http://localhost:1313/city-ch/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20250225164050.jpg" referrerpolicy="no-referrer">
+            </div><h3 id="0-认识即重担">0 认识即重担</h3>
+<p>假设我们从顶层设计去考虑一个地区的市政规划，那我觉得该停下了。在这个开题后面的东西都是赘述。但是如果你从他的过程来谈，那至少还有余地。</p>]]></description>
+</item>
+<item>
     <title>城市脉动：天河区</title>
-    <link>https://pakiknowledge.pages.dev/city-th/</link>
+    <link>http://localhost:1313/city-th/</link>
     <pubDate>Tue, 25 Feb 2025 08:56:07 &#43;0800</pubDate>
     <author>8777 as &#39;Urban explorer&#39;</author>
-    <guid>https://pakiknowledge.pages.dev/city-th/</guid>
+    <guid>http://localhost:1313/city-th/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20250225090343.jpg" referrerpolicy="no-referrer">
-            </div><h3 id="0羊城的圣堂">0.羊城的圣堂</h3>
+            </div><blockquote>
+<p>天体的秩序？（笑）</p></blockquote>
+<h3 id="0羊城的圣堂">0.羊城的圣堂</h3>
 <p>地缘政治飘下一条羽毛，却砸死了一群蚂蚁。各种各样解释不清的“投胎”出结果后，一些人不幸的禁锢到了“小”地方。而正所谓有些鸟是笼子关不住的，广东的芸芸们涌向了思想上隐约的顶端：省会羊城。而天河区又几乎成了羊城的圣堂，虽然恒大徒有其表的身躯轰然倒塌，但是天体（天河体育中心）2013年万人齐唱海阔天空，广州恒大夺下亚冠的过去依然还是值得讴歌。天河城的迷路传说到现在传了二十多年。于是我就来了，我抽空来瞻仰了下羊城的门面。</p>]]></description>
 </item>
 <item>
     <title>hugo0.144.2版把我害惨了？让我们来谈谈这个问题吧</title>
-    <link>https://pakiknowledge.pages.dev/2025224newproblem/</link>
+    <link>http://localhost:1313/2025224newproblem/</link>
     <pubDate>Mon, 24 Feb 2025 16:19:46 &#43;0800</pubDate>
     <author>Panasonic user 8777</author>
-    <guid>https://pakiknowledge.pages.dev/2025224newproblem/</guid>
+    <guid>http://localhost:1313/2025224newproblem/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GkbgwRSXMAA2N5-.jpg" referrerpolicy="no-referrer">
             </div><h2 id="0-问题复现和起因">0 问题复现和起因</h2>
@@ -27,10 +40,10 @@
 </item>
 <item>
     <title>十四号线不会吞噬任何人，我也一样</title>
-    <link>https://pakiknowledge.pages.dev/20241116line14/</link>
+    <link>http://localhost:1313/20241116line14/</link>
     <pubDate>Sat, 16 Nov 2024 12:57:47 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/20241116line14/</guid>
+    <guid>http://localhost:1313/20241116line14/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20241116133230.jpg" referrerpolicy="no-referrer">
             </div><h2 id="如果我们不奔波那么我们的灵魂就枯竭而后失去生命">如果我们不奔波，那么我们的灵魂就枯竭，而后失去生命。</h2>
@@ -40,10 +53,10 @@
 </item>
 <item>
     <title>我讨厌雨天</title>
-    <link>https://pakiknowledge.pages.dev/20241115rainy/</link>
+    <link>http://localhost:1313/20241115rainy/</link>
     <pubDate>Fri, 15 Nov 2024 15:50:40 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/20241115rainy/</guid>
+    <guid>http://localhost:1313/20241115rainy/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/2991834.jpg" referrerpolicy="no-referrer">
             </div><h2 id="我讨厌雨">我讨厌雨</h2>
@@ -52,10 +65,10 @@
 </item>
 <item>
     <title>碎碎念</title>
-    <link>https://pakiknowledge.pages.dev/think20241110/</link>
+    <link>http://localhost:1313/think20241110/</link>
     <pubDate>Sun, 10 Nov 2024 16:09:59 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/think20241110/</guid>
+    <guid>http://localhost:1313/think20241110/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/Gb3WVbBbwAI-mgv.jpg" referrerpolicy="no-referrer">
             </div><h2 id="1-vscode-markdown转正的问题">1 vscode markdown转正的问题</h2>
@@ -63,10 +76,10 @@
 </item>
 <item>
     <title>Skrillex：缔造者</title>
-    <link>https://pakiknowledge.pages.dev/skrillex-thefounder/</link>
+    <link>http://localhost:1313/skrillex-thefounder/</link>
     <pubDate>Fri, 13 Sep 2024 21:25:48 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/skrillex-thefounder/</guid>
+    <guid>http://localhost:1313/skrillex-thefounder/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/unnamed.jpg" referrerpolicy="no-referrer">
             </div><h2 id="前言">前言</h2>
@@ -74,10 +87,10 @@
 </item>
 <item>
     <title>新设备更换记录</title>
-    <link>https://pakiknowledge.pages.dev/newdevide/</link>
+    <link>http://localhost:1313/newdevide/</link>
     <pubDate>Wed, 21 Aug 2024 05:27:08 &#43;0800</pubDate>
     <author>PAKIKNOWLEDGE AS &#39;RTXMASTER&#39;</author>
-    <guid>https://pakiknowledge.pages.dev/newdevide/</guid>
+    <guid>http://localhost:1313/newdevide/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GVVnDVBbAAAK6EG.jpg" referrerpolicy="no-referrer">
             </div><table>
@@ -110,10 +123,10 @@
 </item>
 <item>
     <title>个人博客换主题/重生构建开发记录</title>
-    <link>https://pakiknowledge.pages.dev/rebirth20248/</link>
+    <link>http://localhost:1313/rebirth20248/</link>
     <pubDate>Fri, 16 Aug 2024 22:35:24 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/rebirth20248/</guid>
+    <guid>http://localhost:1313/rebirth20248/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GVGJvAAaEAA9UWZ.jpg" referrerpolicy="no-referrer">
             </div><p>呵呵，大家好啊，别来无恙。本来毕业完我该产出一堆内容的，但是文还没写呢，主题先炸了。好的，现在我们就来看看是怎么炸的，怎么修的。</p>
@@ -124,26 +137,13 @@
 </item>
 <item>
     <title>未来/未知/炒作？</title>
-    <link>https://pakiknowledge.pages.dev/future-hype/</link>
+    <link>http://localhost:1313/future-hype/</link>
     <pubDate>Tue, 23 Jul 2024 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as DEATH&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/future-hype/</guid>
+    <guid>http://localhost:1313/future-hype/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GSrN23UacAA1uSg.png" referrerpolicy="no-referrer">
             </div><p>属实搞笑，2024年的第一篇文章居然拖到现在才来写。博主马上要前往一所广东省会城市偏僻民办大学了，说到这里，可能很多人也有不同的看法，我自己个人也难免多想。例如，上网一查学校有很多黑料（然而不可全信）；很多人也唱衰，用一个大学一场考试一个成绩一个数值去定义一个人。我暂且不争论，我想，不如我们谈谈体验吧。</p>]]></description>
-</item>
-<item>
-    <title>日轻analysis：《邻家天使》/《邻座的艾琳同学》</title>
-    <link>https://pakiknowledge.pages.dev/light-novel-analysis-1/</link>
-    <pubDate>Fri, 21 Apr 2023 00:00:00 &#43;0000</pubDate>
-    <author>     pakiknowledge as &#39;erin angel&#39;</author>
-    <guid>https://pakiknowledge.pages.dev/light-novel-analysis-1/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/18393925_0_final.png" referrerpolicy="no-referrer">
-            </div><h2 id="banner是ai生的喂了张k77进去这人打欧冠次回合ac米兰真的灾难表呃呃呃看了糟心真的老独">（BANNER是AI生的，喂了张K77进去，这人打欧冠次回合AC米兰真的灾难表呃呃呃，看了糟心，真的老独！）</h2>
-<hr>
-<h1 id="0先上结论">0.先上结论</h1>
-<p>《邻家天使》目前看到第四卷，只带了四本去学校，刚好看完修成正果，满足，暂评<code>7.5/10</code>。看番组上有人说后面质量下滑，但是我觉得应该不会差到哪去。生活的苦咖啡需要加糖，那就读《邻家天使》。</p>]]></description>
 </item>
 </channel>
 </rss>
