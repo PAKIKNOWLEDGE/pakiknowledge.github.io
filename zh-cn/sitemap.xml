@@ -2,72 +2,73 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://pakiknowledge.pages.dev/posts/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/en/tags/"
+                        href="https://pakiknowledge.pages.dev/en/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://localhost:1313/tags/"
+                    href="https://pakiknowledge.pages.dev/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/city-ch/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://pakiknowledge.pages.dev/tags/%E5%BC%80%E5%8F%91/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/en/"
+                        href="https://pakiknowledge.pages.dev/en/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://localhost:1313/"
+                    href="https://pakiknowledge.pages.dev/"
                     /></url><url>
-            <loc>http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/city-th/</loc><lastmod>2025-02-25T08:56:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/2025224newproblem/</loc><lastmod>2025-02-24T16:19:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/%E5%BC%80%E5%8F%91/</loc><lastmod>2025-02-24T16:19:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/20241116line14/</loc><lastmod>2024-11-16T12:57:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/20241115rainy/</loc><lastmod>2024-11-15T15:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/%E9%9A%8F%E7%AC%94-/</loc><lastmod>2024-11-10T16:09:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/think20241110/</loc><lastmod>2024-11-10T16:09:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/2024/</loc><lastmod>2024-09-13T21:25:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/edm/</loc><lastmod>2024-09-13T21:25:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/skrillex-thefounder/</loc><lastmod>2024-09-13T21:25:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/newdevide/</loc><lastmod>2024-08-21T05:27:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/rebirth20248/</loc><lastmod>2024-08-16T22:35:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/future-hype/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/</loc><lastmod>2023-04-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/light-novel-analysis-1/</loc><lastmod>2023-04-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/avg/</loc><lastmod>2023-04-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/gal/</loc><lastmod>2023-04-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tayadorikitami/</loc><lastmod>2023-04-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/%E6%B8%B8%E6%88%8F/</loc><lastmod>2023-04-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/dont-think/</loc><lastmod>2023-02-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/lr2-gas-v2/</loc><lastmod>2023-01-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/%E9%9F%B3%E6%B8%B8/</loc><lastmod>2023-01-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/lr2-gas/</loc><lastmod>2023-01-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/2023/</loc><lastmod>2023-01-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/%E5%9C%B0%E9%9B%B7/</loc><lastmod>2023-01-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</loc><lastmod>2023-01-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</loc><lastmod>2023-01-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/whyblog/</loc><lastmod>2023-01-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/bofxvi/</loc><lastmod>2020-11-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/collage/</loc><lastmod>2020-11-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/2020-8-30-dream/</loc><lastmod>2020-08-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/2020-8-21-king/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/2020-8-11-gitpages/</loc><lastmod>2020-08-11T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/tags/%E5%90%90%E6%A7%BD/</loc><lastmod>2020-08-11T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/about/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/notes/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/search/placeholder/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://pakiknowledge.pages.dev/neteaseshit/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/about/</loc><lastmod>2025-02-27T16:46:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/city-ch/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/city-th/</loc><lastmod>2025-02-25T08:56:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/2025224newproblem/</loc><lastmod>2025-02-24T16:19:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/20241116line14/</loc><lastmod>2024-11-16T12:57:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/20241115rainy/</loc><lastmod>2024-11-15T15:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94-/</loc><lastmod>2024-11-10T16:09:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/think20241110/</loc><lastmod>2024-11-10T16:09:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/2024/</loc><lastmod>2024-09-13T21:25:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/edm/</loc><lastmod>2024-09-13T21:25:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/skrillex-thefounder/</loc><lastmod>2024-09-13T21:25:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/newdevide/</loc><lastmod>2024-08-21T05:27:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/rebirth20248/</loc><lastmod>2024-08-16T22:35:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/future-hype/</loc><lastmod>2024-07-23T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/</loc><lastmod>2023-04-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/light-novel-analysis-1/</loc><lastmod>2023-04-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/avg/</loc><lastmod>2023-04-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/gal/</loc><lastmod>2023-04-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tayadorikitami/</loc><lastmod>2023-04-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E6%B8%B8%E6%88%8F/</loc><lastmod>2023-04-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/dont-think/</loc><lastmod>2023-02-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/lr2-gas-v2/</loc><lastmod>2023-01-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E9%9F%B3%E6%B8%B8/</loc><lastmod>2023-01-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/lr2-gas/</loc><lastmod>2023-01-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/2023/</loc><lastmod>2023-01-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E5%9C%B0%E9%9B%B7/</loc><lastmod>2023-01-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</loc><lastmod>2023-01-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</loc><lastmod>2023-01-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/whyblog/</loc><lastmod>2023-01-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/bofxvi/</loc><lastmod>2020-11-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/collage/</loc><lastmod>2020-11-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/2020-8-30-dream/</loc><lastmod>2020-08-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/2020-8-21-king/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/2020-8-11-gitpages/</loc><lastmod>2020-08-11T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E5%90%90%E6%A7%BD/</loc><lastmod>2020-08-11T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/notes/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/search/placeholder/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="http://localhost:1313/en/categories/"
+                        href="https://pakiknowledge.pages.dev/en/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="http://localhost:1313/categories/"
+                    href="https://pakiknowledge.pages.dev/categories/"
                     /></url><url>
-            <loc>http://localhost:1313/archive/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/search/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://pakiknowledge.pages.dev/archive/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/search/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
