@@ -3,9 +3,20 @@
         <title>帕琪的小屋</title>
         <link>https://pakiknowledge.pages.dev/</link>
         <description>精神垃圾置物场</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 27 Feb 2025 23:45:03 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 03 Mar 2025 22:45:51 &#43;0800</lastBuildDate>
             <atom:link href="https://pakiknowledge.pages.dev/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>月之癌</title>
+    <link>https://pakiknowledge.pages.dev/myths-of-pig-farming/</link>
+    <pubDate>Mon, 03 Mar 2025 22:45:51 &#43;0800</pubDate>
+    <author>8777 as &#39;雫月&#39; </author>
+    <guid>https://pakiknowledge.pages.dev/myths-of-pig-farming/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/GlGadI4a4AAjBDb.jpg" referrerpolicy="no-referrer">
+            </div><p>月儿是家里的大姐。</p>
+<p>月儿出生时接生婆把她举到父母跟前，她当然记不得那两双眼睛如何暗下去。后来碧霞元君显灵送了个带把的，爹娘抱着襁褓时眼里才又有了光。</p>]]></description>
+</item>
+<item>
     <title>网易云的拙劣mp3标签注释</title>
     <link>https://pakiknowledge.pages.dev/neteaseshit/</link>
     <pubDate>Thu, 27 Feb 2025 23:45:03 &#43;0800</pubDate>
@@ -132,20 +143,6 @@
   </tbody>
 </table>
 <p>自从变成悲哀准大学人之后，就对手头的设备进行了一波更新，现在一个个评点一下</p>]]></description>
-</item>
-<item>
-    <title>个人博客换主题/重生构建开发记录</title>
-    <link>https://pakiknowledge.pages.dev/rebirth20248/</link>
-    <pubDate>Fri, 16 Aug 2024 22:35:24 &#43;0800</pubDate>
-    <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/rebirth20248/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/GVGJvAAaEAA9UWZ.jpg" referrerpolicy="no-referrer">
-            </div><p>呵呵，大家好啊，别来无恙。本来毕业完我该产出一堆内容的，但是文还没写呢，主题先炸了。好的，现在我们就来看看是怎么炸的，怎么修的。</p>
-<hr>
-<h1 id="0时间序流">0.时间序流</h1>
-<h2 id="2024-8-9永远无法到达的八月">2024-8-9：永远无法到达的八月</h2>
-<p>8月9日，七夕前一天，坐拥新电脑新手机新游戏机的我准备来记录一下手头开发环境的更新，于是我照常的：</p>]]></description>
 </item>
 </channel>
 </rss>

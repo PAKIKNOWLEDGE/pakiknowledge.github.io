@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://pakiknowledge.pages.dev/posts/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://pakiknowledge.pages.dev/tags/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://pakiknowledge.pages.dev/posts/</loc><lastmod>2025-03-03T22:45:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/</loc><lastmod>2025-03-03T22:45:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://pakiknowledge.pages.dev/en/tags/"
@@ -12,8 +12,7 @@
                     hreflang="zh-cn"
                     href="https://pakiknowledge.pages.dev/tags/"
                     /></url><url>
-            <loc>https://pakiknowledge.pages.dev/tags/%E5%BC%80%E5%8F%91/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://pakiknowledge.pages.dev/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://pakiknowledge.pages.dev/</loc><lastmod>2025-03-03T22:45:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://pakiknowledge.pages.dev/en/"
@@ -22,12 +21,14 @@
                     hreflang="zh-cn"
                     href="https://pakiknowledge.pages.dev/"
                     /></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94/</loc><lastmod>2025-03-03T22:45:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/myths-of-pig-farming/</loc><lastmod>2025-03-03T22:45:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/tags/%E5%BC%80%E5%8F%91/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/neteaseshit/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/about/</loc><lastmod>2025-02-27T16:46:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/city-ch/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/city-th/</loc><lastmod>2025-02-25T08:56:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://pakiknowledge.pages.dev/2025224newproblem/</loc><lastmod>2025-02-24T16:19:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://pakiknowledge.pages.dev/2025224newproblem/</loc><lastmod>2025-02-24T16:19:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/20241116line14/</loc><lastmod>2024-11-16T12:57:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/20241115rainy/</loc><lastmod>2024-11-15T15:50:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94-/</loc><lastmod>2024-11-10T16:09:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
