@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Collage - 标签 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/tags/collage/</link>
+        <link>http://localhost:1313/tags/collage/</link>
         <description>Collage - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/collage/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/collage/" rel="self" type="application/rss+xml" /><item>
     <title>BOFXVI个人精选</title>
-    <link>https://pakiknowledge.pages.dev/bofxvi/</link>
+    <link>http://localhost:1313/bofxvi/</link>
     <pubDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</pubDate>
     <author>     &#34;&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/bofxvi/</guid>
+    <guid>http://localhost:1313/bofxvi/</guid>
     <description><![CDATA[<p></p>
 <blockquote>
 <p>帕琪KNOWLEDGE个人的bofxvi选集。</p></blockquote>

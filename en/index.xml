@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/en/</link>
+        <link>http://localhost:1313/en/</link>
         <description>精神垃圾置物场</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-            <atom:link href="https://pakiknowledge.pages.dev/en/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>

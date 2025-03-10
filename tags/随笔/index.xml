@@ -1,14 +1,37 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>随笔 - 标签 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94/</link>
+        <link>http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/</link>
         <description>随笔 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 03 Mar 2025 22:45:51 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Mar 2025 19:45:35 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/" rel="self" type="application/rss+xml" /><item>
+    <title>行动是永远的基本盘</title>
+    <link>http://localhost:1313/heart/</link>
+    <pubDate>Sun, 09 Mar 2025 19:45:35 &#43;0800</pubDate>
+    <author>always we trust in U</author>
+    <guid>http://localhost:1313/heart/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/GlgLqgobwAQ76-B.jfif" referrerpolicy="no-referrer">
+            </div><p>事实证明，行动是永远的基本盘。人生更加得心应手的前提，必须是让行动跑在思想的前面。扶大厦之将倾，人暴起而动，行为姑且充数。大厦将倾，人不动，若有所思，冷眼观大厦之坍塌也。思考，等待，并失去。心在渐渐碎裂，不如动起来找点东西补上，不然就成了冷眼。
+思想常常在给行动设限。多虑者将一事无成，我不是支持鲁莽行事，而是行动中直接碰到的客观问题往往才是最需要解决的根源性事物，而不是行动之前脑海里那些无所谓的臆测。
+这就是为什么我一直说：认识即重担。猜忌、多虑、对未知的恐惧毁了你。 不要问有没有，来了就知道。规则的确有设限的作用，但是停下行动已经不是畏手畏脚的问题了。</p>]]></description>
+</item>
+<item>
+    <title>（没写完）曼联之殇</title>
+    <link>http://localhost:1313/united-hole/</link>
+    <pubDate>Thu, 06 Mar 2025 14:44:27 &#43;0800</pubDate>
+    <author>traitor in POR</author>
+    <guid>http://localhost:1313/united-hole/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/GlDwtOtXIAEswfw.jfif" referrerpolicy="no-referrer">
+            </div><p>曼联真的是一家非常神奇的俱乐部。全方面的，由上至下，老板，管理层，董事会，球员&hellip;..好吧，最终我给了球迷豁免权。</p>
+<p>要看懂曼联如今的囫囵，要鉴下许多反面教材。这其中很大一部分原因在于曼联的不纯粹性。曼联不是一家纯粹的俱乐部。曼联的老板疑似对钱的渴望超过了对荣誉的渴望，也许对他来说，荣誉只是他敛财的手段和途径。曼联的球员大多数丢掉了职业操守，在政治斗争和追求数据的摆锤中迷失了自我。再者，如今足球游戏蓬勃发展，不明就里的球迷和观众流于表面，顶着草台班子和三言两语就开始宣判教练和球员。我不得不承认，我曾经也对混乱的曼联不知所谓。但是，现在，让我们重新谈谈这个问题吧。</p>]]></description>
+</item>
+<item>
     <title>月之癌</title>
-    <link>https://pakiknowledge.pages.dev/myths-of-pig-farming/</link>
+    <link>http://localhost:1313/myths-of-pig-farming/</link>
     <pubDate>Mon, 03 Mar 2025 22:45:51 &#43;0800</pubDate>
     <author>8777 as &#39;雫月&#39; </author>
-    <guid>https://pakiknowledge.pages.dev/myths-of-pig-farming/</guid>
+    <guid>http://localhost:1313/myths-of-pig-farming/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GlGadI4a4AAjBDb.jpg" referrerpolicy="no-referrer">
             </div><p>月儿是家里的大姐。</p>
@@ -16,10 +39,10 @@
 </item>
 <item>
     <title>城市脉动:从化区</title>
-    <link>https://pakiknowledge.pages.dev/city-ch/</link>
+    <link>http://localhost:1313/city-ch/</link>
     <pubDate>Tue, 25 Feb 2025 16:35:53 &#43;0800</pubDate>
     <author>风见 幽香</author>
-    <guid>https://pakiknowledge.pages.dev/city-ch/</guid>
+    <guid>http://localhost:1313/city-ch/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20250225164050.jpg" referrerpolicy="no-referrer">
             </div><h3 id="0-认识即重担">0 认识即重担</h3>
@@ -27,10 +50,10 @@
 </item>
 <item>
     <title>城市脉动：天河区</title>
-    <link>https://pakiknowledge.pages.dev/city-th/</link>
+    <link>http://localhost:1313/city-th/</link>
     <pubDate>Tue, 25 Feb 2025 08:56:07 &#43;0800</pubDate>
     <author>8777 as &#39;Urban explorer&#39;</author>
-    <guid>https://pakiknowledge.pages.dev/city-th/</guid>
+    <guid>http://localhost:1313/city-th/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20250225090343.jpg" referrerpolicy="no-referrer">
             </div><blockquote>
@@ -40,10 +63,10 @@
 </item>
 <item>
     <title>Skrillex：缔造者</title>
-    <link>https://pakiknowledge.pages.dev/skrillex-thefounder/</link>
+    <link>http://localhost:1313/skrillex-thefounder/</link>
     <pubDate>Fri, 13 Sep 2024 21:25:48 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/skrillex-thefounder/</guid>
+    <guid>http://localhost:1313/skrillex-thefounder/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/unnamed.jpg" referrerpolicy="no-referrer">
             </div><h2 id="前言">前言</h2>
@@ -51,20 +74,20 @@
 </item>
 <item>
     <title>未来/未知/炒作？</title>
-    <link>https://pakiknowledge.pages.dev/future-hype/</link>
+    <link>http://localhost:1313/future-hype/</link>
     <pubDate>Tue, 23 Jul 2024 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as DEATH&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/future-hype/</guid>
+    <guid>http://localhost:1313/future-hype/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GSrN23UacAA1uSg.png" referrerpolicy="no-referrer">
             </div><p>属实搞笑，2024年的第一篇文章居然拖到现在才来写。博主马上要前往一所广东省会城市偏僻民办大学了，说到这里，可能很多人也有不同的看法，我自己个人也难免多想。例如，上网一查学校有很多黑料（然而不可全信）；很多人也唱衰，用一个大学一场考试一个成绩一个数值去定义一个人。我暂且不争论，我想，不如我们谈谈体验吧。</p>]]></description>
 </item>
 <item>
     <title>妄想税</title>
-    <link>https://pakiknowledge.pages.dev/dont-think/</link>
+    <link>http://localhost:1313/dont-think/</link>
     <pubDate>Mon, 06 Feb 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge is thinking&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/dont-think/</guid>
+    <guid>http://localhost:1313/dont-think/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/104703878_p0.jpg" referrerpolicy="no-referrer">
             </div><hr>
@@ -72,10 +95,10 @@
 </item>
 <item>
     <title>为什么重拾博客？</title>
-    <link>https://pakiknowledge.pages.dev/whyblog/</link>
+    <link>http://localhost:1313/whyblog/</link>
     <pubDate>Wed, 04 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as &#39;destiny&#39;&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/whyblog/</guid>
+    <guid>http://localhost:1313/whyblog/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSkKXWR.jpg" referrerpolicy="no-referrer">
             </div><h1 id="为什么重新想起了博客">为什么重新想起了博客？</h1>
@@ -83,10 +106,10 @@
 </item>
 <item>
     <title>深渊之梦</title>
-    <link>https://pakiknowledge.pages.dev/2020-8-30-dream/</link>
+    <link>http://localhost:1313/2020-8-30-dream/</link>
     <pubDate>Sun, 30 Aug 2020 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/2020-8-30-dream/</guid>
+    <guid>http://localhost:1313/2020-8-30-dream/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/dLdtUg.jpg" referrerpolicy="no-referrer">
             </div><blockquote>
