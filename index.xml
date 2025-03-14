@@ -3,9 +3,19 @@
         <title>帕琪的小屋</title>
         <link>http://localhost:1313/</link>
         <description>精神垃圾置物场</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Mar 2025 19:45:35 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 14 Mar 2025 10:55:30 &#43;0800</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>读《明朝那些事儿》：当一个异类更难了</title>
+    <link>http://localhost:1313/misfit/</link>
+    <pubDate>Fri, 14 Mar 2025 10:55:30 &#43;0800</pubDate>
+    <author>8777不是朱元璋</author>
+    <guid>http://localhost:1313/misfit/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/Gl0xJDFW4AAaXIW.png" referrerpolicy="no-referrer">
+            </div><p>《明朝那些事》抽空读了，首先我要说的是，这本书确实是适合大众阅读的通俗性科普读物，其小说和史料结合的笔法在我读过的历史读物中属于优秀的水平，可以比肩黄仁宇的《万历十五年》。历史叙述作品持续存在的一个问题在于：太过深奥、生硬的叙事风格令普通读者难以接受，实在有点过于“阳春白雪”。譬如说费正清的《剑桥中国史》算是“阳春白雪”的话，《明朝那些事儿》可以算作是“下里巴人”了。</p>]]></description>
+</item>
+<item>
     <title>行动是永远的基本盘</title>
     <link>http://localhost:1313/heart/</link>
     <pubDate>Sun, 09 Mar 2025 19:45:35 &#43;0800</pubDate>
@@ -108,17 +118,6 @@
             </div><h2 id="我讨厌雨">我讨厌雨</h2>
 <p>我讨厌雨，这是以前的事。雨天令人睡意朦胧，而往往是想睡却不能。无论是几月的雨都禁绝了我出门的念头。然而出门又意味着什么呢？</p>
 <p>“幸福总是瞬间而过，奢侈只尝了一小口，而或是一场空。”</p>]]></description>
-</item>
-<item>
-    <title>碎碎念</title>
-    <link>http://localhost:1313/think20241110/</link>
-    <pubDate>Sun, 10 Nov 2024 16:09:59 &#43;0800</pubDate>
-    <author>8777</author>
-    <guid>http://localhost:1313/think20241110/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/Gb3WVbBbwAI-mgv.jpg" referrerpolicy="no-referrer">
-            </div><h2 id="1-vscode-markdown转正的问题">1 vscode markdown转正的问题</h2>
-<p>主要问题是，从2018年左右我开始写markdown的时候我就习惯typora那样的边写边渲染的形式，在vscode里有个插件可以实现，但是我重装电脑后把这事忘了，现在干脆在这记录一下。</p>]]></description>
 </item>
 </channel>
 </rss>
