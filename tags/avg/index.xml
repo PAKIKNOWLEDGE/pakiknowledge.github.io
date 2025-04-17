@@ -1,29 +1,27 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>AVG - 标签 - 帕琪的小屋</title>
-        <link>http://localhost:1313/tags/avg/</link>
-        <description>AVG - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 14 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/avg/" rel="self" type="application/rss+xml" /><item>
-    <title>放課後シンデレラ-田寄多乃实 线 FIN</title>
-    <link>http://localhost:1313/tayadorikitami/</link>
-    <pubDate>Fri, 14 Apr 2023 00:00:00 &#43;0000</pubDate>
-    <author>     &#34;pakiknowledge&#34;</author>
-    <guid>http://localhost:1313/tayadorikitami/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/taev02a.png" referrerpolicy="no-referrer">
-            </div><h1 id="1--总览">1  总览</h1>
-<p>多乃实线我个人认为是《放学后的灰姑娘女孩》中最优秀的一条线，推完此线后，该作终结，我也没有再继续推本就计划外的青梅和学姐、以及超级候补位的大小姐等线的打算。</p>]]></description>
-</item>
-<item>
-    <title>放課後シンデレラ-築島 つくし线 FIN</title>
-    <link>http://localhost:1313/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
-    <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
-    <author>     &#34;pakiknowledge as 清&#34;</author>
-    <guid>http://localhost:1313/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/222.jpg" referrerpolicy="no-referrer">
-            </div><p>[]</p>
-<p>寒假在家消极学习，就想着又想推GAL了，于是就选了钩子社的这一作（我一开始就是奔着废萌去的) <code>放課後シンデレラ</code>,其实我本来想推2的，听说2的那个口罩妹风评很高啊，但是我似乎找不到汉化，所以就来1体验一下。</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AVG on 帕琪的小屋</title>
+    <link>http://localhost:1313/tags/avg/</link>
+    <description>Recent content in AVG on 帕琪的小屋</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/avg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>放課後シンデレラ-田寄多乃实 线 FIN</title>
+      <link>http://localhost:1313/tayadorikitami/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tayadorikitami/</guid>
+      <description>&lt;h1 id=&#34;1--总览&#34;&gt;1  总览&lt;/h1&gt;&#xA;&lt;p&gt;多乃实线我个人认为是《放学后的灰姑娘女孩》中最优秀的一条线，推完此线后，该作终结，我也没有再继续推本就计划外的青梅和学姐、以及超级候补位的大小姐等线的打算。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>放課後シンデレラ-築島 つくし线 FIN</title>
+      <link>http://localhost:1313/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
+      <description>&lt;p&gt;[&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;http://localhost:1313/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;http://localhost:1313/img1/bc9157e7b6db52359c7315d34a1d9bac.jpg&#34;&#xD;&#xA;        data-srcset=&#34;http://localhost:1313/img1/bc9157e7b6db52359c7315d34a1d9bac.jpg, http://localhost:1313/img1/bc9157e7b6db52359c7315d34a1d9bac.jpg 1.5x, http://localhost:1313/img1/bc9157e7b6db52359c7315d34a1d9bac.jpg 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;/img1/bc9157e7b6db52359c7315d34a1d9bac.jpg&#34;&#xD;&#xA;        title=&#34;pSkYGLR.jpg&#34; /&gt;]&lt;/p&gt;&#xA;&lt;p&gt;寒假在家消极学习，就想着又想推GAL了，于是就选了钩子社的这一作（我一开始就是奔着废萌去的) &lt;code&gt;放課後シンデレラ&lt;/code&gt;,其实我本来想推2的，听说2的那个口罩妹风评很高啊，但是我似乎找不到汉化，所以就来1体验一下。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

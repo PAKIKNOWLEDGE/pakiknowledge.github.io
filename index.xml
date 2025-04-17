@@ -3,9 +3,31 @@
         <title>帕琪的小屋</title>
         <link>http://localhost:1313/</link>
         <description>精神垃圾置物场</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 19 Mar 2025 19:36:26 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 17 Apr 2025 01:11:36 &#43;0800</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>only Panasonic can do！松下sz6双系统黑苹果记录</title>
+    <link>http://localhost:1313/blackapple/</link>
+    <pubDate>Thu, 17 Apr 2025 01:11:36 &#43;0800</pubDate>
+    <author>8777</author>
+    <guid>http://localhost:1313/blackapple/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/GolE-maWAAEqzMV.jpeg" referrerpolicy="no-referrer">
+            </div><h3 id="0-前言">0 前言</h3>
+<p>时隔多年，终于用上黑苹果，感慨万千。松下sz6这机器体制挺好的，黑果完已经可以基本日用了。本篇文章就是在mac的环境下完成的。后来发现，黑果就是一个前人种树，后人乘凉的东西。有了前人的探索，才能有如今这么方便的经验和过程可以借鉴。</p>]]></description>
+</item>
+<item>
+    <title>（没写完，别看）&#34;坟&#34;</title>
+    <link>http://localhost:1313/toom/</link>
+    <pubDate>Tue, 25 Mar 2025 19:04:15 &#43;0800</pubDate>
+    <author>8777</author>
+    <guid>http://localhost:1313/toom/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/Gm38AP7awAIKB3U.jfif" referrerpolicy="no-referrer">
+            </div><p>今天一个老乡火急火燎找到我。说家里人在给我上坟。</p>
+<p>收到这个无厘头的消息，我内心其实好奇大于震惊。实际上，我对于家乡并没有什么归属感，我在老家那块黄土地上的社会学形象算是死了。我问他：我是不是风光大葬？他说不太清楚，只是说我“走”了，“后人”对我的评价也算正面。于是我顺着他的话头问，他说，乡里人都说我老实孩子，出了乡也没想到糟了这罪，早早的就走了，走了也不见个全尸。接着还说，我打小就听话，和小时候和我相好的那些混蛋们天天拉淫歌调戏女孩子，而我只是沉默的老实，所以我的葬礼上女孩子们也哭的。</p>]]></description>
+</item>
+<item>
     <title>doomer也许存在即合理 但是我反对他的持续性</title>
     <link>http://localhost:1313/doomertalking/</link>
     <pubDate>Wed, 19 Mar 2025 19:36:26 &#43;0800</pubDate>
@@ -93,30 +115,6 @@
 <p>天体的秩序？（笑）</p></blockquote>
 <h3 id="0羊城的圣堂">0.羊城的圣堂</h3>
 <p>地缘政治飘下一条羽毛，却砸死了一群蚂蚁。各种各样解释不清的“投胎”出结果后，一些人不幸的禁锢到了“小”地方。而正所谓有些鸟是笼子关不住的，广东的芸芸们涌向了思想上隐约的顶端：省会羊城。而天河区又几乎成了羊城的圣堂，虽然恒大徒有其表的身躯轰然倒塌，但是天体（天河体育中心）2013年万人齐唱海阔天空，广州恒大夺下亚冠的过去依然还是值得讴歌。天河城的迷路传说到现在传了二十多年。于是我就来了，我抽空来瞻仰了下羊城的门面。</p>]]></description>
-</item>
-<item>
-    <title>hugo0.144.2版把我害惨了？让我们来谈谈这个问题吧</title>
-    <link>http://localhost:1313/2025224newproblem/</link>
-    <pubDate>Mon, 24 Feb 2025 16:19:46 &#43;0800</pubDate>
-    <author>Panasonic user 8777</author>
-    <guid>http://localhost:1313/2025224newproblem/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/GkbgwRSXMAA2N5-.jpg" referrerpolicy="no-referrer">
-            </div><h2 id="0-问题复现和起因">0 问题复现和起因</h2>
-<p>偶然之下，我动用了<strong>Chocolatey</strong>这个运行在Windows平台上的包管理器来安装hugo。（当然，我也用这个来装git，这真方便。）这个包管理器给我装载了hugo0.144.2版，还不用我手动加环境变量。但是当我把数据迁过来之后，我像往常一样<code>hugo</code>跑了起来,然而&hellip;</p>]]></description>
-</item>
-<item>
-    <title>十四号线不会吞噬任何人，我也一样</title>
-    <link>http://localhost:1313/20241116line14/</link>
-    <pubDate>Sat, 16 Nov 2024 12:57:47 &#43;0800</pubDate>
-    <author>8777</author>
-    <guid>http://localhost:1313/20241116line14/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20241116133230.jpg" referrerpolicy="no-referrer">
-            </div><h2 id="如果我们不奔波那么我们的灵魂就枯竭而后失去生命">如果我们不奔波，那么我们的灵魂就枯竭，而后失去生命。</h2>
-<blockquote>
-<p>我在十四号线的尾端下车，我是否是就这样死在了城市的角落？</p></blockquote>
-<p>我来广州不久，却坐了好多次十四号线。嘉禾望岗像一个港湾，吸纳无数奔波的灵魂。灵魂只是奔波，而港湾也只是目送。2024年9月，我急于躲避人群，在嘈杂险恶的浪潮里羞于启齿。赤草的高架双岛式站台就这样给我当头一棒，我原想像一只地鼠，灰溜溜的在城市下穿行；裸露在外的大带待避线和高架走轨却告诉我，大家都有翅膀，要光明正大的飞过去。可我自视是雏鸡一只，我又怎么会飞呢？于是我断定，我几近要被十四号线吞噬了。</p>]]></description>
 </item>
 </channel>
 </rss>
