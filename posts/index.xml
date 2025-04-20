@@ -3,7 +3,18 @@
         <title>所有文章 - 帕琪的小屋</title>
         <link>http://localhost:1313/posts/</link>
         <description>所有文章 | 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 17 Apr 2025 01:11:36 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 20 Apr 2025 19:47:30 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题</title>
+    <link>http://localhost:1313/macbattery/</link>
+    <pubDate>Sun, 20 Apr 2025 19:47:30 &#43;0800</pubDate>
+    <author>电源战神</author>
+    <guid>http://localhost:1313/macbattery/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/Go5LvXUbkAA21Q3.jpeg" referrerpolicy="no-referrer">
+            </div><h2 id="避实就虚">避实就虚</h2>
+<p>上文提到了，sz6会被xdci项目参数每分钟不断唤醒（也就是没有深度定制USB导致的接口程序识别紊乱），导致没办法进入深睡眠，在不断查阅相关资料的过程中，了解到大概有两种解决方式，一种是<strong>一刀切式</strong>的通过<em>SSDT-GPRW.dsl</em>进行全权重命名，屏蔽所有USB接口，另外一种则是自行定制和屏蔽接口。虽然前文我讲过，黑苹果的定制是一个需要以深度定制为主的工作流，但是我不得不承认，在解决睡眠问题上，<strong>我更愿意用通法</strong>。使用一刀切式重命名屏蔽代价仅仅是只能使用电源键去唤醒电脑，而深度定制USB则需要花费成倍数增长的工作量。下面分享一下过程。</p>]]></description>
+</item>
+<item>
     <title>only Panasonic can do！松下sz6双系统黑苹果记录</title>
     <link>http://localhost:1313/blackapple/</link>
     <pubDate>Thu, 17 Apr 2025 01:11:36 &#43;0800</pubDate>
@@ -100,19 +111,6 @@
                 <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20250225164050.jpg" referrerpolicy="no-referrer">
             </div><h3 id="0-认识即重担">0 认识即重担</h3>
 <p>假设我们从顶层设计去考虑一个地区的市政规划，那我觉得该停下了。在这个开题后面的东西都是赘述。但是如果你从他的过程来谈，那至少还有余地。</p>]]></description>
-</item>
-<item>
-    <title>城市脉动：天河区</title>
-    <link>http://localhost:1313/city-th/</link>
-    <pubDate>Tue, 25 Feb 2025 08:56:07 &#43;0800</pubDate>
-    <author>8777 as &#39;Urban explorer&#39;</author>
-    <guid>http://localhost:1313/city-th/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20250225090343.jpg" referrerpolicy="no-referrer">
-            </div><blockquote>
-<p>天体的秩序？（笑）</p></blockquote>
-<h3 id="0羊城的圣堂">0.羊城的圣堂</h3>
-<p>地缘政治飘下一条羽毛，却砸死了一群蚂蚁。各种各样解释不清的“投胎”出结果后，一些人不幸的禁锢到了“小”地方。而正所谓有些鸟是笼子关不住的，广东的芸芸们涌向了思想上隐约的顶端：省会羊城。而天河区又几乎成了羊城的圣堂，虽然恒大徒有其表的身躯轰然倒塌，但是天体（天河体育中心）2013年万人齐唱海阔天空，广州恒大夺下亚冠的过去依然还是值得讴歌。天河城的迷路传说到现在传了二十多年。于是我就来了，我抽空来瞻仰了下羊城的门面。</p>]]></description>
 </item>
 </channel>
 </rss>

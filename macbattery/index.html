@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题 - 帕琪的小屋</title><meta name="Description" content="A brief description of this post."><meta property="og:url" content="http://localhost:1313/macbattery/">
+  <meta property="og:site_name" content="帕琪的小屋">
+  <meta property="og:title" content="完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题">
+  <meta property="og:description" content="A brief description of this post.">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-20T19:47:30+08:00">
+    <meta property="article:modified_time" content="2025-04-20T19:47:30+08:00">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:title" content="完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题">
+  <meta name="twitter:description" content="A brief description of this post.">
+<meta name="application-name" content="帕琪的小屋">
+<meta name="apple-mobile-web-app-title" content="帕琪的小屋"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/macbattery/" /><link rel="prev" href="http://localhost:1313/blackapple/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/macbattery\/"
+        },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  585 ,
+        "url": "http:\/\/localhost:1313\/macbattery\/","datePublished": "2025-04-20T19:47:30+08:00","dateModified": "2025-04-20T19:47:30+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "pakiknowledge","logo": "http:\/\/localhost:1313\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "电源战神"
+            },"description": "A brief description of this post."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/-/"> 关于 </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/macbattery/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/-/" title="">关于</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/macbattery/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>电源战神</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-04-20">2025-04-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 585 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/Go5LvXUbkAA21Q3.jpeg"
+        data-srcset="/img1/Go5LvXUbkAA21Q3.jpeg, /img1/Go5LvXUbkAA21Q3.jpeg 1.5x, /img1/Go5LvXUbkAA21Q3.jpeg 2x"
+        data-sizes="auto"
+        alt="/img1/Go5LvXUbkAA21Q3.jpeg"
+        title="A brief description of this post." /></div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#避实就虚">避实就虚</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="避实就虚">避实就虚</h2>
+<p>上文提到了，sz6会被xdci项目参数每分钟不断唤醒（也就是没有深度定制USB导致的接口程序识别紊乱），导致没办法进入深睡眠，在不断查阅相关资料的过程中，了解到大概有两种解决方式，一种是<strong>一刀切式</strong>的通过<em>SSDT-GPRW.dsl</em>进行全权重命名，屏蔽所有USB接口，另外一种则是自行定制和屏蔽接口。虽然前文我讲过，黑苹果的定制是一个需要以深度定制为主的工作流，但是我不得不承认，在解决睡眠问题上，<strong>我更愿意用通法</strong>。使用一刀切式重命名屏蔽代价仅仅是只能使用电源键去唤醒电脑，而深度定制USB则需要花费成倍数增长的工作量。下面分享一下过程。</p>
+<hr>
+<p>以下过程大部分参考<a href="https://blog.xjn819.com/post/opencore-guide.html" target="_blank" rel="noopener noreffer ">本文</a>。</p>
+<ol>
+<li>获取一份SSDT-GPRW.dsl文件，这份文件是具有高度通用性的。</li>
+<li>使用MaciASL软件打开SSDT-GPRW.dsl，不要改动文件的任何内容，另存为aml文件。</li>
+<li>将获取到的文件置入EFI/OC/ACPI文件夹内。并在opencore配置软件的gui中启用</li>
+<li>在patch补丁选项卡下设置好重命名的参数，由于教程文给的是代码块：</li>
+</ol>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-chevron-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Comment: GPRW to XPRW
+</span></span><span class="line"><span class="cl">Count:0
+</span></span><span class="line"><span class="cl">Enabled:YES
+</span></span><span class="line"><span class="cl">Find:&lt;4750525702&gt;
+</span></span><span class="line"><span class="cl">Limit:0
+</span></span><span class="line"><span class="cl">Mask:&lt;&gt;
+</span></span><span class="line"><span class="cl">OemTable:&lt;&gt;
+</span></span><span class="line"><span class="cl">Replace:&lt;5850525702&gt;
+</span></span><span class="line"><span class="cl">ReplaceMask:&lt;&gt;
+</span></span><span class="line"><span class="cl">Skip:0
+</span></span><span class="line"><span class="cl">TableLength:0
+</span></span><span class="line"><span class="cl">TableSignature:&lt;&gt;</span></span></code></pre></div></div><p>这段东西转译一下到oc的gui里面大概是这样的：(最后一个项目）</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/scrconfig.png"
+        data-srcset="/img1/scrconfig.png, /img1/scrconfig.png 1.5x, /img1/scrconfig.png 2x"
+        data-sizes="auto"
+        alt="/img1/scrconfig.png"
+        title="/img1/scrconfig.png" /></p>
+<p>然后就解决了，最后还意外发现屏蔽了USB接口之后还支持开盖唤醒，看来是光感发力了。于是本黑苹果基本完美，除了触控板没手势之外其他基本可以正常日用。</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2025-04-20</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/macbattery/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://localhost:1313/macbattery/" data-title="完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://localhost:1313/macbattery/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/macbattery/" data-title="完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://localhost:1313/macbattery/" data-title="完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/macbattery/" data-title="完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题" data-image="/img1/Go5LvXUbkAA21Q3.jpeg" data-ralateuid="5513975973"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/blackapple/" class="prev" rel="prev" title="only Panasonic can do！松下sz6双系统黑苹果记录"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>only Panasonic can do！松下sz6双系统黑苹果记录</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.146.5">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2025</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/algoliasearch/lite/browser.umd.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script src="/js/theme.min.js"></script></body>
+</html>
