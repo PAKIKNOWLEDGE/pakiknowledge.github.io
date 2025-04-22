@@ -3,9 +3,19 @@
         <title>帕琪的小屋</title>
         <link>http://localhost:1313/</link>
         <description>精神垃圾置物场</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 20 Apr 2025 19:47:30 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 22 Apr 2025 19:23:33 &#43;0800</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>帝王，诗人，浪子</title>
+    <link>http://localhost:1313/2025422/</link>
+    <pubDate>Tue, 22 Apr 2025 19:23:33 &#43;0800</pubDate>
+    <author>8777</author>
+    <guid>http://localhost:1313/2025422/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/GpIQjXXa4AEw7c7.jpeg" referrerpolicy="no-referrer">
+            </div><p>之前听闻了一个说法，男人可以分成帝王，诗人，浪子。如果你让我自评，我可能介于诗人和浪子之间。我谈不上是什么帝王，很少有人说我有一种“霸气”和果断的蛮狠。诗人和浪子的特质，我多少都被吸附了。诗人沉浸在自己的艺术里，在自我搭建的框架里安贫乐道。浪子追求自由，我也讨厌既定的框架，如果有一个东西把我框住，我会痛不欲生，不遗余力的从里面想要往外挣脱。如果我们这样讲，我们这样子界定，这样子评估，倒也是一种说法，但是这显然不是我要说的。</p>]]></description>
+</item>
+<item>
     <title>完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题</title>
     <link>http://localhost:1313/macbattery/</link>
     <pubDate>Sun, 20 Apr 2025 19:47:30 &#43;0800</pubDate>
@@ -102,17 +112,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GkuPn8wXYAAUFRG.jpg" referrerpolicy="no-referrer">
             </div><p>直入主题吧。总所周知网易云有主播电台（现已改名“播客”）的功能，允许用户上传一些自己的音频上去，而这个音频是可以上传到网易云的云盘的，这样的工作链条是不是版权禁飞区暂且不论，今天中午我正在听彩虹社管人<strong>葉加瀬冬雪</strong>翻唱的<em>ゴーゴー幽霊船</em>，在平板电脑上我下载了播客之后我照常上传到云盘上，然后想添加进我的歌单：</p>]]></description>
-</item>
-<item>
-    <title>城市脉动:从化区</title>
-    <link>http://localhost:1313/city-ch/</link>
-    <pubDate>Tue, 25 Feb 2025 16:35:53 &#43;0800</pubDate>
-    <author>风见 幽香</author>
-    <guid>http://localhost:1313/city-ch/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20250225164050.jpg" referrerpolicy="no-referrer">
-            </div><h3 id="0-认识即重担">0 认识即重担</h3>
-<p>假设我们从顶层设计去考虑一个地区的市政规划，那我觉得该停下了。在这个开题后面的东西都是赘述。但是如果你从他的过程来谈，那至少还有余地。</p>]]></description>
 </item>
 </channel>
 </rss>

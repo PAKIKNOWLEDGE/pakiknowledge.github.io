@@ -2,19 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2025-04-20T19:47:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2025-04-20T19:47:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://localhost:1313/"
-                    /></url><url>
-            <loc>http://localhost:1313/macbattery/</loc><lastmod>2025-04-20T19:47:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/blackapple/</loc><lastmod>2025-04-17T01:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2025-04-17T01:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/posts/</loc><lastmod>2025-04-22T19:23:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2025-04-22T19:23:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/en/tags/"
@@ -23,9 +12,21 @@
                     hreflang="zh-cn"
                     href="http://localhost:1313/tags/"
                     /></url><url>
+            <loc>http://localhost:1313/2025422/</loc><lastmod>2025-04-22T19:23:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2025-04-22T19:23:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/</loc><lastmod>2025-04-22T19:23:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/macbattery/</loc><lastmod>2025-04-20T19:47:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/blackapple/</loc><lastmod>2025-04-17T01:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/%E5%BC%80%E5%8F%91/</loc><lastmod>2025-04-17T01:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/toom/</loc><lastmod>2025-03-25T19:04:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/</loc><lastmod>2025-03-25T19:04:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://localhost:1313/toom/</loc><lastmod>2025-03-25T19:04:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>http://localhost:1313/doomertalking/</loc><lastmod>2025-03-19T19:36:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>http://localhost:1313/misfit/</loc><lastmod>2025-03-14T10:55:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/heart/</loc><lastmod>2025-03-09T19:45:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
