@@ -3,14 +3,28 @@
         <title>所有文章 - 帕琪的小屋</title>
         <link>http://localhost:1313/posts/</link>
         <description>所有文章 | 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 22 Apr 2025 19:23:33 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 May 2025 02:02:21 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>我的一些迷思</title>
+    <link>http://localhost:1313/2025512/</link>
+    <pubDate>Mon, 12 May 2025 02:02:21 &#43;0800</pubDate>
+    <author>mystery</author>
+    <guid>http://localhost:1313/2025512/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/can.jpeg" referrerpolicy="no-referrer">
+            </div><h1 id="迷思">迷思</h1>
+<p>这篇文章注定会很乱。因为我的思绪犹如泉水，向外喷涌，没有条理。</p>
+<p>我一直都在笃信，甚至到了有些盲从一句话：</p>
+<blockquote>
+<p>相机后面的头，重要性远远大于相机前面的头。</p>]]></description>
+</item>
+<item>
     <title>帝王，诗人，浪子</title>
     <link>http://localhost:1313/2025422/</link>
     <pubDate>Tue, 22 Apr 2025 19:23:33 &#43;0800</pubDate>
     <author>8777</author>
     <guid>http://localhost:1313/2025422/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/img1/GolE-maWAAEqzMV%e7%9a%84%e5%89%af%e6%9c%ac.jpeg" referrerpolicy="no-referrer">
+                <img src="/img1/GpIQjXXa4AEw7c7.jpeg" referrerpolicy="no-referrer">
             </div><p>之前听闻了一个说法，男人可以分成帝王，诗人，浪子。如果你让我自评，我可能介于诗人和浪子之间。我谈不上是什么帝王，很少有人说我有一种“霸气”和果断的蛮狠。诗人和浪子的特质，我多少都被吸附了。诗人沉浸在自己的艺术里，在自我搭建的框架里安贫乐道。浪子追求自由，我也讨厌既定的框架，如果有一个东西把我框住，我会痛不欲生，不遗余力的从里面想要往外挣脱。如果我们这样讲，我们这样子界定，这样子评估，倒也是一种说法，但是这显然不是我要说的。</p>]]></description>
 </item>
 <item>
@@ -100,16 +114,6 @@
                 <img src="/img1/GlGadI4a4AAjBDb.jpg" referrerpolicy="no-referrer">
             </div><p>月儿是家里的大姐。</p>
 <p>月儿出生时接生婆把她举到父母跟前，她当然记不得那两双眼睛如何暗下去。后来碧霞元君显灵送了个带把的，爹娘抱着襁褓时眼里才又有了光。</p>]]></description>
-</item>
-<item>
-    <title>网易云的拙劣mp3标签注释</title>
-    <link>http://localhost:1313/neteaseshit/</link>
-    <pubDate>Thu, 27 Feb 2025 23:45:03 &#43;0800</pubDate>
-    <author>Watchs dogs2</author>
-    <guid>http://localhost:1313/neteaseshit/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/GkuPn8wXYAAUFRG.jpg" referrerpolicy="no-referrer">
-            </div><p>直入主题吧。总所周知网易云有主播电台（现已改名“播客”）的功能，允许用户上传一些自己的音频上去，而这个音频是可以上传到网易云的云盘的，这样的工作链条是不是版权禁飞区暂且不论，今天中午我正在听彩虹社管人<strong>葉加瀬冬雪</strong>翻唱的<em>ゴーゴー幽霊船</em>，在平板电脑上我下载了播客之后我照常上传到云盘上，然后想添加进我的歌单：</p>]]></description>
 </item>
 </channel>
 </rss>
