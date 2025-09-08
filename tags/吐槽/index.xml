@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>吐槽 on 帕琪的小屋</title>
-    <link>http://localhost:1313/tags/%E5%90%90%E6%A7%BD/</link>
+    <link>https://pakiknowledge.pages.dev/tags/%E5%90%90%E6%A7%BD/</link>
     <description>Recent content in 吐槽 on 帕琪的小屋</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%90%90%E6%A7%BD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pakiknowledge.pages.dev/tags/%E5%90%90%E6%A7%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于Github Pages无法正常访问后的一堆破事</title>
-      <link>http://localhost:1313/2020-8-11-gitpages/</link>
+      <link>https://pakiknowledge.pages.dev/2020-8-11-gitpages/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2020-8-11-gitpages/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Github Pages就是人间之屑啊。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;http://localhost:1313/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;http://localhost:1313/img1/aO92zn.jpg&#34;&#xD;&#xA;        data-srcset=&#34;http://localhost:1313/img1/aO92zn.jpg, http://localhost:1313/img1/aO92zn.jpg 1.5x, http://localhost:1313/img1/aO92zn.jpg 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;/img1/aO92zn.jpg&#34;&#xD;&#xA;        title=&#34;avatar&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（gitee）上，框架依旧使用Jekyll，因为生成的设备迁移都要优于hexo。但是这中途也碰到很多种问题，例如gitee的域名太长，原博客的配置文件絮乱等。后来的解决方案呢，是把静态文件继续放在GitHub的仓库上，然后把仓库名改成适合gitee的&lt;em&gt;短域名&lt;/em&gt;的形式，然后利用gitee的同步功能就可以啦！&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/2020-8-11-gitpages/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Github Pages就是人间之屑啊。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;https://pakiknowledge.pages.dev/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;https://pakiknowledge.pages.dev/img1/aO92zn.jpg&#34;&#xD;&#xA;        data-srcset=&#34;https://pakiknowledge.pages.dev/img1/aO92zn.jpg, https://pakiknowledge.pages.dev/img1/aO92zn.jpg 1.5x, https://pakiknowledge.pages.dev/img1/aO92zn.jpg 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;/img1/aO92zn.jpg&#34;&#xD;&#xA;        title=&#34;avatar&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（gitee）上，框架依旧使用Jekyll，因为生成的设备迁移都要优于hexo。但是这中途也碰到很多种问题，例如gitee的域名太长，原博客的配置文件絮乱等。后来的解决方案呢，是把静态文件继续放在GitHub的仓库上，然后把仓库名改成适合gitee的&lt;em&gt;短域名&lt;/em&gt;的形式，然后利用gitee的同步功能就可以啦！&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

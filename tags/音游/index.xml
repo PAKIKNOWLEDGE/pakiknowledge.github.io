@@ -2,33 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>音游 on 帕琪的小屋</title>
-    <link>http://localhost:1313/tags/%E9%9F%B3%E6%B8%B8/</link>
+    <link>https://pakiknowledge.pages.dev/tags/%E9%9F%B3%E6%B8%B8/</link>
     <description>Recent content in 音游 on 帕琪的小屋</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E9%9F%B3%E6%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Sep 2025 22:56:05 +0800</lastBuildDate>
+    <atom:link href="https://pakiknowledge.pages.dev/tags/%E9%9F%B3%E6%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>東方音弾遊戯RE2 全曲评分</title>
+      <link>https://pakiknowledge.pages.dev/thodanre2/</link>
+      <pubDate>Mon, 08 Sep 2025 22:56:05 +0800</pubDate>
+      <guid>https://pakiknowledge.pages.dev/thodanre2/</guid>
+      <description>&lt;h2 id=&#34;0-概述&#34;&gt;0 概述&lt;/h2&gt;&#xA;&lt;p&gt;鉴于本次东弹re2竟然堪堪只有24首作品，于是心血来潮决定全部打一次进行评分。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-评分细则&#34;&gt;1 评分细则&lt;/h2&gt;&#xA;&lt;p&gt;乐曲：40%（音乐是作品的灵魂，决定听觉核心体验）&lt;/p&gt;</description>
+    </item>
     <item>
       <title>LR2自动灯简易配置方法</title>
-      <link>http://localhost:1313/lr2-gas-v2/</link>
+      <link>https://pakiknowledge.pages.dev/lr2-gas-v2/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lr2-gas-v2/</guid>
+      <guid>https://pakiknowledge.pages.dev/lr2-gas-v2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;前言：由于笔者在访问GitHub仍然遇到诸多困难，所以请确保在开始配置之前您可以顺利的访问GitHub，此外仍然强烈建议开启或者保留代理软件作为最后手段。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在LR2中使用GAS方法的相关问题</title>
-      <link>http://localhost:1313/lr2-gas/</link>
+      <link>https://pakiknowledge.pages.dev/lr2-gas/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lr2-gas/</guid>
+      <guid>https://pakiknowledge.pages.dev/lr2-gas/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;1-gas是什么&#34;&gt;1 GAS是什么&lt;/h1&gt;&#xA;&lt;p&gt;就是自动灯，这里不再赘述。&lt;/p&gt;</description>
     </item>
     <item>
       <title>BOFXVI个人精选</title>
-      <link>http://localhost:1313/bofxvi/</link>
+      <link>https://pakiknowledge.pages.dev/bofxvi/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bofxvi/</guid>
-      <description>&lt;p&gt;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;http://localhost:1313/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif&#34;&#xD;&#xA;        data-srcset=&#34;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif, http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif 1.5x, http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif&#34;&#xD;&#xA;        title=&#34;avatar&#34; /&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;帕琪KNOWLEDGE个人的bofxvi选集。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;victory-sense&#34;&gt;Victory Sense&lt;/h2&gt;&#xA;&lt;p&gt;SenseRave Tech&lt;/p&gt;&#xA;&lt;p&gt;Victory Sense&lt;/p&gt;&#xA;&lt;p&gt;KAH (movie : movie:自動車 原付 illust:りゅうら)&#xA;7Keys&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://manbow.nothing.sh/event/event.cgi?action=More_def&amp;amp;num=219&amp;amp;event=133&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;会场链接&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/bofxvi/</guid>
+      <description>&lt;p&gt;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;https://pakiknowledge.pages.dev/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif&#34;&#xD;&#xA;        data-srcset=&#34;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif, http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif 1.5x, http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif&#34;&#xD;&#xA;        title=&#34;avatar&#34; /&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;帕琪KNOWLEDGE个人的bofxvi选集。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;victory-sense&#34;&gt;Victory Sense&lt;/h2&gt;&#xA;&lt;p&gt;SenseRave Tech&lt;/p&gt;&#xA;&lt;p&gt;Victory Sense&lt;/p&gt;&#xA;&lt;p&gt;KAH (movie : movie:自動車 原付 illust:りゅうら)&#xA;7Keys&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://manbow.nothing.sh/event/event.cgi?action=More_def&amp;amp;num=219&amp;amp;event=133&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;会场链接&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

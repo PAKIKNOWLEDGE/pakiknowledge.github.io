@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开发 on 帕琪的小屋</title>
-    <link>http://localhost:1313/tags/%E5%BC%80%E5%8F%91/</link>
+    <link>https://pakiknowledge.pages.dev/tags/%E5%BC%80%E5%8F%91/</link>
     <description>Recent content in 开发 on 帕琪的小屋</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 17 Apr 2025 01:11:36 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pakiknowledge.pages.dev/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>only Panasonic can do！松下sz6双系统黑苹果记录</title>
-      <link>http://localhost:1313/blackapple/</link>
+      <link>https://pakiknowledge.pages.dev/blackapple/</link>
       <pubDate>Thu, 17 Apr 2025 01:11:36 +0800</pubDate>
-      <guid>http://localhost:1313/blackapple/</guid>
+      <guid>https://pakiknowledge.pages.dev/blackapple/</guid>
       <description>&lt;h3 id=&#34;0-前言&#34;&gt;0 前言&lt;/h3&gt;&#xA;&lt;p&gt;时隔多年，终于用上黑苹果，感慨万千。松下sz6这机器体制挺好的，黑果完已经可以基本日用了。本篇文章就是在mac的环境下完成的。后来发现，黑果就是一个前人种树，后人乘凉的东西。有了前人的探索，才能有如今这么方便的经验和过程可以借鉴。&lt;/p&gt;</description>
     </item>
     <item>
       <title>网易云的拙劣mp3标签注释</title>
-      <link>http://localhost:1313/neteaseshit/</link>
+      <link>https://pakiknowledge.pages.dev/neteaseshit/</link>
       <pubDate>Thu, 27 Feb 2025 23:45:03 +0800</pubDate>
-      <guid>http://localhost:1313/neteaseshit/</guid>
+      <guid>https://pakiknowledge.pages.dev/neteaseshit/</guid>
       <description>&lt;p&gt;直入主题吧。总所周知网易云有主播电台（现已改名“播客”）的功能，允许用户上传一些自己的音频上去，而这个音频是可以上传到网易云的云盘的，这样的工作链条是不是版权禁飞区暂且不论，今天中午我正在听彩虹社管人&lt;strong&gt;葉加瀬冬雪&lt;/strong&gt;翻唱的&lt;em&gt;ゴーゴー幽霊船&lt;/em&gt;，在平板电脑上我下载了播客之后我照常上传到云盘上，然后想添加进我的歌单：&lt;/p&gt;</description>
     </item>
     <item>
       <title>hugo0.144.2版把我害惨了？让我们来谈谈这个问题吧</title>
-      <link>http://localhost:1313/2025224newproblem/</link>
+      <link>https://pakiknowledge.pages.dev/2025224newproblem/</link>
       <pubDate>Mon, 24 Feb 2025 16:19:46 +0800</pubDate>
-      <guid>http://localhost:1313/2025224newproblem/</guid>
+      <guid>https://pakiknowledge.pages.dev/2025224newproblem/</guid>
       <description>&lt;h2 id=&#34;0-问题复现和起因&#34;&gt;0 问题复现和起因&lt;/h2&gt;&#xA;&lt;p&gt;偶然之下，我动用了&lt;strong&gt;Chocolatey&lt;/strong&gt;这个运行在Windows平台上的包管理器来安装hugo。（当然，我也用这个来装git，这真方便。）这个包管理器给我装载了hugo0.144.2版，还不用我手动加环境变量。但是当我把数据迁过来之后，我像往常一样&lt;code&gt;hugo&lt;/code&gt;跑了起来,然而&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>个人博客换主题/重生构建开发记录</title>
-      <link>http://localhost:1313/rebirth20248/</link>
+      <link>https://pakiknowledge.pages.dev/rebirth20248/</link>
       <pubDate>Fri, 16 Aug 2024 22:35:24 +0800</pubDate>
-      <guid>http://localhost:1313/rebirth20248/</guid>
+      <guid>https://pakiknowledge.pages.dev/rebirth20248/</guid>
       <description>&lt;p&gt;呵呵，大家好啊，别来无恙。本来毕业完我该产出一堆内容的，但是文还没写呢，主题先炸了。好的，现在我们就来看看是怎么炸的，怎么修的。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;0时间序流&#34;&gt;0.时间序流&lt;/h1&gt;&#xA;&lt;h2 id=&#34;2024-8-9永远无法到达的八月&#34;&gt;2024-8-9：永远无法到达的八月&lt;/h2&gt;&#xA;&lt;p&gt;8月9日，七夕前一天，坐拥新电脑新手机新游戏机的我准备来记录一下手头开发环境的更新，于是我照常的：&lt;/p&gt;</description>
     </item>
     <item>
       <title>LR2自动灯简易配置方法</title>
-      <link>http://localhost:1313/lr2-gas-v2/</link>
+      <link>https://pakiknowledge.pages.dev/lr2-gas-v2/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lr2-gas-v2/</guid>
+      <guid>https://pakiknowledge.pages.dev/lr2-gas-v2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;前言：由于笔者在访问GitHub仍然遇到诸多困难，所以请确保在开始配置之前您可以顺利的访问GitHub，此外仍然强烈建议开启或者保留代理软件作为最后手段。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在LR2中使用GAS方法的相关问题</title>
-      <link>http://localhost:1313/lr2-gas/</link>
+      <link>https://pakiknowledge.pages.dev/lr2-gas/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lr2-gas/</guid>
+      <guid>https://pakiknowledge.pages.dev/lr2-gas/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;1-gas是什么&#34;&gt;1 GAS是什么&lt;/h1&gt;&#xA;&lt;p&gt;就是自动灯，这里不再赘述。&lt;/p&gt;</description>
     </item>
     <item>
       <title>地雷：</title>
-      <link>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</link>
+      <link>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</guid>
-      <description>&lt;h1 id=&#34;1github桌面端报错本文头图状况&#34;&gt;1.Github桌面端报错（本文头图状况）&lt;/h1&gt;&#xA;&lt;h2 id=&#34;q1&#34;&gt;在push的时候出现：&#xA;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;http://localhost:1313/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;http://localhost:1313/img1/pSkMy11.png&#34;&#xD;&#xA;        data-srcset=&#34;http://localhost:1313/img1/pSkMy11.png, http://localhost:1313/img1/pSkMy11.png 1.5x, http://localhost:1313/img1/pSkMy11.png 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;/img1/pSkMy11.png&#34;&#xD;&#xA;        title=&#34;q1&#34; /&gt;&lt;/h2&gt;&#xA;&lt;p&gt;解决：&lt;strong&gt;重新配置SSH&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;code-block code-line-numbers open&#34; style=&#34;counter-reset: code-block 0&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;code-header language-bash&#34;&gt;&#xD;&#xA;        &lt;span class=&#34;code-title&#34;&gt;&lt;i class=&#34;arrow fas fa-chevron-right fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;&#xD;&#xA;        &lt;span class=&#34;ellipses&#34;&gt;&lt;i class=&#34;fas fa-ellipsis-h fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;&#xD;&#xA;        &lt;span class=&#34;copy&#34; title=&#34;复制到剪贴板&#34;&gt;&lt;i class=&#34;far fa-copy fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 在git里&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ssh-keygen -t rsa -C &amp;#34;your_email@example.com&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 到”C:\Users\用户名\.ssh“，用编辑器打开id_rsa.pub文件，复制里面的一串代码（全部都要复制）。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;登录GitHub账户，单击右上角的头像，选择Settings,选择SSH and GPG keys，然后单击绿色的“New SSH key”，标题随便起一个名字，key就是上面一步复制的id_rsa.pub文件里的代码.&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</guid>
+      <description>&lt;h1 id=&#34;1github桌面端报错本文头图状况&#34;&gt;1.Github桌面端报错（本文头图状况）&lt;/h1&gt;&#xA;&lt;h2 id=&#34;q1&#34;&gt;在push的时候出现：&#xA;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;https://pakiknowledge.pages.dev/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;https://pakiknowledge.pages.dev/img1/pSkMy11.png&#34;&#xD;&#xA;        data-srcset=&#34;https://pakiknowledge.pages.dev/img1/pSkMy11.png, https://pakiknowledge.pages.dev/img1/pSkMy11.png 1.5x, https://pakiknowledge.pages.dev/img1/pSkMy11.png 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;/img1/pSkMy11.png&#34;&#xD;&#xA;        title=&#34;q1&#34; /&gt;&lt;/h2&gt;&#xA;&lt;p&gt;解决：&lt;strong&gt;重新配置SSH&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;code-block code-line-numbers open&#34; style=&#34;counter-reset: code-block 0&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;code-header language-bash&#34;&gt;&#xD;&#xA;        &lt;span class=&#34;code-title&#34;&gt;&lt;i class=&#34;arrow fas fa-chevron-right fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;&#xD;&#xA;        &lt;span class=&#34;ellipses&#34;&gt;&lt;i class=&#34;fas fa-ellipsis-h fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;&#xD;&#xA;        &lt;span class=&#34;copy&#34; title=&#34;复制到剪贴板&#34;&gt;&lt;i class=&#34;far fa-copy fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 在git里&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; ssh-keygen -t rsa -C &amp;#34;your_email@example.com&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 到”C:\Users\用户名\.ssh“，用编辑器打开id_rsa.pub文件，复制里面的一串代码（全部都要复制）。&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;登录GitHub账户，单击右上角的头像，选择Settings,选择SSH and GPG keys，然后单击绿色的“New SSH key”，标题随便起一个名字，key就是上面一步复制的id_rsa.pub文件里的代码.&lt;/p&gt;</description>
     </item>
     <item>
       <title>为什么重拾博客？</title>
-      <link>http://localhost:1313/whyblog/</link>
+      <link>https://pakiknowledge.pages.dev/whyblog/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/whyblog/</guid>
+      <guid>https://pakiknowledge.pages.dev/whyblog/</guid>
       <description>&lt;h1 id=&#34;为什么重新想起了博客&#34;&gt;为什么重新想起了博客？&lt;/h1&gt;&#xA;&lt;p&gt;会想起这个东西，主要是因为某个契机。在谷歌找galgame资讯的时候误入了一个&lt;a href=&#34;https://plumz.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;博客&lt;/a&gt;，看着人家从2011年一直坚持到现在一直在坚持写，而反观自己，人生的断片就这样被自己在不经意间抛弃了，而回首过往，只剩下的很模糊的混沌一片。这是多么可惜啊!幸福往往就是这一个个断片拼接而成的，而我却抛弃了她。我以为是琐事，我拒绝了繁琐，从而我也丢弃了绚烂。人真的会麻木，而回首这些断片，却可以让你接触生活真正的色彩。不知道这次开始写博客能坚持多久呢？比起2020年，我已变了太多。在夕阳下拾遗，让我们对着晚霞不回头的向前走吧。&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于Github Pages无法正常访问后的一堆破事</title>
-      <link>http://localhost:1313/2020-8-11-gitpages/</link>
+      <link>https://pakiknowledge.pages.dev/2020-8-11-gitpages/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2020-8-11-gitpages/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Github Pages就是人间之屑啊。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;http://localhost:1313/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;http://localhost:1313/img1/aO92zn.jpg&#34;&#xD;&#xA;        data-srcset=&#34;http://localhost:1313/img1/aO92zn.jpg, http://localhost:1313/img1/aO92zn.jpg 1.5x, http://localhost:1313/img1/aO92zn.jpg 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;/img1/aO92zn.jpg&#34;&#xD;&#xA;        title=&#34;avatar&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（gitee）上，框架依旧使用Jekyll，因为生成的设备迁移都要优于hexo。但是这中途也碰到很多种问题，例如gitee的域名太长，原博客的配置文件絮乱等。后来的解决方案呢，是把静态文件继续放在GitHub的仓库上，然后把仓库名改成适合gitee的&lt;em&gt;短域名&lt;/em&gt;的形式，然后利用gitee的同步功能就可以啦！&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/2020-8-11-gitpages/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Github Pages就是人间之屑啊。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;https://pakiknowledge.pages.dev/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;https://pakiknowledge.pages.dev/img1/aO92zn.jpg&#34;&#xD;&#xA;        data-srcset=&#34;https://pakiknowledge.pages.dev/img1/aO92zn.jpg, https://pakiknowledge.pages.dev/img1/aO92zn.jpg 1.5x, https://pakiknowledge.pages.dev/img1/aO92zn.jpg 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;/img1/aO92zn.jpg&#34;&#xD;&#xA;        title=&#34;avatar&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（gitee）上，框架依旧使用Jekyll，因为生成的设备迁移都要优于hexo。但是这中途也碰到很多种问题，例如gitee的域名太长，原博客的配置文件絮乱等。后来的解决方案呢，是把静态文件继续放在GitHub的仓库上，然后把仓库名改成适合gitee的&lt;em&gt;短域名&lt;/em&gt;的形式，然后利用gitee的同步功能就可以啦！&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
