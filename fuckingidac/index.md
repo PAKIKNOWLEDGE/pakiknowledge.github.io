@@ -137,6 +137,8 @@ Artemis用加密模式启动请：`python index.py --ssl True`
 
 ![img](/img1/c593ba2a060047f2b50457d1b73043f3.png~tplv-a9rns2rl98-image.png)
 
+打码是dc露名了 不是挡着你们看log  抱歉
+
 ### 核心错误信息
 
 `pymysql.err.OperationalError (1054, "Unknown column 'idac_user_expansion._param_1' in 'field list'")`→ 翻译：**在查询的字段列表中，找不到 `idac_user_expansion` 表中的 `_param_1` 字段**
