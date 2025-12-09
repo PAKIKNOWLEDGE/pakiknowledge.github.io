@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>地雷 - 标签 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/tags/%E5%9C%B0%E9%9B%B7/</link>
+        <link>http://localhost:1313/tags/%E5%9C%B0%E9%9B%B7/</link>
         <description>地雷 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E5%9C%B0%E9%9B%B7/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%9C%B0%E9%9B%B7/" rel="self" type="application/rss+xml" /><item>
     <title>地雷：</title>
-    <link>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</link>
+    <link>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</link>
     <pubDate>Thu, 05 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>     &#34;pakiknowledge as PAILEIBING&#34;</author>
-    <guid>https://pakiknowledge.pages.dev/%E5%9C%B0%E9%9B%B7/</guid>
+    <guid>http://localhost:1313/%E5%9C%B0%E9%9B%B7/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSkMy11.png" referrerpolicy="no-referrer">
             </div>1.Github桌面端报错（本文头图状况） 在push的时候出现： 解决：重新配置SSH 在git里 ssh-keygen -t rsa -C &#34;your_email@example.com&#34; 到”C:\Users\用户名\.ss]]></description>
