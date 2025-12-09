@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Collage on 帕琪的小屋</title>
-    <link>https://pakiknowledge.pages.dev/tags/collage/</link>
-    <description>Recent content in Collage on 帕琪的小屋</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pakiknowledge.pages.dev/tags/collage/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BOFXVI个人精选</title>
-      <link>https://pakiknowledge.pages.dev/bofxvi/</link>
-      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://pakiknowledge.pages.dev/bofxvi/</guid>
-      <description>&lt;p&gt;&lt;img&#xD;&#xA;        class=&#34;lazyload&#34;&#xD;&#xA;        src=&#34;https://pakiknowledge.pages.dev/svg/loading.min.svg&#34;&#xD;&#xA;        data-src=&#34;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif&#34;&#xD;&#xA;        data-srcset=&#34;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif, http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif 1.5x, http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif 2x&#34;&#xD;&#xA;        data-sizes=&#34;auto&#34;&#xD;&#xA;        alt=&#34;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif&#34;&#xD;&#xA;        title=&#34;avatar&#34; /&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;帕琪KNOWLEDGE个人的bofxvi选集。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;victory-sense&#34;&gt;Victory Sense&lt;/h2&gt;&#xA;&lt;p&gt;SenseRave Tech&lt;/p&gt;&#xA;&lt;p&gt;Victory Sense&lt;/p&gt;&#xA;&lt;p&gt;KAH (movie : movie:自動車 原付 illust:りゅうら)&#xA;7Keys&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://manbow.nothing.sh/event/event.cgi?action=More_def&amp;amp;num=219&amp;amp;event=133&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;会场链接&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Collage - 标签 - 帕琪的小屋</title>
+        <link>https://pakiknowledge.pages.dev/tags/collage/</link>
+        <description>Collage - 标签 - 帕琪的小屋</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/collage/" rel="self" type="application/rss+xml" /><item>
+    <title>BOFXVI个人精选</title>
+    <link>https://pakiknowledge.pages.dev/bofxvi/</link>
+    <pubDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</pubDate>
+    <author>     &#34;&#34;</author>
+    <guid>https://pakiknowledge.pages.dev/bofxvi/</guid>
+    <description><![CDATA[帕琪KNOWLEDGE个人的bofxvi选集。 Victory Sense SenseRave Tech Victory Sense KAH (movie : movie:自動車 原付 illust:りゅうら) 7Keys 会场链接 BGA IDOLL Bass House IDOLL 七草くりむ]]></description>
+</item>
+</channel>
 </rss>

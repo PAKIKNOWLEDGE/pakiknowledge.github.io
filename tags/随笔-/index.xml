@@ -1,20 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>随笔  on 帕琪的小屋</title>
-    <link>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94-/</link>
-    <description>Recent content in 随笔  on 帕琪的小屋</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 10 Nov 2024 16:09:59 +0800</lastBuildDate>
-    <atom:link href="https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94-/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>碎碎念</title>
-      <link>https://pakiknowledge.pages.dev/think20241110/</link>
-      <pubDate>Sun, 10 Nov 2024 16:09:59 +0800</pubDate>
-      <guid>https://pakiknowledge.pages.dev/think20241110/</guid>
-      <description>&lt;h2 id=&#34;1-vscode-markdown转正的问题&#34;&gt;1 vscode markdown转正的问题&lt;/h2&gt;&#xA;&lt;p&gt;主要问题是，从2018年左右我开始写markdown的时候我就习惯typora那样的边写边渲染的形式，在vscode里有个插件可以实现，但是我重装电脑后把这事忘了，现在干脆在这记录一下。&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>随笔  - 标签 - 帕琪的小屋</title>
+        <link>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94-/</link>
+        <description>随笔  - 标签 - 帕琪的小屋</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 10 Nov 2024 16:09:59 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94-/" rel="self" type="application/rss+xml" /><item>
+    <title>碎碎念</title>
+    <link>https://pakiknowledge.pages.dev/think20241110/</link>
+    <pubDate>Sun, 10 Nov 2024 16:09:59 &#43;0800</pubDate>
+    <author>8777</author>
+    <guid>https://pakiknowledge.pages.dev/think20241110/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/Gb3WVbBbwAI-mgv.jpg" referrerpolicy="no-referrer">
+            </div>1 vscode markdown转正的问题 主要问题是，从2018年左右我开始写markdown的时候我就习惯typora那样的边写边渲染的形式，在vsc]]></description>
+</item>
+</channel>
 </rss>

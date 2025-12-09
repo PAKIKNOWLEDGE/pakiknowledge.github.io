@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE - 帕琪的小屋</title><meta name="Description" content="A brief description of this post."><meta property="og:url" content="https://pakiknowledge.pages.dev/fuckingidac/">
+  <meta property="og:site_name" content="帕琪的小屋">
+  <meta property="og:title" content="【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE">
+  <meta property="og:description" content="A brief description of this post.">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-09T18:26:06+08:00">
+    <meta property="article:modified_time" content="2025-12-09T18:26:06+08:00">
+    <meta property="article:tag" content="开发">
+    <meta property="og:image" content="https://pakiknowledge.pages.dev/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://pakiknowledge.pages.dev/logo.png">
+  <meta name="twitter:title" content="【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE">
+  <meta name="twitter:description" content="A brief description of this post.">
+<meta name="application-name" content="帕琪的小屋">
+<meta name="apple-mobile-web-app-title" content="帕琪的小屋"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://pakiknowledge.pages.dev/fuckingidac/" /><link rel="prev" href="https://pakiknowledge.pages.dev/thodanre2/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/pakiknowledge.pages.dev\/fuckingidac\/"
+        },"image": ["https:\/\/pakiknowledge.pages.dev\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "开发","wordcount":  3763 ,
+        "url": "https:\/\/pakiknowledge.pages.dev\/fuckingidac\/","datePublished": "2025-12-09T18:26:06+08:00","dateModified": "2025-12-09T18:26:06+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "pakiknowledge","logo": "https:\/\/pakiknowledge.pages.dev\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "8777 as 微软大战代码"
+            },"description": "A brief description of this post."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/-/"> 关于 </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/fuckingidac/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/-/" title="">关于</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/fuckingidac/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>8777 as 微软大战代码</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-12-09">2025-12-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3763 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 8 分钟&nbsp;<span id="/fuckingidac/" class="leancloud_visitors" data-flag-title="【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/the_arcade_logo.png"
+        data-srcset="/img1/the_arcade_logo.png, /img1/the_arcade_logo.png 1.5x, /img1/the_arcade_logo.png 2x"
+        data-sizes="auto"
+        alt="/img1/the_arcade_logo.png"
+        title="A brief description of this post." /></div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#这是什么">这是什么？</a></li>
+    <li><a href="#为什么会有这篇文章">为什么会有这篇文章：</a></li>
+    <li><a href="#诅咒">诅咒</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#小问题数据库的报错">小问题：数据库的报错</a>
+      <ul>
+        <li><a href="#核心错误信息">核心错误信息</a></li>
+        <li><a href="#报错场景">报错场景</a></li>
+      </ul>
+    </li>
+    <li><a href="#小补充">小补充</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="0-丑话说在前">0 丑话说在前</h1>
+<h2 id="这是什么">这是什么？</h2>
+<p>这是一篇街机游戏<a href="https://initiald.sega.jp/inidac/" target="_blank" rel="noopener noreffer ">頭文字D THE ARCADE｜ドライブゲーム｜セガ</a><a href="https://initiald.sega.jp/inidac/" target="_blank" rel="noopener noreffer "></a><a href="https://initiald.sega.jp/inidac/" target="_blank" rel="noopener noreffer "></a><a href="https://initiald.sega.jp/inidac/" target="_blank" rel="noopener noreffer "></a>在电脑上运行的开发笔记，属于纯纯的灰产，非法，如果您通过任何搜索引擎搜到该页面，请立刻通过</p>
+<p><code>2772962906@qq.com</code>联系笔者。</p>
+<h2 id="为什么会有这篇文章">为什么会有这篇文章：</h2>
+<p>说实话，在<strong>中国大陆地区</strong>想要获得技术支持近乎非常难，暂且不说折腾Arcade PC最需要的电脑知识、编程基础、以及最重要的<strong>耐心</strong>，除去这些，你几乎也找不到这个游戏在本地运行的教程或者资源。（那我为什么会？日本人教的。大陆人要让他们教你？大多数让你<strong>先掏钱</strong>。）</p>
+<h2 id="诅咒">诅咒</h2>
+<blockquote>
+<p>It’s fascinating how some folks turn “community passion” into a side hustle, isn’t it? Charging entry fees for what’s meant to be shared joy, then padding pockets with “premium access” to bits and pieces that should’ve been open to all. Oh, and the extra flair of a “custom tool” that polices your files like a overzealous hall monitor—how creative, to weaponize convenience just to keep the cash flowing. One can’t help but admire the <em>commitment</em> to monetizing every little corner, even if it means souring the very thing people love. After all, nothing says “for the fans” like nickel-and-diming them into submission, then rigging the system to punish anyone who dares step outside the paywall. Bravo to the masterminds of this “innovative” business model—truly, they’ve redefined “giving back” in the most… unique way possible.</p>
+<p>Cruelly enough, the Goddess of Fate does not mete out her punishment the moment you commit your most egregious transgressions. Instead, she hoards this debt in the archives of destiny, biding her time until the interest has compounded to its bitterest peak—then demands repayment in full, principal and interest alike.</p>
+</blockquote>
+<hr>
+<h1 id="1-基础知识">1 基础知识</h1>
+<p>游戏核心也就两个文件夹：<code>AMDaemon</code> 和 <code>WindowsNoEditor</code></p>
+<p>AMDaemon是放配置文件和一些管联网的东西的，<code>segatools</code>、<code>artemis</code> 也要放在里面。能否拿到让程序在Windows上启动的AMDaemon.exe非常关键。</p>
+<p><code>segatool</code> 是管启动的 还有虚拟aime卡 还有把 你的设备（可能是键盘 手柄 方向盘 这里是idac 其他家的就不列了 典型的有音击之类）的输入让街机程序认出来并反应你才能玩 此外 在idac如果你的segatool版本太老，会导致<strong>油门失灵。 此外</strong> 在idac segatool也是<strong>装载绕检测补丁</strong>的途径，否则idac会触发<strong>pc check</strong>，导致你在买车/进入比赛前被踢出游戏。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/image.png"
+        data-srcset="/img1/image.png, /img1/image.png 1.5x, /img1/image.png 2x"
+        data-sizes="auto"
+        alt="/img1/image.png"
+        title="img" /></p>
+<p><code>artemis</code> 是管本地服的 可以让你在本地运行SEGA的东西并开卡 如果看的人搞过BEMANI的 HDD，就能理解这东西和隔壁的氧无差不多，同时也知道这东西等级森严，兼容性向下不向上。</p>
+<p>在idac中，存储用户数据的形式是数据库，也就是Mysql，如果在本地运行，也要在本地部署本地数据库。（不过那个太基础了，几条命令的事，本文现在不会提及）（但是部署基础，修改数据库内容却不简单——没人教，你都不知道怎么填那些键值——哦不，你甚至理解不了那些数据结构）</p>
+<p><strong>ICF1文件</strong>是存在于segatool/amfs文件夹中的一个文件，这文件负责的是游戏的版本号，但是实测，这个文件与实际上并没有内容什么校验绑定之类的代码存在（也可能有？？谁想去测试呢，我不想徒增错误发生的概率），举个例子吧，载了旧的icf文件可能只会开机显示舞萌dx2022让人一头雾水，结果打开一看游戏实际上是舞萌dx2025一样。</p>
+<p><strong>timeRelease文件</strong> <code>是存在于 AMDaemon\artemis\titles\idac\data</code>的一批文件 其存在通常为：<code>timeRelease_vxxxx.json</code>的形式，其中xxx为版本号。头D和服务器返回内容强绑定，此文件夹让服务器鉴定你的游戏版本，如果版本过旧，就算游戏本体是新的，新要素，新地图也不会在游戏中向你开放。举个例子，大家都知道maimai BUDDiES 版宴会场复活了，但是如果你的release版本太旧了，或者没有用上新的，就算你的版本是最新最热，游戏中也不会有宴选项。</p>
+<p>在日服，我经手的版本有1.7 此版本为东方project联动初出 但是由于物理引擎陈旧，且太老，不提及</p>
+<p>2.3版本 该版本为season4</p>
+<p>2.50版本 该版本为season4</p>
+<p>2.71版本 该版本为season4 有MFG联动第二弹的内容</p>
+<p>2.80版本 该版本为season4 有术力口联动第二弹</p>
+<p>3.01版本 该版本为season5 物理引擎迎来变革 且有东方project联动第三弹和一个卡车联动</p>
+<hr>
+<h1 id="2-250版本为代表的配置流程基础">2 2.50版本为代表的配置流程基础</h1>
+<p>这个版本的配置难度非常之低，首先拿到脱壳的游戏文件，然后在<a href="https://gitea.tendokyu.moe/puniru/artemis" target="_blank" rel="noopener noreffer ">完全公开的地方</a>得到Artemis文件，放入对应文件夹中之后只需要对config文件夹下的 <code>core.yml</code>稍加配置就行了主要有：</p>
+<p>listen_address:0.0.0.0</p>
+<p>hostname:填你ipv4</p>
+<p>name是店铺名 可自定义建议全英文</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-chevron-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">aimedb:
+</span></span><span class="line"><span class="cl">  enable: True
+</span></span><span class="line"><span class="cl">  listen_address: &#34;&#34;
+</span></span><span class="line"><span class="cl">  loglevel: &#34;info&#34;
+</span></span><span class="line"><span class="cl">  port: 22345
+</span></span><span class="line"><span class="cl">  key: &#34;Copyright(C)SEGA&#34;</span></span></code></pre></div></div><p>主要是key那一栏自己填</p>
+<p>然后segatool的东西 dns直接填你ipv4 然后subnet那个照抄但是把你ip最后一组数字写成0就行了</p>
+<p>然后有没有不会启动Artemis的 没有吧 目录下**<code>python index.py</code>**就行了</p>
+<hr>
+<h1 id="3-操蛋大操天下的271及以后写死dns的变动">3 操蛋，大操天下的2.71（及以后）写死dns的变动</h1>
+<p>在2.50之后的游戏版本，可恶的SBGA公司写死了域名校验，这意味着你不能像上面提到的在配置文件里直接写入你的ipv4，只能写 <code>eac-fm01.sega-initiald.net</code>。那有人就要问了，这不是没法用我本地ip启动了吗？实则不然，可以用改hosts文件的方法把这个域名指向你自己的ipv4，只需要你在hosts里填上如下的东西：</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-chevron-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">10.0.0.254  tenporouter.loc
+</span></span><span class="line"><span class="cl">10.0.0.254  bbrouter.loc
+</span></span><span class="line"><span class="cl">your own ip eac-fm01.sega-initiald.net</span></span></code></pre></div></div><p>虽然我不知道为什么上面两个域名也要填，但是就是要填。。所以我又要说了，没人教这些问题全是死局，感谢dc上的守序善良日本人吧。。</p>
+<p>还有一件事，在这个版本之后artemis必须要加密启动了，但是core.yml里面一来是我托别人弄的，那些东西我实在看的头晕，于是我直接push到私有库了，然后在配置后续的3.01的时候我直接diff了之前push上去的东西，反正能用就行。</p>
+<p>还有一个问题是，需要用证书来混淆域名，让域名认证通过。这里直接放傻瓜式命令了，当然首先你要安装好openssl</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-chevron-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">openssl req -x509 -newkey rsa:2048 -keyout title.key -out title.pem -days 365 -nodes -subj &#34;/CN=&lt;artemis_hostname_here&gt;&#34;</span></span></code></pre></div></div><p>hostname填什么你懂的</p>
+<p>填完在core里面把有指向“cert”的东西全部换成你自己签完的证书的名字和目录，不懂yml路径怎么写的问ai（我自己也这么干）</p>
+<p>如果觉得一年太少了365后面加两0</p>
+<p>当然如果你懒 神秘分支上我也给你签好了 但是不难 建议自己签 实在懒得联系我。</p>
+<p>Artemis用加密模式启动请：<code>python index.py --ssl True</code></p>
+<hr>
+<p>4 守序善良日本人与3.01</p>
+<p>其实后面复盘，除了我对dac运行原理一窍不通之外，还有一个是因为我白手起家，啥都没有，基本都是守序善良日本人给的。</p>
+<p>首先本体和脱壳文件 自己想办法吧</p>
+<p>之后Artemis修复后可以用于s5的版本 可以联系我要</p>
+<p>然后这里我在配置Artemis的时候直接diff了2.71的东西 日本人说这部分没什么变动 我就直接开始diff照抄了</p>
+<p>然后发现自己没有icf文件 日本人给了</p>
+<p>自己没有timeRelease文件 日本人给了 t <code>imeRelease_v301.json</code> 此外，这部分由 <code>AMDaemon\artemis\config</code>里的idac.yml中的<strong>timerelease_no:xxx</strong>这个东西控制</p>
+<p>只能说对面是我女的我直接嫁了吧 唉 但是你懂的 我不能说他的名字 感谢守序善良日本人</p>
+<p>然后总结下来，这个版本如果你有对应的文件，突破完hosts问题后 那基本没什么太大的问题 剩下的都是小问题</p>
+<p>那么&hellip;.</p>
+<h2 id="小问题数据库的报错">小问题：数据库的报错</h2>
+<p>在启动完Artemis，涉及到aime的操作的时候出现了这样的一幕</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/c593ba2a060047f2b50457d1b73043f3.png~tplv-a9rns2rl98-image.png"
+        data-srcset="/img1/c593ba2a060047f2b50457d1b73043f3.png~tplv-a9rns2rl98-image.png, /img1/c593ba2a060047f2b50457d1b73043f3.png~tplv-a9rns2rl98-image.png 1.5x, /img1/c593ba2a060047f2b50457d1b73043f3.png~tplv-a9rns2rl98-image.png 2x"
+        data-sizes="auto"
+        alt="/img1/c593ba2a060047f2b50457d1b73043f3.png~tplv-a9rns2rl98-image.png"
+        title="img" /></p>
+<h3 id="核心错误信息">核心错误信息</h3>
+<p><code>pymysql.err.OperationalError (1054, &quot;Unknown column 'idac_user_expansion._param_1' in 'field list'&quot;)</code>→ 翻译：<strong>在查询的字段列表中，找不到 <code>idac_user_expansion</code> 表中的 <code>_param_1</code> 字段</strong></p>
+<h3 id="报错场景">报错场景</h3>
+<p>代码执行了一条 <code>SELECT</code> 查询语句，尝试从 <code>idac_user_expansion</code> 表中读取包括 <code>_param_1</code> 在内的多个字段，但数据库里 <strong>这个表根本没有 <code>_param_1</code> 这个字段</strong> ，所以触发了 “字段不存在” 的错误。</p>
+<ol>
+<li><strong>涉及的 SQL</strong> ：查询语句中明确写了要获取 <code>idac_user_expansion._param_1</code>，但该字段在表中不存在；</li>
+<li><strong>查询条件</strong> ：<code>WHERE idac_user_expansion.user = 7</code>（是针对 <code>user=7</code> 的数据查询）。</li>
+</ol>
+<p>user7是我为s5测试专门开的一张aime的用户ID（注意，不是叫“user7”，是数据库认他的id为7）!</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/bd0f5bd4575146a2b445b945ebb1485a.png~tplv-a9rns2rl98-image.png"
+        data-srcset="/img1/bd0f5bd4575146a2b445b945ebb1485a.png~tplv-a9rns2rl98-image.png, /img1/bd0f5bd4575146a2b445b945ebb1485a.png~tplv-a9rns2rl98-image.png 1.5x, /img1/bd0f5bd4575146a2b445b945ebb1485a.png~tplv-a9rns2rl98-image.png 2x"
+        data-sizes="auto"
+        alt="/img1/bd0f5bd4575146a2b445b945ebb1485a.png~tplv-a9rns2rl98-image.png"
+        title="img" /></p>
+<p>代码逻辑确实需要这几个字段，就在 <code>idac_user_expansion</code>表中 <strong>新增 <code>_param_1/_param_2/_param_3</code>字段</strong> （字段选 <code>int</code>就行了）。在 Navicat 里操作：</p>
+<ol>
+<li>右键 <code>idac_user_expansion</code>表 → 设计表；</li>
+<li>点击 “添加字段”，依次添加 <code>_param_1</code>、<code>_param_2</code>、<code>_param_3</code>；</li>
+<li>保存表结构。</li>
+</ol>
+<p>然后错误消失，数据也能正常存。</p>
+<p>至于你说这个错误到底会不会影响存数据？我真不知道，我看到Artemis一片红了马上修了。</p>
+<h2 id="小补充">小补充</h2>
+<p>说一个自定义所属店铺名的事，在数据库表的 <code>arcade</code>表添加你要的店铺名，这里中文也行，记得打繁体，结果类似：</p>
+<p>1	TAITO Station 従化ポートフューチャー店	TAITO Station 従化ポートフューチャー店	HKG				63	+0800</p>
+<p>的东西 然后记住这个店铺id 我这里是1</p>
+<p>然后打开idac_profile表 看你用户那一栏 把store这一项填上你上面那个id（数字id）</p>
+<h1 id="4-结语">4 结语</h1>
+<blockquote>
+<p>I’ve only heard of this phenomenon in IDAC—and specifically in mainland China.In China, there’s another rhythm game: Konami’s BEATMANIA IIDX (you’ve probably heard of it too). Someone set up a score-storing server at their own expense and doesn’t charge any fees at all (they don’t even provide a voluntary donation channel). This person is truly a hero among players.</p>
+</blockquote>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/G7eXL18boAAerdY.png"
+        data-srcset="/img1/G7eXL18boAAerdY.png, /img1/G7eXL18boAAerdY.png 1.5x, /img1/G7eXL18boAAerdY.png 2x"
+        data-sizes="auto"
+        alt="/img1/G7eXL18boAAerdY.png"
+        title="1" /></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2025-12-09</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/fuckingidac/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://pakiknowledge.pages.dev/fuckingidac/" data-title="【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE" data-hashtags="开发"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://pakiknowledge.pages.dev/fuckingidac/" data-hashtag="开发"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://pakiknowledge.pages.dev/fuckingidac/" data-title="【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://pakiknowledge.pages.dev/fuckingidac/" data-title="【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://pakiknowledge.pages.dev/fuckingidac/" data-title="【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE" data-image="/img1/the_arcade_logo.png" data-ralateuid="5513975973"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%BC%80%E5%8F%91/">开发</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/thodanre2/" class="prev" rel="prev" title="東方音弾遊戯RE2 全曲评分"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>東方音弾遊戯RE2 全曲评分</a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.132.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2025</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><script src="https://cdn.jsdelivr.net/npm/valine@1.5.3/dist/Valine.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@5.20.2/dist/lite/builds/browser.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@15.1.2/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script src="/js/theme.min.js"></script></body>
+</html>
