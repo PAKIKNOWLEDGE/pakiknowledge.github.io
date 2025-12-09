@@ -123,7 +123,7 @@ Artemis用加密模式启动请：`python index.py --ssl True`
 
 然后发现自己没有icf文件 日本人给了
 
-自己没有timeRelease文件 日本人给了 t `imeRelease_v301.json` 此外，这部分由 `AMDaemon\artemis\config`里的idac.yml中的**timerelease_no:xxx**这个东西控制
+自己没有timeRelease文件 日本人给了  `timeRelease_v301.json` 此外，这部分由 `AMDaemon\artemis\config`里的idac.yml中的**timerelease_no:xxx**这个东西控制
 
 只能说对面是我女的我直接嫁了吧 唉 但是你懂的 我不能说他的名字 感谢守序善良日本人
 
