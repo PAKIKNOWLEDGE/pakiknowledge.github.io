@@ -6,19 +6,11 @@
 
 这是一篇街机游戏[頭文字D THE ARCADE｜ドライブゲーム｜セガ](https://initiald.sega.jp/inidac/)[](https://initiald.sega.jp/inidac/)[](https://initiald.sega.jp/inidac/)[](https://initiald.sega.jp/inidac/)在电脑上运行的开发笔记，属于纯纯的灰产，非法，如果您通过任何搜索引擎搜到该页面，请立刻通过
 
-`2772962906@qq.com`联系笔者。
+`**********@qq.com`联系笔者。
 
 ## 为什么会有这篇文章：
 
 说实话，在**中国大陆地区**想要获得技术支持近乎非常难，暂且不说折腾Arcade PC最需要的电脑知识、编程基础、以及最重要的**耐心**，除去这些，你几乎也找不到这个游戏在本地运行的教程或者资源。（那我为什么会？日本人教的。大陆人要让他们教你？大多数让你**先掏钱**。）
-
-## 诅咒
-
-> It’s fascinating how some folks turn “community passion” into a side hustle, isn’t it? Charging entry fees for what’s meant to be shared joy, then padding pockets with “premium access” to bits and pieces that should’ve been open to all. Oh, and the extra flair of a “custom tool” that polices your files like a overzealous hall monitor—how creative, to weaponize convenience just to keep the cash flowing. One can’t help but admire the *commitment* to monetizing every little corner, even if it means souring the very thing people love. After all, nothing says “for the fans” like nickel-and-diming them into submission, then rigging the system to punish anyone who dares step outside the paywall. Bravo to the masterminds of this “innovative” business model—truly, they’ve redefined “giving back” in the most… unique way possible.
->
-> Cruelly enough, the Goddess of Fate does not mete out her punishment the moment you commit your most egregious transgressions. Instead, she hoards this debt in the archives of destiny, biding her time until the interest has compounded to its bitterest peak—then demands repayment in full, principal and interest alike.
-
----
 
 # 1 基础知识
 
@@ -174,9 +166,7 @@ user7是我为s5测试专门开的一张aime的用户ID（注意，不是叫“u
 
 然后打开idac_profile表 看你用户那一栏 把store这一项填上你上面那个id（数字id）
 
-# 4 结语
-
-> I’ve only heard of this phenomenon in IDAC—and specifically in mainland China.In China, there’s another rhythm game: Konami’s BEATMANIA IIDX (you’ve probably heard of it too). Someone set up a score-storing server at their own expense and doesn’t charge any fees at all (they don’t even provide a voluntary donation channel). This person is truly a hero among players.
+# 4 LUNLUN~
 
 ![1](/img1/G7eXL18boAAerdY.png)
 
