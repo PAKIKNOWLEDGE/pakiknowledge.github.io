@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
-	<meta name="generator" content="Hugo 0.132.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.156.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
@@ -108,7 +108,21 @@
         alt="/img/avatar.png"
         title="/img/avatar.png" /></a></div><h1 class="home-title">帕琪的小屋</h1><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/PAKIKNOWLEDGE" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden="true"></i></a><a href="https://weibo.com/5513975973" title="微博" target="_blank" rel="noopener noreffer me"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="https://steamcommunity.com/id/76561198301796141" title="Steam" target="_blank" rel="noopener noreffer me"><i class="fab fa-steam fa-fw" aria-hidden="true"></i></a><a href="https://space.bilibili.com/33234849" title="bilibili" target="_blank" rel="noopener noreffer me"><i data-svg-src="/lib/simple-icons/icons/bilibili.min.svg" aria-hidden="true"></i></a><a href="mailto:2772962906@qq.com" title="Email" rel="me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/blackapple/"><img
+            <a href="/posts/macbattery/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/Go5LvXUbkAA21Q3.jpeg"
+        data-srcset="/img1/Go5LvXUbkAA21Q3.jpeg, /img1/Go5LvXUbkAA21Q3.jpeg 1.5x, /img1/Go5LvXUbkAA21Q3.jpeg 2x"
+        data-sizes="auto"
+        alt="/img1/Go5LvXUbkAA21Q3.jpeg"
+        title="A brief description of this post." /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/macbattery/">完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>电源战神</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-04-20">2025-04-20</time></span></div><div class="content"><h2 id="避实就虚">避实就虚</h2>
+<p>上文提到了，sz6会被xdci项目参数每分钟不断唤醒（也就是没有深度定制USB导致的接口程序识别紊乱），导致没办法进入深睡眠，在不断查阅相关资料的过程中，了解到大概有两种解决方式，一种是<strong>一刀切式</strong>的通过<em>SSDT-GPRW.dsl</em>进行全权重命名，屏蔽所有USB接口，另外一种则是自行定制和屏蔽接口。虽然前文我讲过，黑苹果的定制是一个需要以深度定制为主的工作流，但是我不得不承认，在解决睡眠问题上，<strong>我更愿意用通法</strong>。使用一刀切式重命名屏蔽代价仅仅是只能使用电源键去唤醒电脑，而深度定制USB则需要花费成倍数增长的工作量。下面分享一下过程。</p></div><div class="post-footer">
+        <a href="/posts/macbattery/">阅读全文</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/posts/blackapple/"><img
         class="lazyload"
         src="/svg/loading.min.svg"
         data-src="/img1/GolE-maWAAEqzMV.jpeg"
@@ -117,12 +131,13 @@
         alt="/img1/GolE-maWAAEqzMV.jpeg"
         title="/img1/GolE-maWAAEqzMV.jpeg" /></a>
         </div><h1 class="single-title" itemprop="name headline">
-        <a href="/blackapple/">only Panasonic can do！松下sz6双系统黑苹果记录</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>8777</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-04-17">2025-04-17</time></span></div><div class="content">0 前言 时隔多年，终于用上黑苹果，感慨万千。松下sz6这机器体制挺好的，黑果完已经可以基本日用了。本篇文章就是在mac的环境下完成的。后来发现</div><div class="post-footer">
-        <a href="/blackapple/">阅读全文</a><div class="post-tags">
+        <a href="/posts/blackapple/">only Panasonic can do！松下sz6双系统黑苹果记录</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>8777</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-04-17">2025-04-17</time></span></div><div class="content"><h3 id="0-前言">0 前言</h3>
+<p>时隔多年，终于用上黑苹果，感慨万千。松下sz6这机器体制挺好的，黑果完已经可以基本日用了。本篇文章就是在mac的环境下完成的。后来发现，黑果就是一个前人种树，后人乘凉的东西。有了前人的探索，才能有如今这么方便的经验和过程可以借鉴。</p></div><div class="post-footer">
+        <a href="/posts/blackapple/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%BC%80%E5%8F%91/">开发</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/toom/"><img
+            <a href="/posts/toom/"><img
         class="lazyload"
         src="/svg/loading.min.svg"
         data-src="/img1/Gm38AP7awAIKB3U.jfif"
@@ -131,12 +146,13 @@
         alt="/img1/Gm38AP7awAIKB3U.jfif"
         title="A brief description of this post." /></a>
         </div><h1 class="single-title" itemprop="name headline">
-        <a href="/toom/">（没写完，别看）"坟"</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>8777</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-03-25">2025-03-25</time></span></div><div class="content">今天一个老乡火急火燎找到我。说家里人在给我上坟。 收到这个无厘头的消息，我内心其实好奇大于震惊。实际上，我对于家乡并没有什么归属感，我在老家那</div><div class="post-footer">
-        <a href="/toom/">阅读全文</a><div class="post-tags">
+        <a href="/posts/toom/">（没写完，别看）"坟"</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>8777</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-03-25">2025-03-25</time></span></div><div class="content"><p>今天一个老乡火急火燎找到我。说家里人在给我上坟。</p>
+<p>收到这个无厘头的消息，我内心其实好奇大于震惊。实际上，我对于家乡并没有什么归属感，我在老家那块黄土地上的社会学形象算是死了。我问他：我是不是风光大葬？他说不太清楚，只是说我“走”了，“后人”对我的评价也算正面。于是我顺着他的话头问，他说，乡里人都说我老实孩子，出了乡也没想到糟了这罪，早早的就走了，走了也不见个全尸。接着还说，我打小就听话，和小时候和我相好的那些混蛋们天天拉淫歌调戏女孩子，而我只是沉默的老实，所以我的葬礼上女孩子们也哭的。</p></div><div class="post-footer">
+        <a href="/posts/toom/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/doomertalking/"><img
+            <a href="/posts/doomertalking/"><img
         class="lazyload"
         src="/svg/loading.min.svg"
         data-src="/img1/OIP-C.jfif"
@@ -145,12 +161,13 @@
         alt="/img1/OIP-C.jfif"
         title="A brief description of this post." /></a>
         </div><h1 class="single-title" itemprop="name headline">
-        <a href="/doomertalking/">doomer也许存在即合理 但是我反对他的持续性</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>silence 8777</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-03-19">2025-03-19</time></span></div><div class="content">0 存在即合理 我们也许不得不承认，这真的是一个经济下行和不公的社会，大部分人主观上和客观上在压力下挣扎。Doomer在这样的世道上诞生了。孤独</div><div class="post-footer">
-        <a href="/doomertalking/">阅读全文</a><div class="post-tags">
+        <a href="/posts/doomertalking/">doomer也许存在即合理 但是我反对他的持续性</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>silence 8777</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-03-19">2025-03-19</time></span></div><div class="content"><h3 id="0-存在即合理">0 存在即合理</h3>
+<p>我们也许不得不承认，这真的是一个经济下行和不公的社会，大部分人主观上和客观上在压力下挣扎。Doomer在这样的世道上诞生了。孤独中迷茫无措的个体找到共鸣，就很容易汇聚成群体，人群而成艺术，催生Doomer。我们这个社会真的有很多问题。看看东北的废弃钢铁巨兽，看看前苏联的粗野主义的建筑，这是doomer的表现，也是doomer的由来。时代年轮滚下大地，留下伤痕，留下痛苦。我们肉眼可见的矛盾从晚期冷战就暴露了社会的制度缺陷性，并且留下许多恶果。局部冲突；核威胁；更敏感的譬如阶级固化、全球化、技术异化、环境崩溃等多重危机叠加下，年轻人普遍感受到个体努力与系统性困境之间的无力对抗。但是我不得不说现在很多年轻群体眼界是相对狭隘的，于是这又异化成了<strong>对传统成功学的反叛</strong>，Doomer 形象颠覆了主流社会推崇的 “积极进取” 人设，以颓废、失败者的姿态消解了 “奋斗必有回报” 的神话。这种解构既是对消费主义裹挟下 “内卷” 的抵抗，也是对个体价值被量化标准异化的反抗。这是一种文化降格，在社会结构变化和人群属性改变的演进下其精神内涵反而是狭隘化了。当然，我不反对doomer文化的存在性，生命的荒诞性命题是绕不开的一个话题，启蒙史观下对于人类未解决的忧患性因素（譬如说战争、贫困、生态危机等）是具有隐晦的回避性的。太极阴阳两生调和，有严肃向好，科技昌明的宏大叙事，自然也会有将个体的选择困境放大为宿命论的玩笑的doomer形态。既消解了宏大叙事的严肃性，又暴露出普通人在历史洪流中的渺小与无力。</p></div><div class="post-footer">
+        <a href="/posts/doomertalking/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/misfit/"><img
+            <a href="/posts/misfit/"><img
         class="lazyload"
         src="/svg/loading.min.svg"
         data-src="/img1/Gl0xJDFW4AAaXIW.png"
@@ -159,12 +176,12 @@
         alt="/img1/Gl0xJDFW4AAaXIW.png"
         title="A brief description of this post." /></a>
         </div><h1 class="single-title" itemprop="name headline">
-        <a href="/misfit/">读《明朝那些事儿》：当一个异类更难了</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>8777不是朱元璋</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-03-14">2025-03-14</time></span></div><div class="content">《明朝那些事》抽空读了，首先我要说的是，这本书确实是适合大众阅读的通俗性科普读物，其小说和史料结合的笔法在我读过的历史读物中属于优秀的水平，</div><div class="post-footer">
-        <a href="/misfit/">阅读全文</a><div class="post-tags">
+        <a href="/posts/misfit/">读《明朝那些事儿》：当一个异类更难了</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>8777不是朱元璋</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-03-14">2025-03-14</time></span></div><div class="content"><p>《明朝那些事》抽空读了，首先我要说的是，这本书确实是适合大众阅读的通俗性科普读物，其小说和史料结合的笔法在我读过的历史读物中属于优秀的水平，可以比肩黄仁宇的《万历十五年》。历史叙述作品持续存在的一个问题在于：太过深奥、生硬的叙事风格令普通读者难以接受，实在有点过于“阳春白雪”。譬如说费正清的《剑桥中国史》算是“阳春白雪”的话，《明朝那些事儿》可以算作是“下里巴人”了。</p></div><div class="post-footer">
+        <a href="/posts/misfit/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/heart/"><img
+            <a href="/posts/heart/"><img
         class="lazyload"
         src="/svg/loading.min.svg"
         data-src="/img1/GlgLqgobwAQ76-B.jfif"
@@ -173,23 +190,11 @@
         alt="/img1/GlgLqgobwAQ76-B.jfif"
         title="A brief description of this post." /></a>
         </div><h1 class="single-title" itemprop="name headline">
-        <a href="/heart/">行动是永远的基本盘</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>always we trust in U</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-03-09">2025-03-09</time></span></div><div class="content">事实证明，行动是永远的基本盘。人生更加得心应手的前提，必须是让行动跑在思想的前面。扶大厦之将倾，人暴起而动，行为姑且充数。大厦将倾，人不动，</div><div class="post-footer">
-        <a href="/heart/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/united-hole/"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/img1/GlDwtOtXIAEswfw.jfif"
-        data-srcset="/img1/GlDwtOtXIAEswfw.jfif, /img1/GlDwtOtXIAEswfw.jfif 1.5x, /img1/GlDwtOtXIAEswfw.jfif 2x"
-        data-sizes="auto"
-        alt="/img1/GlDwtOtXIAEswfw.jfif"
-        title="/img1/GlDwtOtXIAEswfw.jfif" /></a>
-        </div><h1 class="single-title" itemprop="name headline">
-        <a href="/united-hole/">（没写完）曼联之殇</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>traitor in POR</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-03-06">2025-03-06</time></span></div><div class="content">曼联真的是一家非常神奇的俱乐部。全方面的，由上至下，老板，管理层，董事会，球员&hellip;..好吧，最终我给了球迷豁免权。 要看懂曼联如今</div><div class="post-footer">
-        <a href="/united-hole/">阅读全文</a><div class="post-tags">
+        <a href="/posts/heart/">行动是永远的基本盘</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>always we trust in U</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-03-09">2025-03-09</time></span></div><div class="content"><p>事实证明，行动是永远的基本盘。人生更加得心应手的前提，必须是让行动跑在思想的前面。扶大厦之将倾，人暴起而动，行为姑且充数。大厦将倾，人不动，若有所思，冷眼观大厦之坍塌也。思考，等待，并失去。心在渐渐碎裂，不如动起来找点东西补上，不然就成了冷眼。
+思想常常在给行动设限。多虑者将一事无成，我不是支持鲁莽行事，而是行动中直接碰到的客观问题往往才是最需要解决的根源性事物，而不是行动之前脑海里那些无所谓的臆测。
+这就是为什么我一直说：认识即重担。猜忌、多虑、对未知的恐惧毁了你。 不要问有没有，来了就知道。规则的确有设限的作用，但是停下行动已经不是畏手畏脚的问题了。</p></div><div class="post-footer">
+        <a href="/posts/heart/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></div></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
@@ -211,11 +216,11 @@
                     <span class="page-link" aria-hidden="true">&hellip;</span>
                 </li><li class="page-item ">
                     <span class="page-link">
-                        <a href="/page/6/">6</a>
+                        <a href="/page/7/">7</a>
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.132.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.156.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2026</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
