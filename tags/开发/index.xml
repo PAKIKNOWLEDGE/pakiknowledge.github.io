@@ -10,11 +10,11 @@
     <lastBuildDate>Wed, 11 Mar 2026 20:49:58 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Thinkpad t430 Hackintosh以及其他心得/近况</title>
+      <title>Thinkpad t430 Hackintosh 以及其他心得</title>
       <link>http://localhost:1313/posts/t430hackintoshandmore/</link>
       <pubDate>Wed, 11 Mar 2026 20:49:58 +0800</pubDate>
       <guid>http://localhost:1313/posts/t430hackintoshandmore/</guid>
-      <description>&lt;h3 id=&#34;0-前言&#34;&gt;0 前言&lt;/h3&gt;&#xA;&lt;p&gt;首先很遗憾的通知大家，那台之前被我折腾过的松下 sz6 不幸的坏了。鉴于松下的配件难以替换还有在国内要找人修的难度实在太高，所以我&lt;strong&gt;遗弃了它）&lt;/strong&gt; 接下来，鉴于我一向来不喜欢用游戏本办公和写作业的缘故，（包括这篇文章也在t430上写的）所以这意味着我必须物色一台新宠来满足我的需求。那么买全新肯定是不可能的了，实则就是，在电子硬件的选择与购买上，我觉得现在的情势突出两字：&lt;strong&gt;挣扎&lt;/strong&gt;。（请注意我的用词和定语，我们就现在把它留下，因为后面会继续提到的。）抛开新闻稿上写的所谓什么“算力潮”和什么“供应链”云云，这些带来的实际客观情况就是，全新内存（DDR4/5)和存储（包括固态ssd、机械硬盘hdd）都是全面四五倍的涨幅。但是在目前，DIY装机对我来说是一种伪需求，但是存储的升级是一种迫切的需求。哎呀！这让我当时在隐星p15游戏本的内存选配犯下的错（指没有选择1t ssd而是512g ssd）的代价更大了——因为我发现：&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;0-前言&#34;&gt;0 前言&lt;/h3&gt;&#xA;&lt;p&gt;首先很遗憾的通知大家，那台之前被我折腾过的松下 sz6 不幸的坏了。鉴于松下的配件难以替换还有在国内要找人修的难度实在太高，所以我&lt;strong&gt;遗弃了它）&lt;/strong&gt; 接下来，鉴于我一向来不喜欢用游戏本办公和写作业的缘故，（包括这篇文章也在 t430 上写的）所以这意味着我必须物色一台新宠来满足我的需求。那么买全新肯定是不可能的了，实则就是，在电子硬件的选择与购买上，我觉得现在的情势突出两字：&lt;strong&gt;挣扎&lt;/strong&gt;。（请注意我的用词和定语，我们就现在把它留下，因为后面会继续提到的。）抛开新闻稿上写的所谓什么“算力潮”和什么“供应链”云云，这些带来的实际客观情况就是，全新内存（DDR4/5) 和存储（包括固态 ssd、机械硬盘 hdd）都是全面四五倍的涨幅。但是在目前，DIY 装机对我来说是一种伪需求，但是存储的升级是一种迫切的需求。哎呀！这让我当时在隐星 p15 游戏本的内存选配犯下的错（指没有选择 1t ssd 而是 512g ssd）的代价更大了——因为我发现：&lt;/p&gt;</description>
     </item>
     <item>
       <title>【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE</title>
