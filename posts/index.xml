@@ -3,7 +3,17 @@
         <title>所有文章 - 帕琪的小屋</title>
         <link>http://localhost:1313/posts/</link>
         <description>所有文章 | 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 11 Mar 2026 20:49:58 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Mar 2026 20:45:09 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Our Struggle Is My Struggle</title>
+    <link>http://localhost:1313/posts/our-struggle-is-my-struggle/</link>
+    <pubDate>Thu, 19 Mar 2026 20:45:09 &#43;0800</pubDate>
+    <author>Your Name</author>
+    <guid>http://localhost:1313/posts/our-struggle-is-my-struggle/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/" referrerpolicy="no-referrer">
+            </div>A brief description of this post.]]></description>
+</item>
+<item>
     <title>Thinkpad t430 Hackintosh 以及其他心得</title>
     <link>http://localhost:1313/posts/t430hackintoshandmore/</link>
     <pubDate>Wed, 11 Mar 2026 20:49:58 &#43;0800</pubDate>
@@ -95,17 +105,6 @@
                 <img src="/img1/GolE-maWAAEqzMV.jpeg" referrerpolicy="no-referrer">
             </div><h3 id="0-前言">0 前言</h3>
 <p>时隔多年，终于用上黑苹果，感慨万千。松下sz6这机器体制挺好的，黑果完已经可以基本日用了。本篇文章就是在mac的环境下完成的。后来发现，黑果就是一个前人种树，后人乘凉的东西。有了前人的探索，才能有如今这么方便的经验和过程可以借鉴。</p>]]></description>
-</item>
-<item>
-    <title>（没写完，别看）&#34;坟&#34;</title>
-    <link>http://localhost:1313/posts/toom/</link>
-    <pubDate>Tue, 25 Mar 2025 19:04:15 &#43;0800</pubDate>
-    <author>8777</author>
-    <guid>http://localhost:1313/posts/toom/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/Gm38AP7awAIKB3U.jfif" referrerpolicy="no-referrer">
-            </div><p>今天一个老乡火急火燎找到我。说家里人在给我上坟。</p>
-<p>收到这个无厘头的消息，我内心其实好奇大于震惊。实际上，我对于家乡并没有什么归属感，我在老家那块黄土地上的社会学形象算是死了。我问他：我是不是风光大葬？他说不太清楚，只是说我“走”了，“后人”对我的评价也算正面。于是我顺着他的话头问，他说，乡里人都说我老实孩子，出了乡也没想到糟了这罪，早早的就走了，走了也不见个全尸。接着还说，我打小就听话，和小时候和我相好的那些混蛋们天天拉淫歌调戏女孩子，而我只是沉默的老实，所以我的葬礼上女孩子们也哭的。</p>]]></description>
 </item>
 <item>
     <title>doomer也许存在即合理 但是我反对他的持续性</title>

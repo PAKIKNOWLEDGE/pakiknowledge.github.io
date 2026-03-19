@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>学术 on 帕琪的小屋</title>
+    <link>http://localhost:1313/tags/%E5%AD%A6%E6%9C%AF/</link>
+    <description>Recent content in 学术 on 帕琪的小屋</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 19 Mar 2026 20:45:09 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%AD%A6%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？</title>
+      <link>http://localhost:1313/posts/our-struggle-is-my-struggle/</link>
+      <pubDate>Thu, 19 Mar 2026 20:45:09 +0800</pubDate>
+      <guid>http://localhost:1313/posts/our-struggle-is-my-struggle/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

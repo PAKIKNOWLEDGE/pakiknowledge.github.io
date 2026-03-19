@@ -2,19 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2026-03-11T20:49:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2026-03-11T20:49:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://localhost:1313/tags/"
-                    /></url><url>
-            <loc>http://localhost:1313/posts/t430hackintoshandmore/</loc><lastmod>2026-03-11T20:49:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/%E5%BC%80%E5%8F%91/</loc><lastmod>2026-03-11T20:49:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2026-03-11T20:49:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:1313/posts/our-struggle-is-my-struggle/</loc><lastmod>2026-03-19T20:45:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2026-03-19T20:45:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2026-03-19T20:45:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://localhost:1313/en/"
@@ -23,6 +13,17 @@
                     hreflang="zh-cn"
                     href="http://localhost:1313/"
                     /></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2026-03-11T20:49:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/tags/"
+                    /></url><url>
+            <loc>http://localhost:1313/posts/t430hackintoshandmore/</loc><lastmod>2026-03-11T20:49:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://localhost:1313/tags/%E5%BC%80%E5%8F%91/</loc><lastmod>2026-03-11T20:49:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://localhost:1313/posts/fuckingidac/</loc><lastmod>2025-12-09T18:26:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/thodanre2/</loc><lastmod>2025-09-08T22:56:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/tags/%E9%9F%B3%E6%B8%B8/</loc><lastmod>2025-09-08T22:56:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -32,14 +33,11 @@
             <loc>http://localhost:1313/posts/2025422/</loc><lastmod>2025-04-22T19:23:33&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/macbattery/</loc><lastmod>2025-04-20T19:47:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/blackapple/</loc><lastmod>2025-04-17T01:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/posts/toom/</loc><lastmod>2025-03-25T19:04:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/doomertalking/</loc><lastmod>2025-03-19T19:36:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/misfit/</loc><lastmod>2025-03-14T10:55:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/heart/</loc><lastmod>2025-03-09T19:45:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/posts/united-hole/</loc><lastmod>2025-03-06T14:44:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/myths-of-pig-farming/</loc><lastmod>2025-03-03T22:45:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/neteaseshit/</loc><lastmod>2025-02-27T23:45:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://localhost:1313/about/</loc><lastmod>2025-02-27T16:46:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/city-ch/</loc><lastmod>2025-02-25T16:35:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/city-th/</loc><lastmod>2025-02-25T08:56:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/posts/2025224newproblem/</loc><lastmod>2025-02-24T16:19:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
