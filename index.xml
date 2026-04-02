@@ -1,16 +1,27 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/</link>
+        <link>http://localhost:1313/</link>
         <description>精神垃圾置物场</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Mar 2026 20:45:09 &#43;0800</lastBuildDate>
-            <atom:link href="https://pakiknowledge.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Apr 2026 13:01:52 &#43;0800</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>ue4模组开发中创建预览音频的问题</title>
+    <link>http://localhost:1313/posts/ue4musicpreview/</link>
+    <pubDate>Thu, 02 Apr 2026 13:01:52 &#43;0800</pubDate>
+    <author>8777</author>
+    <guid>http://localhost:1313/posts/ue4musicpreview/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/HEwO7SdbMAIkZxQ.jpg" referrerpolicy="no-referrer">
+            </div><h2 id="需求概述">需求概述</h2>
+<p>近来为某个神秘游戏寻得一程序，通过ue4 mod的方式进行lua注入从而添加自定义音乐。随后一日，模组更新了特性，支持在bgm选择界面时加入了预览音频的逻辑。其自述文件如此写：</p>]]></description>
+</item>
+<item>
     <title>吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？</title>
-    <link>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</link>
+    <link>http://localhost:1313/posts/our-struggle-is-my-struggle/</link>
     <pubDate>Thu, 19 Mar 2026 20:45:09 &#43;0800</pubDate>
     <author>招笑期刊</author>
-    <guid>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</guid>
+    <guid>http://localhost:1313/posts/our-struggle-is-my-struggle/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/HDxXsMZXYAAlha1.jpg" referrerpolicy="no-referrer">
             </div><h3 id="矛盾螺旋">矛盾螺旋</h3>
@@ -18,33 +29,21 @@
 </item>
 <item>
     <title>Thinkpad t430 Hackintosh 以及其他心得</title>
-    <link>https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/</link>
+    <link>http://localhost:1313/posts/t430hackintoshandmore/</link>
     <pubDate>Wed, 11 Mar 2026 20:49:58 &#43;0800</pubDate>
     <author>is Thinkpad user a femboy coder?</author>
-    <guid>https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/</guid>
+    <guid>http://localhost:1313/posts/t430hackintoshandmore/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/HDCqo3iaMAUq64N.jpg" referrerpolicy="no-referrer">
             </div><h3 id="0-前言">0 前言</h3>
 <p>首先很遗憾的通知大家，那台之前被我折腾过的松下 sz6 不幸的坏了。鉴于松下的配件难以替换还有在国内要找人修的难度实在太高，所以我<strong>遗弃了它）</strong> 接下来，鉴于我一向来不喜欢用游戏本办公和写作业的缘故，（包括这篇文章也在 t430 上写的）所以这意味着我必须物色一台新宠来满足我的需求。那么买全新肯定是不可能的了，实则就是，在电子硬件的选择与购买上，我觉得现在的情势突出两字：<strong>挣扎</strong>。（请注意我的用词和定语，我们就现在把它留下，因为后面会继续提到的。）抛开新闻稿上写的所谓什么“算力潮”和什么“供应链”云云，这些带来的实际客观情况就是，全新内存（DDR4/5) 和存储（包括固态 ssd、机械硬盘 hdd）都是全面四五倍的涨幅。但是在目前，DIY 装机对我来说是一种伪需求，但是存储的升级是一种迫切的需求。哎呀！这让我当时在隐星 p15 游戏本的内存选配犯下的错（指没有选择 1t ssd 而是 512g ssd）的代价更大了——因为我发现：</p>]]></description>
 </item>
 <item>
-    <title>【ArcadePC】頭文字D THE ARCADE HDD PATCH NOTE</title>
-    <link>https://pakiknowledge.pages.dev/posts/fuckingidac/</link>
-    <pubDate>Tue, 09 Dec 2025 18:26:06 &#43;0800</pubDate>
-    <author>8777 as 微软大战代码</author>
-    <guid>https://pakiknowledge.pages.dev/posts/fuckingidac/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/the_arcade_logo.png" referrerpolicy="no-referrer">
-            </div><h1 id="0-丑话说在前">0 丑话说在前</h1>
-<h2 id="这是什么">这是什么？</h2>
-<p>这是一篇街机游戏<a href="https://initiald.sega.jp/inidac/" target="_blank" rel="noopener noreffer ">頭文字D THE ARCADE｜ドライブゲーム｜セガ</a><a href="https://initiald.sega.jp/inidac/" target="_blank" rel="noopener noreffer "></a><a href="https://initiald.sega.jp/inidac/" target="_blank" rel="noopener noreffer "></a><a href="https://initiald.sega.jp/inidac/" target="_blank" rel="noopener noreffer "></a>在电脑上运行的开发笔记，属于纯纯的灰产，非法，如果您通过任何搜索引擎搜到该页面，请立刻通过</p>]]></description>
-</item>
-<item>
     <title>東方音弾遊戯RE2 全曲评分</title>
-    <link>https://pakiknowledge.pages.dev/posts/thodanre2/</link>
+    <link>http://localhost:1313/posts/thodanre2/</link>
     <pubDate>Mon, 08 Sep 2025 22:56:05 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/posts/thodanre2/</guid>
+    <guid>http://localhost:1313/posts/thodanre2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/logo.webp" referrerpolicy="no-referrer">
             </div><h2 id="0-概述">0 概述</h2>
@@ -55,20 +54,20 @@
 </item>
 <item>
     <title>我们必须接受人生的岔路口没有信号灯的事实</title>
-    <link>https://pakiknowledge.pages.dev/posts/2025half/</link>
+    <link>http://localhost:1313/posts/2025half/</link>
     <pubDate>Mon, 02 Jun 2025 12:59:37 &#43;0800</pubDate>
     <author>8787</author>
-    <guid>https://pakiknowledge.pages.dev/posts/2025half/</guid>
+    <guid>http://localhost:1313/posts/2025half/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/0cfb3165126937b2c6b0879d024a021f.jpeg" referrerpolicy="no-referrer">
             </div><p>2025的上半年过去了，如果要用一个词来形容的话，我竟然有点想用“倒霉”了。但是人生也未必消极，六个月过去了也未必一整年就万劫不复了。对上半年的评点和反思也只能让我们在2025这个段落的前面多几个缩进罢了。</p>]]></description>
 </item>
 <item>
     <title>我的一些迷思</title>
-    <link>https://pakiknowledge.pages.dev/posts/2025512/</link>
+    <link>http://localhost:1313/posts/2025512/</link>
     <pubDate>Mon, 12 May 2025 02:02:21 &#43;0800</pubDate>
     <author>mystery</author>
-    <guid>https://pakiknowledge.pages.dev/posts/2025512/</guid>
+    <guid>http://localhost:1313/posts/2025512/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/can.jpeg" referrerpolicy="no-referrer">
             </div><h1 id="迷思">迷思</h1>
@@ -79,20 +78,20 @@
 </item>
 <item>
     <title>帝王，诗人，浪子</title>
-    <link>https://pakiknowledge.pages.dev/posts/2025422/</link>
+    <link>http://localhost:1313/posts/2025422/</link>
     <pubDate>Tue, 22 Apr 2025 19:23:33 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/posts/2025422/</guid>
+    <guid>http://localhost:1313/posts/2025422/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GpIQjXXa4AEw7c7.jpeg" referrerpolicy="no-referrer">
             </div><p>之前听闻了一个说法，男人可以分成帝王，诗人，浪子。如果你让我自评，我可能介于诗人和浪子之间。我谈不上是什么帝王，很少有人说我有一种“霸气”和果断的蛮狠。诗人和浪子的特质，我多少都被吸附了。诗人沉浸在自己的艺术里，在自我搭建的框架里安贫乐道。浪子追求自由，我也讨厌既定的框架，如果有一个东西把我框住，我会痛不欲生，不遗余力的从里面想要往外挣脱。如果我们这样讲，我们这样子界定，这样子评估，倒也是一种说法，但是这显然不是我要说的。</p>]]></description>
 </item>
 <item>
     <title>完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题</title>
-    <link>https://pakiknowledge.pages.dev/posts/macbattery/</link>
+    <link>http://localhost:1313/posts/macbattery/</link>
     <pubDate>Sun, 20 Apr 2025 19:47:30 &#43;0800</pubDate>
     <author>电源战神</author>
-    <guid>https://pakiknowledge.pages.dev/posts/macbattery/</guid>
+    <guid>http://localhost:1313/posts/macbattery/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/Go5LvXUbkAA21Q3.jpeg" referrerpolicy="no-referrer">
             </div><h2 id="避实就虚">避实就虚</h2>
@@ -100,10 +99,10 @@
 </item>
 <item>
     <title>only Panasonic can do！松下sz6双系统黑苹果记录</title>
-    <link>https://pakiknowledge.pages.dev/posts/blackapple/</link>
+    <link>http://localhost:1313/posts/blackapple/</link>
     <pubDate>Thu, 17 Apr 2025 01:11:36 &#43;0800</pubDate>
     <author>8777</author>
-    <guid>https://pakiknowledge.pages.dev/posts/blackapple/</guid>
+    <guid>http://localhost:1313/posts/blackapple/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GolE-maWAAEqzMV.jpeg" referrerpolicy="no-referrer">
             </div><h3 id="0-前言">0 前言</h3>
@@ -111,10 +110,10 @@
 </item>
 <item>
     <title>doomer也许存在即合理 但是我反对他的持续性</title>
-    <link>https://pakiknowledge.pages.dev/posts/doomertalking/</link>
+    <link>http://localhost:1313/posts/doomertalking/</link>
     <pubDate>Wed, 19 Mar 2025 19:36:26 &#43;0800</pubDate>
     <author>silence 8777</author>
-    <guid>https://pakiknowledge.pages.dev/posts/doomertalking/</guid>
+    <guid>http://localhost:1313/posts/doomertalking/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/OIP-C.jfif" referrerpolicy="no-referrer">
             </div><h3 id="0-存在即合理">0 存在即合理</h3>
