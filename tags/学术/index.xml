@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学术 on 帕琪的小屋</title>
-    <link>http://localhost:1313/tags/%E5%AD%A6%E6%9C%AF/</link>
+    <link>https://pakiknowledge.pages.dev/tags/%E5%AD%A6%E6%9C%AF/</link>
     <description>Recent content in 学术 on 帕琪的小屋</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 19 Mar 2026 20:45:09 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%AD%A6%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pakiknowledge.pages.dev/tags/%E5%AD%A6%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？</title>
-      <link>http://localhost:1313/posts/our-struggle-is-my-struggle/</link>
+      <link>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</link>
       <pubDate>Thu, 19 Mar 2026 20:45:09 +0800</pubDate>
-      <guid>http://localhost:1313/posts/our-struggle-is-my-struggle/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</guid>
       <description>&lt;h3 id=&#34;矛盾螺旋&#34;&gt;矛盾螺旋&lt;/h3&gt;&#xA;&lt;p&gt;学术圈其实已经够乱，令人人心惶惶。即使我抱着好面子和在学校多赖几年这种不纯动机在我的乐色本校一声不吭的喊口号要目指研究生，我还是不得不承认，我只是一个涉世未深的新兵蛋子本科生。但是犹如二战时期躲到瑞士避难听着外面风声鹤唳未免也心里发毛，近几年，在硕士及以上的学历段爆出的抽象新闻已成规模，并且抽象文献已经在各门学科里百花齐放，百家争鸣，堂而皇之的登上各种期刊，成为个人、实验室、乃至学校学术的门面。早在笔者还在读高中时期就耳闻生物学圈子的肠道菌群研究出来的sci疑似为一群江湖骗子招摇撞骗，各种堪比六脉神剑的神功尽出，譬如用无菌小鼠动物模型的研究成果类比到人类肠道上的，菌群研究发表顶刊后被资本包装成“益生菌胶囊包治百病”一类的、更有甚者，还有论文数据直接用捏造却逃过顶刊一轮轮审核登大雅之堂的。&lt;/p&gt;</description>
     </item>
   </channel>
