@@ -3,7 +3,55 @@
         <title>所有文章 - 帕琪的小屋</title>
         <link>https://pakiknowledge.pages.dev/posts/</link>
         <description>所有文章 | 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Apr 2026 13:01:52 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Apr 2026 19:01:09 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>【杂谈】 一个开源软件使用者失禁的一天</title>
+    <link>https://pakiknowledge.pages.dev/posts/mtfarchandmore/</link>
+    <pubDate>Fri, 10 Apr 2026 19:01:09 &#43;0800</pubDate>
+    <author>arch user 8777</author>
+    <guid>https://pakiknowledge.pages.dev/posts/mtfarchandmore/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img1/nyarch.png" referrerpolicy="no-referrer">
+            </div><div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-chevron-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">                                
+</span></span><span class="line"><span class="cl">                                      (S
+</span></span><span class="line"><span class="cl">                                     sGGP
+</span></span><span class="line"><span class="cl">                                    )GGGGS  
+</span></span><span class="line"><span class="cl">                                    GGGGGGb   
+</span></span><span class="line"><span class="cl">                                   SGGGGGGGSC  
+</span></span><span class="line"><span class="cl">                                  PGGGGGGGGGb   
+</span></span><span class="line"><span class="cl">                                 SGGGGGGGGGGGS
+</span></span><span class="line"><span class="cl">                  eu u          SGGGGGGGGGGGGGb   
+</span></span><span class="line"><span class="cl">                   SbDPPPbeeu  SGGGGGGGGGGGGGGGb              su   
+</span></span><span class="line"><span class="cl">                    SQQQQQDDSSe  PGGGGGGGGGGGGGGb seSSGSDDDDDDP   
+</span></span><span class="line"><span class="cl">                    SqQQQQDDdGGGbu )PGGGGGGGGGGGGGGGGSDDQQQQDP   
+</span></span><span class="line"><span class="cl">                    SeDQQbeGGGGGGGGSeCSGGGGGGGGGGGGGGSDDQQQDP  
+</span></span><span class="line"><span class="cl">                    (GSbDGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGbQDDPD
+</span></span><span class="line"><span class="cl">                     (SSGGGPSGGGGGGGGGGGGGGGGGGGGGGSPSGSSPC  
+</span></span><span class="line"><span class="cl">                        GGGpuu)PSGGGGGGGGGGGGGGGPSuueSG  
+</span></span><span class="line"><span class="cl">                       sGGGGGSbu )GGGGSGGSSGGGDu)eSGGGGp   
+</span></span><span class="line"><span class="cl">                      SGGGGPSuueSbPPPuuDSuu(PPGSpuu(PSGGb  
+</span></span><span class="line"><span class="cl">                     SGGGGGpeSPPPPPPPuuuuuePPPPPPGSbeSbPeb   
+</span></span><span class="line"><span class="cl">                    PGGbSePPPSPPPPPPO     )PPPPPPSSeSPbPbGS  
+</span></span><span class="line"><span class="cl">                  sGGGGGGGPPPPPPPPD         SPPPPPPPPPGGGGGSueeeeeeeeeeuu  
+</span></span><span class="line"><span class="cl">                eGGGGGGGPPPPPPPPP(           SPPPPPPPPPGGGGGGbSC((   (SSPeeQPe   
+</span></span><span class="line"><span class="cl">           eeeQebGGGGGGGPPPPPPPPP      ueeePDDPPPPPPPPPGGGGGGGb           eeQP
+</span></span><span class="line"><span class="cl">       seQPPS  SGGGGGGGGQPPPPPPPueGeQDPPG(C   )PPPPPPPPGbDDSPSGb     seeGDPO
+</span></span><span class="line"><span class="cl">     sGDP     SGGGGGGGSPPDDDDQDDPOC            PPPPPPPPPPPSSeeeDDDQDPPOO
+</span></span><span class="line"><span class="cl">    (Qb     sGPPSDDDDDQDDDbbPPPPu              DDDDDDQqDDDDDeebSu
+</span></span><span class="line"><span class="cl">     eQGbGbDQDDDDDebSSGPPPPPPPSC         eeeDDPPPPQPPPPPGGGGGGGGGSeu
+</span></span><span class="line"><span class="cl">          eSGGGGGGGGGSPCCu           eeDOP           )SPPeGGGGGGGGGGp
+</span></span><span class="line"><span class="cl">         SGGGGGGPPS)               edPO                    )SPGGGGGGGb
+</span></span><span class="line"><span class="cl">       sPGGGPSC                  sQeO                           (PSGGGb
+</span></span><span class="line"><span class="cl">      sGPS)                      eP                                 )PSP
+</span></span><span class="line"><span class="cl">    C(P                                                                 SC</span></span></code></pre></div></div><h3 id="请跟读ˈdɛbiən">请跟读，/ˈdɛbiən/</h3>
+<p>其实之前已经说过，我在我的t430上装了macos,但是后面我发现这太蠢了，macos12很多支持已经被放弃了，而且黑苹果下英特尔网卡驱动有很大的问题，导致下载和上网的速度奇慢无比。而最近我又恰逢焦虑期，因为我感到周遭的一切都在变得不值钱，内存涨价的狂潮还有我红掉的c盘让我每天寝食难安，soc更新、还有各种技术（譬如说NVDIA DLSS）的迭代无不都在提醒你“该买了！“消费主义的营销和侵蚀已经开始肆虐，消费主义的核心套路之一，就是通过软硬件捆绑来制造人为的“过时”。那还有什么可说的，炮打apple.inc，我的一封小字报，让我们拥抱open source,投入开源社区和GNU/LINUX的怀抱吧！</p>]]></description>
+</item>
+<item>
     <title>ue4模组开发中创建预览音频的问题</title>
     <link>https://pakiknowledge.pages.dev/posts/ue4musicpreview/</link>
     <pubDate>Thu, 02 Apr 2026 13:01:52 &#43;0800</pubDate>
@@ -105,17 +153,6 @@
                 <img src="/img1/GolE-maWAAEqzMV.jpeg" referrerpolicy="no-referrer">
             </div><h3 id="0-前言">0 前言</h3>
 <p>时隔多年，终于用上黑苹果，感慨万千。松下sz6这机器体制挺好的，黑果完已经可以基本日用了。本篇文章就是在mac的环境下完成的。后来发现，黑果就是一个前人种树，后人乘凉的东西。有了前人的探索，才能有如今这么方便的经验和过程可以借鉴。</p>]]></description>
-</item>
-<item>
-    <title>doomer也许存在即合理 但是我反对他的持续性</title>
-    <link>https://pakiknowledge.pages.dev/posts/doomertalking/</link>
-    <pubDate>Wed, 19 Mar 2025 19:36:26 &#43;0800</pubDate>
-    <author>silence 8777</author>
-    <guid>https://pakiknowledge.pages.dev/posts/doomertalking/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img1/OIP-C.jfif" referrerpolicy="no-referrer">
-            </div><h3 id="0-存在即合理">0 存在即合理</h3>
-<p>我们也许不得不承认，这真的是一个经济下行和不公的社会，大部分人主观上和客观上在压力下挣扎。Doomer在这样的世道上诞生了。孤独中迷茫无措的个体找到共鸣，就很容易汇聚成群体，人群而成艺术，催生Doomer。我们这个社会真的有很多问题。看看东北的废弃钢铁巨兽，看看前苏联的粗野主义的建筑，这是doomer的表现，也是doomer的由来。时代年轮滚下大地，留下伤痕，留下痛苦。我们肉眼可见的矛盾从晚期冷战就暴露了社会的制度缺陷性，并且留下许多恶果。局部冲突；核威胁；更敏感的譬如阶级固化、全球化、技术异化、环境崩溃等多重危机叠加下，年轻人普遍感受到个体努力与系统性困境之间的无力对抗。但是我不得不说现在很多年轻群体眼界是相对狭隘的，于是这又异化成了<strong>对传统成功学的反叛</strong>，Doomer 形象颠覆了主流社会推崇的 “积极进取” 人设，以颓废、失败者的姿态消解了 “奋斗必有回报” 的神话。这种解构既是对消费主义裹挟下 “内卷” 的抵抗，也是对个体价值被量化标准异化的反抗。这是一种文化降格，在社会结构变化和人群属性改变的演进下其精神内涵反而是狭隘化了。当然，我不反对doomer文化的存在性，生命的荒诞性命题是绕不开的一个话题，启蒙史观下对于人类未解决的忧患性因素（譬如说战争、贫困、生态危机等）是具有隐晦的回避性的。太极阴阳两生调和，有严肃向好，科技昌明的宏大叙事，自然也会有将个体的选择困境放大为宿命论的玩笑的doomer形态。既消解了宏大叙事的严肃性，又暴露出普通人在历史洪流中的渺小与无力。</p>]]></description>
 </item>
 </channel>
 </rss>
