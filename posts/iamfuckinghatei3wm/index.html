@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>【杂谈/dev-note】人是路径依赖动物 - 帕琪的小屋</title><meta name="Description" content="kde太好用了你们知道吗！"><meta property="og:url" content="https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/">
+  <meta property="og:site_name" content="帕琪的小屋">
+  <meta property="og:title" content="【杂谈/dev-note】人是路径依赖动物">
+  <meta property="og:description" content="kde太好用了你们知道吗！">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-04-13T21:50:28+08:00">
+    <meta property="article:modified_time" content="2026-04-13T21:50:28+08:00">
+    <meta property="article:tag" content="开发">
+    <meta property="article:tag" content="随笔">
+    <meta property="og:image" content="https://pakiknowledge.pages.dev/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://pakiknowledge.pages.dev/logo.png">
+  <meta name="twitter:title" content="【杂谈/dev-note】人是路径依赖动物">
+  <meta name="twitter:description" content="kde太好用了你们知道吗！">
+<meta name="application-name" content="帕琪的小屋">
+<meta name="apple-mobile-web-app-title" content="帕琪的小屋">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/" /><link rel="prev" href="https://pakiknowledge.pages.dev/posts/mtfarchandmore/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "【杂谈/dev-note】人是路径依赖动物",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/pakiknowledge.pages.dev\/posts\/iamfuckinghatei3wm\/"
+        },"image": ["https:\/\/pakiknowledge.pages.dev\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "开发, 随笔","wordcount":  4878 ,
+        "url": "https:\/\/pakiknowledge.pages.dev\/posts\/iamfuckinghatei3wm\/","datePublished": "2026-04-13T21:50:28+08:00","dateModified": "2026-04-13T21:50:28+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "pakiknowledge","logo": "https:\/\/pakiknowledge.pages.dev\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "kde is my lover"
+            },"description": "kde太好用了你们知道吗！"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/-/"> 关于 </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/iamfuckinghatei3wm/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/-/" title="">关于</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/iamfuckinghatei3wm/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">【杂谈/dev-note】人是路径依赖动物</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i>kde is my lover</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt" aria-hidden="true"></i>&nbsp;<time datetime="2026-04-13">2026-04-13</time>&nbsp;<i class="fas fa-pencil-alt" aria-hidden="true"></i>&nbsp;约 4878 字&nbsp;
+                <i class="far fa-clock" aria-hidden="true"></i>&nbsp;预计阅读 10 分钟&nbsp;<span id="/posts/iamfuckinghatei3wm/" class="leancloud_visitors" data-flag-title="【杂谈/dev-note】人是路径依赖动物">
+                        <i class="far fa-eye" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/HFzS1pwasAMnX8I.jpg"
+        data-srcset="/img1/HFzS1pwasAMnX8I.jpg, /img1/HFzS1pwasAMnX8I.jpg 1.5x, /img1/HFzS1pwasAMnX8I.jpg 2x"
+        data-sizes="auto"
+        alt="/img1/HFzS1pwasAMnX8I.jpg"
+        title="kde太好用了你们知道吗！" /></div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#0已跑路">0:已跑路</a></li>
+        <li><a href="#1愚昧大侏儒">1.愚昧大侏儒</a></li>
+        <li><a href="#3-kde太好用了你们知道吗">3 kde太好用了你们知道吗</a></li>
+        <li><a href="#4-杂谈">4 杂谈</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h3 id="0已跑路">0:已跑路</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/%e5%b1%8f%e5%b9%95%e6%88%aa%e5%9b%be_20260414_141359.png"
+        data-srcset="/img1/%e5%b1%8f%e5%b9%95%e6%88%aa%e5%9b%be_20260414_141359.png, /img1/%e5%b1%8f%e5%b9%95%e6%88%aa%e5%9b%be_20260414_141359.png 1.5x, /img1/%e5%b1%8f%e5%b9%95%e6%88%aa%e5%9b%be_20260414_141359.png 2x"
+        data-sizes="auto"
+        alt="/img1/屏幕截图_20260414_141359.png"
+        title="/img1/屏幕截图_20260414_141359.png" /></p>
+<p>大家好，不好也行，滚吧。如图所示，在使用nyarch linux不足四天后我立刻就跑路了。也许意大利佬真的是对的，他已经事先声明了这东西不适合主用当成生产力工具。但是其实问题不在他，他充其量也就封装了一些自己的主题和工具进去而已，源也用的是arch官方的，又不是和manjaro那样整个魔改源，而维护者赚钱赚的乐不思蜀去了搞得ssh都忘了更新，好端端的aur整出来版本滞后（注：Manjaro 官网的 SSL 证书曾多次过期。最离谱的一次，官方建议用户“<strong>把系统时间调回去</strong>”来规避证书错误。这种神人建议，让 Arch 社区的人直接看傻了眼。）但是其实最大的问题出在意大利佬不知处于何故选择gnome，我上一次用gnome都是八年前了，当时觉得还挺不错的，但是现在恰恰问题就要出在这个gnome上了&hellip;.</p>
+<hr>
+<h3 id="1愚昧大侏儒">1.愚昧大侏儒</h3>
+<p>请跟读：/ɡəˈnoʊm/ 你不这样读有人要吵架了。本来你该读：<code>/noʊm/</code>的，但是开发这个环境的傻子（Miguel de Icaza）非要重读g，那我们就要随他吗？不是追随，我想是随便吧。从nyarch那种注重审美的角度来说，我没意见，意大利佬确实把gnome调的挺好看的，但是客观而言其可客制化的程度不如kde。但是无所谓，在审美，也就是“rice”的角度来说，什么都是无所谓的。但是从使用的角度来说就很有所谓了。</p>
+<p>2025年到现在，随着wayland逐渐成熟，关于wayland能否取代x11的争论一直在持续。虽然主流发行和上游默认启用wayland，但是有很多软件没做适配，不走x11的话是有问题的，比如录屏用的SSR。然而不知为何，我在用nyarch linux的时候，gnome的GDM里根本没有<code>gnome on xorg</code>这个选项。由于我知道gnome上游巴不得把wayland当爹供起来，我一开始怀疑是gnome把这个入口关了（呃），但是当时我就想没给选项我自己写一个不就行了吗？(因为我<code>pacman -Qs</code>)找到了一堆x11的东西。结果我写完发现登录循环被锁了。那我当时突然犯病，反正再装个i3wm当备选项不就行了吗，结果i3wm和gnome的gtk配置互相打架，把意大利佬的猫娘主题不知道覆盖到什么九霄云外去了，当然最后迫使我弃坑gnome的不是这个原因，当然也不能冤枉人，经过我的查证：</p>
+<ul>
+<li><strong>强制配置环境变量</strong>：Nyarch 为了解决 Wayland 下的缩放和输入法问题，往往会在系统全局变量（如 <code>/etc/environment</code>）里写死 <code>MOZ_ENABLE_WAYLAND=1</code> 或者 <code>QT_QPA_PLATFORM=wayland</code>。即便你强行进了 X11，这些变量也会导致你的浏览器和软件疯狂报错或崩溃。</li>
+<li><strong>精简了 Session 组件</strong>：为了减小镜像体积，Nyarch 可能会在安装脚本里只打包 Wayland 相关的 Session，而忽略了 Xorg 的登录入口。</li>
+</ul>
+<p>看来是意大利佬给我做局，给我气笑了，但是欲加之罪何患无辞，意大利佬可能也只是图方便，暂时赦免他了，然而&hellip;..本人疑似和笔记本合盖睡眠这种东西是犯了什么冲，不管去到哪都得修一下这个问题。在我好不容易隔离i3和gnome的gtk配置之后招笑睡眠又出问题了，可是我明明已经把睡眠写死进配置里了，结果发现GNOME 极其固执。即便你在系统设置里改了，它有时还是会因为特定的配置文件（比如 <code>logind.conf</code> 被它接管）然后死活不让你睡。但是这显然不合常理，我装nyarch第一天就把这个问题修好了，于是我只能搬出十八般武艺又是进程监听又是acpi检测，结果发现gnome那个电源管理一直固执的接管接管接管，都写进内核里了还是接管：</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pakiknowledge  <span class="m">1774</span> gsd-media-keys handle-power-key:...  bl&gt;</span></span></code></pre></div></div>
+<p>我真的得请问一下了，<code>gsd-media-keys</code>你gnome的进程守护是分不清大小王了，你个用户级的东西在这里接管内核级的电源管理？？结果后面我忍无可忍无需再忍只能搬出跳线的大手，别再查 GNOME 那些消失的键值了，Arch 的魅力就在于当你发现上层软件变“智障”时，可以直接切到底层去接线。试一下 acpid怎么样？我当时已经完全癫狂&hellip;来人！pacman上堂！给我请尚方宝剑：</p>
+<p><code>sudo pacman -S acpid</code>
+<code>sudo systemctl enable --now acpid</code></p>
+<p>随后我只能/etc/acpi/events/lm_lid写入：</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">event</span><span class="o">=</span>button/lid.*
+</span></span><span class="line"><span class="cl"><span class="nv">action</span><span class="o">=</span>/usr/bin/systemctl suspend</span></span></code></pre></div></div>
+<p>但是最后修好之后我真的觉得心力交瘁，gnome上游那帮人是不是跟gnome这名字一样就是一群愚蠢的侏儒？GNOME像是一个<strong>固执的管家</strong>，如果你不按照他预设的姿势生活，他就会悄悄地把你的大门锁死，还没收你的钥匙。莫名其妙在gui和tweak里把一堆设置藏起来，然后又让一堆莫名其妙的自以为是的进程去接管，结果这个组件的逻辑真的是蠢的把所有人逗笑，于是我忍无可忍无需再忍当晚从tuna拉了个EndeavourOS镜像烧录了个u盘当场走人投入kde怀抱了。</p>
+<p>（哦对了，感谢清华大学）</p>
+<hr>
+<h3 id="3-kde太好用了你们知道吗">3 kde太好用了你们知道吗</h3>
+<p>其实选这个发行版一开始觉得和原版arch然后调用ezarcher一类工具没啥区别，不过经过查证大概知道他们官方有个eos-repo的源，里面给了少量实用工具，还专门为RTX显卡定制了一个live环境，算是没有过度干预（比起manjaro那群癫佬），而且社区的人看起来都是善良人格觉醒（相比arch的人疑似贴吧来的），总之就是选了，反正我比较抵触从零开始装arch（反正我不是不会只是不想添麻烦，跑条八分钟之后自己开gui配置不行吗呃）然后他镜像里面封装了一堆桌面环境，作为一个奔着高度定制化的人来的直接无脑选kde来了。</p>
+<p>玩rice也是个怪圈，之前一直搞什么窗口破碎还有一堆特效啥的，现在人老了，整个全局菜单和dock，再换个图标就完事了。其实kde给了那么多选项也没调几个，后面发现换个壁纸最大就了事了，主要是从黑苹果润过来的比较习惯全局菜单吧可能就。其实把全局菜单和dock（其实这是个假的dock，本质是kde自带的面板编辑器搓的，只是换了个预设，此处调用Panel-colorizer）</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/%e5%b1%8f%e5%b9%95%e6%88%aa%e5%9b%be_20260414_152554.png"
+        data-srcset="/img1/%e5%b1%8f%e5%b9%95%e6%88%aa%e5%9b%be_20260414_152554.png, /img1/%e5%b1%8f%e5%b9%95%e6%88%aa%e5%9b%be_20260414_152554.png 1.5x, /img1/%e5%b1%8f%e5%b9%95%e6%88%aa%e5%9b%be_20260414_152554.png 2x"
+        data-sizes="auto"
+        alt="/img1/屏幕截图_20260414_152554.png"
+        title="/img1/屏幕截图_20260414_152554.png" /></p>
+<p>剩下的配置这下又不是第一次了，用pacman和yay神力就行了。</p>
+<p>当然，这里要吹一下kde。首先就是这东西没有我刚装nyarch的时候那种中文字体回退丑的要死的问题，而且默认字体都很好看不挑的话其实开箱即用了。kde这种自带一万个可调模块化控件，而且社区还给了一堆预设的模式其实是非常对我胃口的，因为这既避免了自己不会没思路去从头搓出来一份rice方案，又能让你个性化去微调到“分子级”（甚至小到鼠标悬停窗口的毛玻璃颜色这种东西）的控件。而且连终端（konsole）这种东西都能接入社区预设去用配色方案。还有一个是kde自带的组件非常易于使用，包括自带剪切板，而kate也比gedit好用多了，kate有时候配的好能当vscode的代餐，gedit顶多算个增强版记事本得了。而且在wayland下，Plasma 6 中，很多以前需要靠“玄学配置”才能搞定的东西（比如多屏缩放、字体清晰度、高亮渲染），现在都由 <strong>K compositor</strong>（KWin）直接接管并优化。牛逼。八年前本人偶然使用过kubuntu，当时plasma4-5的迭代社区做的非常痛苦，qt4跟重型装甲一样很难优化。现在plasma6+qt6 kde已经很健步如飞了，这点我是真感觉到进步，而八年前gnome简单的电源管理在tweak里点两下就行了，现在藏的都没法改，实在是时代的退步。而且kde还会摇人，DEEPIN早期其实是kde魔改出来的，都opensource了无所谓抄不抄袭的，但是碰巧解决了很多只有在中文环境才能复现的问题，你说kde china会不会根据这个去整合代码？当然会，又不是跟gnome那群傻子一样。哦对了，GNOME 的核心开发者很多就在红帽工作。不好意思啊。如果有一天所有的商业发行版都像 Steam Deck 一样转向 KDE，GNOME 还会坚持它现在的“傲慢”吗？我持保留态度吧。</p>
+<p>剩下还有一些小dev note。</p>
+<ul>
+<li>fcitx5在kde下和qt有点隔阂，要自己添变量。如果不知道怎么添，可以<code>fcitx5-diagnose</code>请fcitx5诊断一下，日志完全是中文的措辞也比较妙趣横生，按着他说的缺哪里补哪里就行了。</li>
+<li>linux下一直有个怪圈，不挂梯速度快不了，挂梯用aur/apt/git clone速度才会改善。但是你不挂梯，又得下梯子，那就无解了，只能慢慢等。</li>
+<li>不过事情似乎有转机，实测在裸连的情况下，aur安装clash-verge-rev-bin速度非常快。</li>
+<li>此外，flclash在kde上似乎因为Qt依赖的问题不起作用。</li>
+<li>aur优先下载带-bin后缀的二进制包，不然得拉文件下来本地编译非常浪费时间，虽然是全自动的，然而最恐怖的事编译的底层代码输出你看不懂，你都不知道这货是卡死了无限循环了还是正在工作只能疯狂祈祷</li>
+</ul>
+<p>没了。想到再说。</p>
+<hr>
+<h3 id="4-杂谈">4 杂谈</h3>
+<p>其实关于x11这个问题，我选择让渡去用i3wm，这里可以说是我犯了点<strong>极客病</strong>。因为其实当时我在做直播切片，录屏用的ssr和剪辑用的flowblade都在wayland下几乎不可用状态。如果是抱着这个需求去的话，用i3wm是很不理智的，因为i3wm的哲学是在键盘的流转，你怎么能指望通过键盘流转去剪片呢？所以选择i3从需求侧来说是错的。但是收获也是有的，起码我真的用进去i3里，虽然很浅，但是不至于瞎按键盘不会操作的地步。虽然一开始选用arch也是因为我潜意识中竟然觉得“<strong>用arch很酷</strong>”，但是最后把我留下来的是<strong>方便快捷的pacman和aur</strong>。如果持续抱着这种“<strong>geek illness</strong>”下去的话，显然很可能会变成arch社区里典型的<strong>一些技术不精但是爱显摆而且沾染上开源软件沙文主义的蠢人</strong>。 这显然是需要反思的。但是使用linux（尤其是arch这种DIY do it by yourself)的东西，在一步步探索之中逐渐学习系统的深水区领域，这种成就感所分泌的多巴胺是任何其他娱乐无法给予的。而且，这种个人深度底层配置往往可能不是最好的，但是确是对个人（也就是配置持有者）而言最顺手的，并且也不用担心无法复现，linux很多清单式设计可以让你以全量或者半增量的形式保存这些配置，而且还有github这种“网盘”。该感谢巨硬，把私有仓库的数量都改成无限了。虽然我现在在用微软大战代码（OSS特别版），但是还是不得不说它难得也做了一件好事。</p>
+<p>再聊一聊EndeavourOS这东西吧，这东西虽然和之前翻大车的manjaro同为arch的“嫡系”，但是它还算是比较尊重它的父亲的。manjaro显然想自立门户的，自己开的源最后搞得乌烟瘴气，admin那群上游最后也乐不思蜀（严格来说不得不打个问号，源管理者配不配称作上游，可能算吧，能力越大责任越大有时候也不一定，但是显然manjaro是德不配位），还整出pacman-mirror这种莫名其妙的东西，aur压两周别人以为是优化测试去了，结果人家拿钱享福去了，manjaro的源你就用吧现在还敢用用完八字弱的得高烧两周，两周完aur压箱底的东西出来了 -Syu一下滚挂了这下救不活了。EndeavourOS倒还算纯血，也就自己拉了个小源塞几个小工具，目前也还没见到什么商业化的东西，但是根据古人的智慧2020年左右manjaro就有商业推广了。德不配位很恐怖的，巨硬怎么讲也算是做了点好事才敢牛气冲天占了<code>code</code>这个包名（虽然被aur强制摘帽子变成<code>code-OSS</code>),相比之下，比如 <code>node</code>（Node.js）进入 Linux 仓库时，发现已经有一个处理业余无线电的包叫 <code>node</code> 了，所以 Node.js 在很多旧版 Linux 仓库里不得不改名叫 <code>nodejs</code>,巨硬敢这么干也算它前半生行善积德（虽然不多，但是在“<del>不存在的那几年</del>”救活github算一个），你manjaro算什么东西，敢跟你爹叫板了aur被你这么玩，更别说八年前manjaro把我爹电脑的硬盘烧了，恨来自广州。当然历史就是人们不断在同一个地方跌倒，谁也说不准EndeavourOS哪天就变质了，你看它能干几年呢？（当然，我也知道有些开源项目就这样问心无愧的服务了几亿人几十年，respect，一码归一码谢谢，我就是比较悲观）但是至少arch算纯血，不至于跑路无门，至少我们还有ezarcher呢。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/HFMvef2aYAADG63.jpg"
+        data-srcset="/img1/HFMvef2aYAADG63.jpg, /img1/HFMvef2aYAADG63.jpg 1.5x, /img1/HFMvef2aYAADG63.jpg 2x"
+        data-sizes="auto"
+        alt="/img1/HFMvef2aYAADG63.jpg"
+        title="/img1/HFMvef2aYAADG63.jpg" /></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2026-04-13</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/posts/iamfuckinghatei3wm/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 X" data-sharer="x" data-url="https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/" data-title="【杂谈/dev-note】人是路径依赖动物" data-hashtags="开发,随笔"><i class="fab fa-x-twitter" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Threads" data-sharer="threads" data-url="https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/" data-title="【杂谈/dev-note】人是路径依赖动物"><i class="fab fa-threads" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/" data-hashtag="开发"><i class="fab fa-facebook-square" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/" data-title="【杂谈/dev-note】人是路径依赖动物"><i class="fab fa-hacker-news" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/" data-title="【杂谈/dev-note】人是路径依赖动物"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@16.9.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/" data-title="【杂谈/dev-note】人是路径依赖动物" data-image="/img1/HFzS1pwasAMnX8I.jpg" data-ralateuid="5513975973"><i class="fab fa-weibo" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Diaspora" data-sharer="diaspora" data-url="https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/" data-title="【杂谈/dev-note】人是路径依赖动物" data-description="kde太好用了你们知道吗！"><i class="fab fa-diaspora" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fpakiknowledge.pages.dev%2fposts%2fiamfuckinghatei3wm%2f&amp;text=%e3%80%90%e6%9d%82%e8%b0%88%2fdev-note%e3%80%91%e4%ba%ba%e6%98%af%e8%b7%af%e5%be%84%e4%be%9d%e8%b5%96%e5%8a%a8%e7%89%a9" target="_blank" title="分享到 Telegram"><i class="fab fa-telegram" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%BC%80%E5%8F%91/">开发</a>,&nbsp;<a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/mtfarchandmore/" class="prev" rel="prev" title="【杂谈】 一个开源软件使用者失禁的一天"><i class="fas fa-angle-left" aria-hidden="true"></i>【杂谈】 一个开源软件使用者失禁的一天</a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.160.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 1.0.0"><i class="far fa-kiss-wink-heart" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2026</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><script src="https://cdn.jsdelivr.net/npm/valine@1.5.3/dist/Valine.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@5.20.2/dist/lite/builds/browser.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script><script>window.config={"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@15.1.2/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script src="/js/theme.js"></script></body>
+</html>

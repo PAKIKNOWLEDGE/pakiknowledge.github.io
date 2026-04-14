@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Thinkpad t430 Hackintosh 以及其他心得 - 帕琪的小屋</title><meta name="Description" content="别急"><meta property="og:url" content="https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/">
+  <meta property="og:site_name" content="帕琪的小屋">
+  <meta property="og:title" content="Thinkpad t430 Hackintosh 以及其他心得">
+  <meta property="og:description" content="别急">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-03-11T20:49:58+08:00">
+    <meta property="article:modified_time" content="2026-03-11T20:49:58+08:00">
+    <meta property="article:tag" content="开发">
+    <meta property="og:image" content="https://pakiknowledge.pages.dev/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://pakiknowledge.pages.dev/logo.png">
+  <meta name="twitter:title" content="Thinkpad t430 Hackintosh 以及其他心得">
+  <meta name="twitter:description" content="别急">
+<meta name="application-name" content="帕琪的小屋">
+<meta name="apple-mobile-web-app-title" content="帕琪的小屋">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/" /><link rel="prev" href="https://pakiknowledge.pages.dev/posts/thodanre2/" /><link rel="next" href="https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Thinkpad t430 Hackintosh 以及其他心得",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/pakiknowledge.pages.dev\/posts\/t430hackintoshandmore\/"
+        },"image": ["https:\/\/pakiknowledge.pages.dev\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "开发","wordcount":  4838 ,
+        "url": "https:\/\/pakiknowledge.pages.dev\/posts\/t430hackintoshandmore\/","datePublished": "2026-03-11T20:49:58+08:00","dateModified": "2026-03-11T20:49:58+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "pakiknowledge","logo": "https:\/\/pakiknowledge.pages.dev\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "is Thinkpad user a femboy coder?"
+            },"description": "别急"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/-/"> 关于 </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/t430hackintoshandmore/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/-/" title="">关于</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/t430hackintoshandmore/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Thinkpad t430 Hackintosh 以及其他心得</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i>is Thinkpad user a femboy coder?</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt" aria-hidden="true"></i>&nbsp;<time datetime="2026-03-11">2026-03-11</time>&nbsp;<i class="fas fa-pencil-alt" aria-hidden="true"></i>&nbsp;约 4838 字&nbsp;
+                <i class="far fa-clock" aria-hidden="true"></i>&nbsp;预计阅读 10 分钟&nbsp;<span id="/posts/t430hackintoshandmore/" class="leancloud_visitors" data-flag-title="Thinkpad t430 Hackintosh 以及其他心得">
+                        <i class="far fa-eye" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/HDCqo3iaMAUq64N.jpg"
+        data-srcset="/img1/HDCqo3iaMAUq64N.jpg, /img1/HDCqo3iaMAUq64N.jpg 1.5x, /img1/HDCqo3iaMAUq64N.jpg 2x"
+        data-sizes="auto"
+        alt="/img1/HDCqo3iaMAUq64N.jpg"
+        title="别急" /></div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#0-前言">0 前言</a></li>
+        <li><a href="#1-second-choice">1 Second choice</a>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#需求">需求</a></li>
+                <li><a href="#加装固态硬盘">加装固态硬盘</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#2-hackintosh饺子与醋">2 Hackintosh：饺子与醋</a>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#啥是醋">啥是醋</a></li>
+                <li><a href="#安装流程与坑">安装流程与坑</a>
+                  <ul>
+                    <li><a href="#别呀先等等">别呀，先等等！</a></li>
+                  </ul>
+                </li>
+                <li><a href="#显卡驱动问题">显卡驱动问题</a></li>
+                <li><a href="#网卡驱动问题">网卡驱动问题</a></li>
+                <li><a href="#实际体验与遗留问题">实际体验与遗留问题</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#3-总结">3 总结</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h3 id="0-前言">0 前言</h3>
+<p>首先很遗憾的通知大家，那台之前被我折腾过的松下 sz6 不幸的坏了。鉴于松下的配件难以替换还有在国内要找人修的难度实在太高，所以我<strong>遗弃了它）</strong> 接下来，鉴于我一向来不喜欢用游戏本办公和写作业的缘故，（包括这篇文章也在 t430 上写的）所以这意味着我必须物色一台新宠来满足我的需求。那么买全新肯定是不可能的了，实则就是，在电子硬件的选择与购买上，我觉得现在的情势突出两字：<strong>挣扎</strong>。（请注意我的用词和定语，我们就现在把它留下，因为后面会继续提到的。）抛开新闻稿上写的所谓什么“算力潮”和什么“供应链”云云，这些带来的实际客观情况就是，全新内存（DDR4/5) 和存储（包括固态 ssd、机械硬盘 hdd）都是全面四五倍的涨幅。但是在目前，DIY 装机对我来说是一种伪需求，但是存储的升级是一种迫切的需求。哎呀！这让我当时在隐星 p15 游戏本的内存选配犯下的错（指没有选择 1t ssd 而是 512g ssd）的代价更大了——因为我发现：</p>
+<blockquote>
+<p>我换不起固态来装《剑星》还有其他的东西了。我操。</p>
+</blockquote>
+<p>总的来说，我最后选择了 Thinkpad T430。明说吧，我一开始是想选择 X220/X230 的。但是阴差阳错之间我竟然没有这么做，但是总的来说我的确选择了 Thinkpad。这有三方面原因，一是 Thinkpad 并不像松下是小众猎奇之物，至少键盘坏了可以很方便的换，这也是基于 Thinkpad 庞大的用户基数的原因。再者，Thinkpad 大多数保留了方便的可拓展性设计。譬如为内存和硬盘位预留了方便显眼易拆卸的盖板和螺丝钉，（反观松下那破内存疑似板载）还有可拆卸电池（在这种特别老款的笔记本上，除非卖家有提前换过，否则大概率“附赠”一块千疮百孔/几近不可用的老爷电池）便于更换。最后，Thinkpad 的键盘手感和小红点让文字工作更加顺手。虽然 x220/t420 的键盘上永恒经典，在它两的后代 X240/T430 因为更换了新的键盘材质的原因常被评为拉完了，但是再这么说也比松下 sz6 那块反人类纯招笑日文键盘好。（更何况，它坏了。Thinkpad 以耐用著称，而松下疑似站在它的对立面）</p>
+<hr>
+<h3 id="1-second-choice">1 Second choice</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/t430-1.jpg"
+        data-srcset="/img1/t430-1.jpg, /img1/t430-1.jpg 1.5x, /img1/t430-1.jpg 2x"
+        data-sizes="auto"
+        alt="/img1/t430-1.jpg"
+        title="/img1/t430-1.jpg" /></p>
+<p>那么就来看看这台斥巨资（实则花费 370 元）买到的 Thinkpad T430。首先从成色上看，A 面还不错，有掉漆两处，不妨事，用两张管人贴纸应付了了事。B 面（也就是屏幕）有一小处明显可见坏点在最左侧，但是显然不影响使用，我并不是屏幕敏感用户，我的隐星 p15 屏幕被压伤了一处我至今没有什么感觉。然后看键盘和触控板，也不是很脏，是一个很好的水平。最后看 D 面，在内存和硬盘的主板螺丝处有一个防拆贴纸，据卖家所说这批 T430 是单位采购退役下来的，但是显然被翻修过。从配置上来看，这台 T430 搭载着 ivy bridge 架构的三代 i5、8g ddr3 内存、还有一块 300G 的&hellip;.机械硬盘。从重量上看，裸机大概 2.0-2.3kg。开合难易度部分，t430 采用了锁扣设计，需要横推锁扣滑块才可以把盖子打开，不过呢，开锁之后可以很轻松的进行单手开盖。</p>
+<h5 id="需求">需求</h5>
+<p>分析我纯文字办公的需求来看，虽然二代 i5 相较于之前搭载七代 i3 的松下 sz6 来说无异于是性能降级，但是在需求上看完全是足以应对，因为我买个本基本就是当打字机用的。内存管他是 ddr 几，只要是 8gb 基本是够用的。但是主要的问题在于硬盘，机械硬盘在如今确实会带来令人崩溃的体验，外加我有黑苹果的需求，所以一块固态硬盘就成刚需了。但是前面我说过，在如今硬件的选购时令人<strong>挣扎</strong>的，那么死马当活马医，我又斥巨资（实则为 60RMB) 购买了一条<del>通电五百万小时也不知道是哪个犄角旮旯生产</del>的二手 128g m.sata ssd。</p>
+<h5 id="加装固态硬盘">加装固态硬盘</h5>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/t430-ssd.jpg"
+        data-srcset="/img1/t430-ssd.jpg, /img1/t430-ssd.jpg 1.5x, /img1/t430-ssd.jpg 2x"
+        data-sizes="auto"
+        alt="/img1/t430-ssd.jpg"
+        title="/img1/t430-ssd.jpg" /></p>
+<p>这台笔记本加装内存和固态还是比较简单的，所需的工具只有一支十字螺丝刀就可以了，当然，如果你有金属桌腿或者什么类似的金属的东西，那也可以利用起来，在你换零件之前摩擦两下，除除静电！我也是<del>斥巨资</del>（实则为¥3）在学校门口超市买到了妙妙工具，然后看到 D 面，有一个专门的，由四个螺丝固定的盖板，拧开就能自行加装硬盘和内存。（自带的大机械硬盘则不是在这个地方，这个地方是拓展存储用的）盖板的四个螺丝是防呆设计的，就算被拧到极限也不会掉下来，所以放心拧开，然后拿出固态硬盘，拧出 sata 插槽的固定螺丝（但是要注意，这颗固定螺丝可没有防呆设计，要是丢了就得哭天抢地了）看准金手指插槽斜四十五度怼进去，之后小心施力按平，再拧回插槽的固定螺丝就可以了。（注意到，这个金手指插槽显然也是防呆设计的，因为我在查阅和观看拆机视频的时候了解到，如果你翻错面了这个金手指是对不进去的。<del>当然，所谓防呆不防傻，如果某些人用蛮力把插槽卡坏了那也犹未可知吧！</del> )</p>
+<h3 id="2-hackintosh饺子与醋">2 Hackintosh：饺子与醋</h3>
+<hr>
+<h5 id="啥是醋">啥是醋</h5>
+<p>在压低了预算之后，我们购买到了这样老爷的硬件，正所谓有些东西越老越妖，硬件老不一定是坏事，虽然老硬盘通电时间长那肯定令人忍俊不禁，但是老硬件也就意味着在如今 macOS 全面转向自研 m 芯片的当下还有黑苹果的余地。算了，明说吧，饺子吃完了醋来了，我买老 Thinkpad 就是为了装黑苹果用的。在使用松下 sz6 的过程中我也是体验到了在纯文字工作的需求驱动下，macOS 提供更易用的界面和更加优秀的多任务处理能力，以及和苹果设备更好的联动 <del>（虽然这个狗屁蓝牙驱动我至今也是没有修好用不了 airdrop）</del> 大白话就是，macOS 不仅确实挺好用的还可以装逼。而且我在购买 t430 之前就已经考察过，网上已经有兼容性非常好、完成度非常高的 efi 可供使用。那么接下来就是安装的过程</p>
+<h5 id="安装流程与坑">安装流程与坑</h5>
+<p>黑果的引导一直以来都主要由 clover（俗称四叶草🍀）和 opencore（俗称 OC) 占主流。而 open core 有着更加频繁的更新、更加详尽的社区指南、更加先进的硬件检测和驱动自动装载程序，包括上次我在给 sz6 装黑果的时候也用的 oc，所以我这次依旧选择用 oc 来引导。<del>（虽然随着苹果的封锁和弃用英特尔芯片的大趋势下，黑苹果差不多要走向生命的尽头了）</del></p>
+<h6 id="别呀先等等">别呀，先等等！</h6>
+<p>注意到，efi 文件之所以叫 efi，在于 macOS 的引导实则是与<strong>纯 UEFI 引导强绑定的</strong>。而这台 t430 我拿到手的时候是用的传统启动（MBR) 且预装 Windows7 系统。win7 对 uefi 的兼容性说很差的，所以为了让 Windows 也兼容这个纯 uefi 的方案，我决定先把机械硬盘的 win7 格了换成 win10，然后再把 macOS 装到 ssd 上。但是考虑到，这机器确实上了年头，装原版的 windows10 确实有点压力，于是我上网找了一个精简版的系统，最后选择了这个叫<a href="https://www.mefcl.com/xiuw10qd.html/comment-page-1" target="_blank" rel="noopener noreffer ">Windows 10 Pro 22H2 19044/19045 二合一 轻度精简版 - 小修（2026.03.12）</a>的系统，系统是 esd 格式的，在精简之下只有 1.5g 左右的大小。虽然说精简版系统可能有各种的问题，但是在这台本子上我肯定大部分时候都呆在 macOS 并且用合盖睡眠，所以 Windows 只需要等着不时之需就可以了。为了防止出问题，我还准备了一个 pe 盘，用的是微 pe。先用用 pe 里的分区助手转换为 gpt 分区表，创建 efi 分区，再用 winnt setup 把 esd 文件安装进硬盘，由于系统经过精简的原因，即使在机械硬盘上安装也非常快，开机之后发现系统啥都没有，连过渡动画也被精简了，但是目前没遇到什么功能问题，也非常流畅，这里也推荐有老硬件的朋友，不考虑 Linux 的情况下可以试试这些精简版镜像。</p>
+<hr>
+<p>好的，回到正常黑苹果的安装。那么现如今黑苹果的安装其实已经非常简单。（在有适配的 efi 的前提下、即使没有，现在也能全自动生成）主要有三步：</p>
+<ul>
+<li><i class="far fa-square" aria-hidden="true"></i> 1 获得 efi 文件和镜像</li>
+<li><i class="far fa-square" aria-hidden="true"></i> 2 使用你的安装介质把 efi 装载，并引导进系统后安装</li>
+<li><i class="far fa-square" aria-hidden="true"></i> 3 后续配置、补全功能、开始使用</li>
+</ul>
+<p>一般来讲，网上的教程大多数都推荐使用 u 盘作为安装介质。不过我觉得有些麻烦，于是我采用和上次在 sz6 上安装 macOS12 一样的方法，使用 rdr 镜像恢复安装。首先获取一份 rdr 镜像，然后把 efi 文件放入磁盘的 esp 分区中，再用 rdrive 软件把 rdr 文件恢复进硬盘后就可以了。这次我依旧选择了 macOS 12 Monterey 版本，因为本着好用就继续用的原则，虽然看见有些人在 t430 里安装了 macOS26，但是还是维持和 sz6 上的原状吧。</p>
+<hr>
+<h5 id="显卡驱动问题">显卡驱动问题</h5>
+<p>这次安装的过程中，我首先尝试了<a href="https://github.com/jozews321/T430-Hackintosh-Opencore" target="_blank" rel="noopener noreffer ">来自 jozews321\T430-Hackintosh-Opencore</a>
+的这份 efi。这份 efi 本来的功能支持已经完全是完美的水平，但是由于 apple 在 macOS Big Sur 版本之后已经停止了对 HD 4000 集成显卡的支持，所以在引导系统之后需要用<del>OC 老婆</del> 其实是<a href="https://github.com/dortania/OpenCore-Legacy-Patcher/releases" target="_blank" rel="noopener noreffer ">OpenCore Legacy Patcher(OCLP)</a>进行打补丁之后才可以正确的调用显存并启用硬件加速。就在使用这份文件的时候，我虽然成功引导进入了系统，但是呢，不清楚是不是我 oclp 版本问题还是咋地，<strong>我的 patch 按钮竟然是灰色的</strong>。（当然，我事后才意识到可能是 oclp 的问题，因为 open core 这些插件拓展工具，包括什么 occ、oclp 都疑似和 open core 的版本一一对应，而这个问题在<a href="https://github.com/ic005k/OCAuxiliaryTools" target="_blank" rel="noopener noreffer ">OpenCore Auxiliary Tools (<strong>OCAT</strong> )</a>才被解决，ocat 没有 occ 那样和版本强绑定，这也导致我弃用 occ）这之后我又换了一份 ufi，是来自<a href="https://github.com/Xiaoheixu/Thinkpad-T430-s-OpenCorteBootloader" target="_blank" rel="noopener noreffer ">Xiaoheixu\Thinkpad-T430-s-OpenCorteBootloader</a>，作者似乎是国人，不过联系方式均已失效。这份 efi 和上一份有两处不同，一是：作者将自己的网卡替换成了 Bcm94360HMB/Bcm943224HMP、二是，作者自己在 release 里附赠了一个 oclp。这解决了一个问题、又产生了另一个问题。这解决了 oclp 不可用的问题。果不其然，这次换用这个 efi 启动之后，成功用 oclp 驱动了 hd4000，启用了硬件加速，其他各项功能也没有太大的问题。</p>
+<hr>
+<h5 id="网卡驱动问题">网卡驱动问题</h5>
+<p>但是，产生了新的问题，由于我没有和作者一样换用博通网卡，而是 Thinkpad t430 原生自带的<strong>Intel Centrino Wireless-N 2200（1x1 BGN）</strong>，这导致其 efi 中的驱动和实际的硬件是不对应的，自然而然 Wi-Fi 和蓝牙也是瘫痪的状态。不过，作者在文档中也说，可以自行添加英特尔网卡和蓝牙驱动。此时，注意到，如果同时加载博通驱动和英特尔驱动，可能会出问题，所以我先在ocat中，删掉了有关博通Wi-Fi的东西，这之后，我置入了<a href="https://github.com/OpenIntelWireless/itlwm" target="_blank" rel="noopener noreffer ">GitHub - OpenIntelWireless/<strong>itlwm</strong></a>驱动。（其实之前在松下用的是AirportItlwm，感觉不太稳定，换用了）不同于AirportItlwm调用macOS原生Wi-Fi管理，itlwm采用Heliport.app来管理Wi-Fi。虽然这会导致macOS菜单栏的原生Wi-Fi无法使用，但是，只需要手动启动程序，heliport会自动蹦上去菜单栏，达到和原生状态栏连接一样的效果。</p>
+<hr>
+<h5 id="实际体验与遗留问题">实际体验与遗留问题</h5>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/scr1.png"
+        data-srcset="/img1/scr1.png, /img1/scr1.png 1.5x, /img1/scr1.png 2x"
+        data-sizes="auto"
+        alt="/img1/scr1.png"
+        title="/img1/scr1.png" /></p>
+<p>至此，在t430上安装macOS12的流程就至此结束了，这次的配置，比起在松下sz6上那次需要手动修复睡眠问题，t430的睡眠和唤醒倒是完美的工作。而触控板也是完美驱动上了（<del>傻逼松下不知道哪个二逼卵子设计的圆盘触控板难用的要死还驱动不上真是这辈子有了</del>）但是还是不太完美的，注意到，上面虽然修复了Wi-Fi驱动，但是没有修复蓝牙驱动呀！我尝试用相同的方法，把博通的驱动删了然后植入英特尔蓝牙驱动，结果系统炸了，吓得我再也不敢修了，又不是不能用.jpg 没了airdrop功能，至少我们还有<strong>微信文件传输助手</strong>呢。</p>
+<p>在装好系统的实际体验上，还是有一些问题存在的。比如，itlwm驱动似乎跑不满我校园网的带宽，导致下载速度奇慢无比，原因不明，但是此问题需要控制变量，等我找另一个网再次尝试一下，然后才可得出结论。还有就是，这笔记本比起松下sz6恐怖的轻量化（800+-g），其2.2kg左右的重量外加上电源适配器，原先用手提电脑包就可以装上sz6和充电器，这次就必须上双肩包了。所以说，在便携性上，还是打了一些折扣，但是实际体验下来，也是完全不会有游戏本那么重的夸张。（</p>
+<p><del>早知道买x220/t430s）</del></p>
+<p>还有再说一下续航的问题。卖家声称电池还有91%健康度 <del>我去，还有暗广啊</del> 结果实测感觉根本不符合，而且出现了电量从10%跳到了2%的情况，所以我斥巨资（实则为75元）购买了一块全新的电池，在全程连接Wi-Fi开着vs code和Firefox-esr写这篇文章的时候，14:46开始，电量99%，中间不间断直到17:02剩下20%电量。理论续航不到3h，对于这老本来说还可以了，你不能指望ivy bridge和lunar lake竞争呀。</p>
+<hr>
+<h3 id="3-总结">3 总结</h3>
+<p>买了三双了，质量非常好，与卖家描述一致，孩子们都特别喜欢吃，版型很好，面料舒适，尺码标准，不沾杯持妆久，橘色系更加显白，洗完也很柔顺头发也不油了，屏幕清晰运行流畅，敏敏肌用起来毫无压力，握感舒适不伤牙龈，每次炒菜都会放几滴，很满意的一次购物</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20260313174206_30_1.jpg"
+        data-srcset="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20260313174206_30_1.jpg, /img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20260313174206_30_1.jpg 1.5x, /img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20260313174206_30_1.jpg 2x"
+        data-sizes="auto"
+        alt="/img1/微信图片_20260313174206_30_1.jpg"
+        title="/img1/微信图片_20260313174206_30_1.jpg" /></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2026-03-11</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/posts/t430hackintoshandmore/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 X" data-sharer="x" data-url="https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/" data-title="Thinkpad t430 Hackintosh 以及其他心得" data-hashtags="开发"><i class="fab fa-x-twitter" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Threads" data-sharer="threads" data-url="https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/" data-title="Thinkpad t430 Hackintosh 以及其他心得"><i class="fab fa-threads" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/" data-hashtag="开发"><i class="fab fa-facebook-square" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/" data-title="Thinkpad t430 Hackintosh 以及其他心得"><i class="fab fa-hacker-news" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/" data-title="Thinkpad t430 Hackintosh 以及其他心得"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@16.9.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/" data-title="Thinkpad t430 Hackintosh 以及其他心得" data-image="/img1/HDCqo3iaMAUq64N.jpg" data-ralateuid="5513975973"><i class="fab fa-weibo" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Diaspora" data-sharer="diaspora" data-url="https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/" data-title="Thinkpad t430 Hackintosh 以及其他心得" data-description="别急"><i class="fab fa-diaspora" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fpakiknowledge.pages.dev%2fposts%2ft430hackintoshandmore%2f&amp;text=Thinkpad%20t430%20Hackintosh%20%e4%bb%a5%e5%8f%8a%e5%85%b6%e4%bb%96%e5%bf%83%e5%be%97" target="_blank" title="分享到 Telegram"><i class="fab fa-telegram" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%BC%80%E5%8F%91/">开发</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/thodanre2/" class="prev" rel="prev" title="東方音弾遊戯RE2 全曲评分"><i class="fas fa-angle-left" aria-hidden="true"></i>東方音弾遊戯RE2 全曲评分</a>
+            <a href="/posts/our-struggle-is-my-struggle/" class="next" rel="next" title="吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？">吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？<i class="fas fa-angle-right" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.160.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 1.0.0"><i class="far fa-kiss-wink-heart" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2026</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><script src="https://cdn.jsdelivr.net/npm/valine@1.5.3/dist/Valine.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@5.20.2/dist/lite/builds/browser.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script><script>window.config={"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@15.1.2/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script src="/js/theme.js"></script></body>
+</html>
