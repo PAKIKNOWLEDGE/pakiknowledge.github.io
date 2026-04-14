@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>随笔 - 标签 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94/</link>
+        <link>http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/</link>
         <description>随笔 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Apr 2026 21:50:28 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E9%9A%8F%E7%AC%94/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Apr 2026 21:50:28 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/" rel="self" type="application/rss+xml" /><item>
     <title>【杂谈/dev-note】人是路径依赖动物</title>
-    <link>https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/</link>
+    <link>http://localhost:1313/posts/iamfuckinghatei3wm/</link>
     <pubDate>Mon, 13 Apr 2026 21:50:28 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/</guid>
+    <guid>http://localhost:1313/posts/iamfuckinghatei3wm/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/HFzS1pwasAMnX8I.jpg" referrerpolicy="no-referrer">
             </div><h3 id="0已跑路">0:已跑路</h3>
@@ -17,10 +17,10 @@
 </item>
 <item>
     <title>【杂谈】 一个开源软件使用者失禁的一天</title>
-    <link>https://pakiknowledge.pages.dev/posts/mtfarchandmore/</link>
+    <link>http://localhost:1313/posts/mtfarchandmore/</link>
     <pubDate>Fri, 10 Apr 2026 19:01:09 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/mtfarchandmore/</guid>
+    <guid>http://localhost:1313/posts/mtfarchandmore/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/nyarch.png" referrerpolicy="no-referrer">
             </div><div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
@@ -66,10 +66,10 @@
 </item>
 <item>
     <title>吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？</title>
-    <link>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</link>
+    <link>http://localhost:1313/posts/our-struggle-is-my-struggle/</link>
     <pubDate>Thu, 19 Mar 2026 20:45:09 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</guid>
+    <guid>http://localhost:1313/posts/our-struggle-is-my-struggle/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/HDxXsMZXYAAlha1.jpg" referrerpolicy="no-referrer">
             </div><h3 id="矛盾螺旋">矛盾螺旋</h3>
@@ -77,30 +77,30 @@
 </item>
 <item>
     <title>我们必须接受人生的岔路口没有信号灯的事实</title>
-    <link>https://pakiknowledge.pages.dev/posts/2025half/</link>
+    <link>http://localhost:1313/posts/2025half/</link>
     <pubDate>Mon, 02 Jun 2025 12:59:37 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/2025half/</guid>
+    <guid>http://localhost:1313/posts/2025half/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/0cfb3165126937b2c6b0879d024a021f.jpeg" referrerpolicy="no-referrer">
             </div><p>2025的上半年过去了，如果要用一个词来形容的话，我竟然有点想用“倒霉”了。但是人生也未必消极，六个月过去了也未必一整年就万劫不复了。对上半年的评点和反思也只能让我们在2025这个段落的前面多几个缩进罢了。</p>]]></description>
 </item>
 <item>
     <title>帝王，诗人，浪子</title>
-    <link>https://pakiknowledge.pages.dev/posts/2025422/</link>
+    <link>http://localhost:1313/posts/2025422/</link>
     <pubDate>Tue, 22 Apr 2025 19:23:33 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/2025422/</guid>
+    <guid>http://localhost:1313/posts/2025422/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GpIQjXXa4AEw7c7.jpeg" referrerpolicy="no-referrer">
             </div><p>之前听闻了一个说法，男人可以分成帝王，诗人，浪子。如果你让我自评，我可能介于诗人和浪子之间。我谈不上是什么帝王，很少有人说我有一种“霸气”和果断的蛮狠。诗人和浪子的特质，我多少都被吸附了。诗人沉浸在自己的艺术里，在自我搭建的框架里安贫乐道。浪子追求自由，我也讨厌既定的框架，如果有一个东西把我框住，我会痛不欲生，不遗余力的从里面想要往外挣脱。如果我们这样讲，我们这样子界定，这样子评估，倒也是一种说法，但是这显然不是我要说的。</p>]]></description>
 </item>
 <item>
     <title>doomer也许存在即合理 但是我反对他的持续性</title>
-    <link>https://pakiknowledge.pages.dev/posts/doomertalking/</link>
+    <link>http://localhost:1313/posts/doomertalking/</link>
     <pubDate>Wed, 19 Mar 2025 19:36:26 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/doomertalking/</guid>
+    <guid>http://localhost:1313/posts/doomertalking/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/OIP-C.jfif" referrerpolicy="no-referrer">
             </div><h3 id="0-存在即合理">0 存在即合理</h3>
@@ -108,20 +108,20 @@
 </item>
 <item>
     <title>读《明朝那些事儿》：当一个异类更难了</title>
-    <link>https://pakiknowledge.pages.dev/posts/misfit/</link>
+    <link>http://localhost:1313/posts/misfit/</link>
     <pubDate>Fri, 14 Mar 2025 10:55:30 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/misfit/</guid>
+    <guid>http://localhost:1313/posts/misfit/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/Gl0xJDFW4AAaXIW.png" referrerpolicy="no-referrer">
             </div><p>《明朝那些事》抽空读了，首先我要说的是，这本书确实是适合大众阅读的通俗性科普读物，其小说和史料结合的笔法在我读过的历史读物中属于优秀的水平，可以比肩黄仁宇的《万历十五年》。历史叙述作品持续存在的一个问题在于：太过深奥、生硬的叙事风格令普通读者难以接受，实在有点过于“阳春白雪”。譬如说费正清的《剑桥中国史》算是“阳春白雪”的话，《明朝那些事儿》可以算作是“下里巴人”了。</p>]]></description>
 </item>
 <item>
     <title>行动是永远的基本盘</title>
-    <link>https://pakiknowledge.pages.dev/posts/heart/</link>
+    <link>http://localhost:1313/posts/heart/</link>
     <pubDate>Sun, 09 Mar 2025 19:45:35 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/heart/</guid>
+    <guid>http://localhost:1313/posts/heart/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GlgLqgobwAQ76-B.jfif" referrerpolicy="no-referrer">
             </div><p>事实证明，行动是永远的基本盘。人生更加得心应手的前提，必须是让行动跑在思想的前面。扶大厦之将倾，人暴起而动，行为姑且充数。大厦将倾，人不动，若有所思，冷眼观大厦之坍塌也。思考，等待，并失去。心在渐渐碎裂，不如动起来找点东西补上，不然就成了冷眼。
@@ -130,10 +130,10 @@
 </item>
 <item>
     <title>月之癌</title>
-    <link>https://pakiknowledge.pages.dev/posts/myths-of-pig-farming/</link>
+    <link>http://localhost:1313/posts/myths-of-pig-farming/</link>
     <pubDate>Mon, 03 Mar 2025 22:45:51 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/myths-of-pig-farming/</guid>
+    <guid>http://localhost:1313/posts/myths-of-pig-farming/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/GlGadI4a4AAjBDb.jpg" referrerpolicy="no-referrer">
             </div><p>月儿是家里的大姐。</p>
@@ -141,10 +141,10 @@
 </item>
 <item>
     <title>城市脉动:从化区</title>
-    <link>https://pakiknowledge.pages.dev/posts/city-ch/</link>
+    <link>http://localhost:1313/posts/city-ch/</link>
     <pubDate>Tue, 25 Feb 2025 16:35:53 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/city-ch/</guid>
+    <guid>http://localhost:1313/posts/city-ch/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/%e5%be%ae%e4%bf%a1%e5%9b%be%e7%89%87_20250225164050.jpg" referrerpolicy="no-referrer">
             </div><h3 id="0-认识即重担">0 认识即重担</h3>

@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>学术 - 标签 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/tags/%E5%AD%A6%E6%9C%AF/</link>
+        <link>http://localhost:1313/tags/%E5%AD%A6%E6%9C%AF/</link>
         <description>学术 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Mar 2026 20:45:09 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E5%AD%A6%E6%9C%AF/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Mar 2026 20:45:09 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%AD%A6%E6%9C%AF/" rel="self" type="application/rss+xml" /><item>
     <title>吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？</title>
-    <link>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</link>
+    <link>http://localhost:1313/posts/our-struggle-is-my-struggle/</link>
     <pubDate>Thu, 19 Mar 2026 20:45:09 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</guid>
+    <guid>http://localhost:1313/posts/our-struggle-is-my-struggle/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/HDxXsMZXYAAlha1.jpg" referrerpolicy="no-referrer">
             </div><h3 id="矛盾螺旋">矛盾螺旋</h3>

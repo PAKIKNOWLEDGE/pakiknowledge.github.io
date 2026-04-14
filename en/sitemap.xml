@@ -2,30 +2,30 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://pakiknowledge.pages.dev/en/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:1313/en/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://pakiknowledge.pages.dev/categories/"
+                        href="http://localhost:1313/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://pakiknowledge.pages.dev/en/categories/"
+                    href="http://localhost:1313/en/categories/"
                     /></url><url>
-            <loc>https://pakiknowledge.pages.dev/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:1313/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://pakiknowledge.pages.dev/tags/"
+                        href="http://localhost:1313/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://pakiknowledge.pages.dev/en/tags/"
+                    href="http://localhost:1313/en/tags/"
                     /></url><url>
-            <loc>https://pakiknowledge.pages.dev/en/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:1313/en/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://pakiknowledge.pages.dev/"
+                        href="http://localhost:1313/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://pakiknowledge.pages.dev/en/"
+                    href="http://localhost:1313/en/"
                     /></url></urlset>

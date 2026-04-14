@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>音游 - 标签 - 帕琪的小屋</title>
-        <link>https://pakiknowledge.pages.dev/tags/%E9%9F%B3%E6%B8%B8/</link>
+        <link>http://localhost:1313/tags/%E9%9F%B3%E6%B8%B8/</link>
         <description>音游 - 标签 - 帕琪的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 08 Sep 2025 22:56:05 &#43;0800</lastBuildDate><atom:link href="https://pakiknowledge.pages.dev/tags/%E9%9F%B3%E6%B8%B8/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 08 Sep 2025 22:56:05 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%9F%B3%E6%B8%B8/" rel="self" type="application/rss+xml" /><item>
     <title>東方音弾遊戯RE2 全曲评分</title>
-    <link>https://pakiknowledge.pages.dev/posts/thodanre2/</link>
+    <link>http://localhost:1313/posts/thodanre2/</link>
     <pubDate>Mon, 08 Sep 2025 22:56:05 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/thodanre2/</guid>
+    <guid>http://localhost:1313/posts/thodanre2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/logo.webp" referrerpolicy="no-referrer">
             </div><h2 id="0-概述">0 概述</h2>
@@ -19,10 +19,10 @@
 </item>
 <item>
     <title>LR2自动灯简易配置方法</title>
-    <link>https://pakiknowledge.pages.dev/posts/lr2-gas-v2/</link>
+    <link>http://localhost:1313/posts/lr2-gas-v2/</link>
     <pubDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/lr2-gas-v2/</guid>
+    <guid>http://localhost:1313/posts/lr2-gas-v2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/E-XdCRgVQAAbh0C.jpg" referrerpolicy="no-referrer">
             </div><blockquote>
@@ -30,10 +30,10 @@
 </item>
 <item>
     <title>在LR2中使用GAS方法的相关问题</title>
-    <link>https://pakiknowledge.pages.dev/posts/lr2-gas/</link>
+    <link>http://localhost:1313/posts/lr2-gas/</link>
     <pubDate>Fri, 06 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/lr2-gas/</guid>
+    <guid>http://localhost:1313/posts/lr2-gas/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/img1/pSEVAqe.jpg" referrerpolicy="no-referrer">
             </div><blockquote>
@@ -44,10 +44,10 @@
 </item>
 <item>
     <title>BOFXVI个人精选</title>
-    <link>https://pakiknowledge.pages.dev/posts/bofxvi/</link>
+    <link>http://localhost:1313/posts/bofxvi/</link>
     <pubDate>Sun, 22 Nov 2020 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>https://pakiknowledge.pages.dev/posts/bofxvi/</guid>
+    <guid>http://localhost:1313/posts/bofxvi/</guid>
     <description><![CDATA[<p></p>
 <blockquote>
 <p>帕琪KNOWLEDGE个人的bofxvi选集。</p>
