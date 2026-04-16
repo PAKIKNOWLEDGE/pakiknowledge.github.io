@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>在LR2中使用GAS方法的相关问题 - 帕琪的小屋</title><meta name="Description" content="精神垃圾置物场"><meta property="og:url" content="http://localhost:1313/posts/lr2-gas/">
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>在LR2中使用GAS方法的相关问题 - 帕琪的小屋</title><meta name="author" content="     &#34;PAKIKNOWLEDGE&#34;">
+<meta name="description" content=" 前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。
+1 GAS是什么 就是自动灯，这里不再赘述。
+"><meta name="keywords" content='音游, 开发'>
+  <meta itemprop="name" content="在LR2中使用GAS方法的相关问题">
+  <meta itemprop="description" content="前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。
+1 GAS是什么 就是自动灯，这里不再赘述。">
+  <meta itemprop="datePublished" content="2023-01-06T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-01-06T00:00:00+00:00">
+  <meta itemprop="wordCount" content="823">
+  <meta itemprop="keywords" content="音游,开发"><meta property="og:url" content="http://localhost:1313/posts/lr2-gas/">
   <meta property="og:site_name" content="帕琪的小屋">
   <meta property="og:title" content="在LR2中使用GAS方法的相关问题">
   <meta property="og:description" content="前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。
@@ -16,234 +26,172 @@
     <meta property="article:modified_time" content="2023-01-06T00:00:00+00:00">
     <meta property="article:tag" content="音游">
     <meta property="article:tag" content="开发">
-    <meta property="og:image" content="http://localhost:1313/logo.png">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="在LR2中使用GAS方法的相关问题">
   <meta name="twitter:description" content="前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。
 1 GAS是什么 就是自动灯，这里不再赘述。">
 <meta name="application-name" content="帕琪的小屋">
-<meta name="apple-mobile-web-app-title" content="帕琪的小屋">
-<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/lr2-gas/" /><link rel="prev" href="http://localhost:1313/posts/%E5%9C%B0%E9%9B%B7/" /><link rel="next" href="http://localhost:1313/posts/lr2-gas-v2/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "headline": "在LR2中使用GAS方法的相关问题",
-        "inLanguage": "zh-CN",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "http:\/\/localhost:1313\/posts\/lr2-gas\/"
-        },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "音游, 开发","wordcount":  823 ,
-        "url": "http:\/\/localhost:1313\/posts\/lr2-gas\/","datePublished": "2023-01-06T00:00:00+00:00","dateModified": "2023-01-06T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
-            "@type": "Organization",
-            "name": "pakiknowledge","logo": "http:\/\/localhost:1313\/images\/avatar.png"},"author": {
-                "@type": "Person",
-                "name": "     \"PAKIKNOWLEDGE\""
-            },"description": ""
-    }
-    </script></head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
-          const query = window.matchMedia('(prefers-color-scheme: dark)');
-          function applyTheme() {
-            let theme = window.localStorage?.getItem('theme') || 'auto';
-            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
-            document.body.setAttribute('theme', isDark? 'dark' : 'light');
-            document.body.setAttribute('cfg-theme', theme);
-          }
-
-          applyTheme();
-          query.addEventListener('change', applyTheme);
-        </script>
-
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+<meta name="apple-mobile-web-app-title" content="帕琪的小屋"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/posts/lr2-gas/" title="在LR2中使用GAS方法的相关问题 - 帕琪的小屋" /><link rel="prev" type="text/html" href="http://localhost:1313/posts/%E5%9C%B0%E9%9B%B7/" title="地雷：" /><link rel="next" type="text/html" href="http://localhost:1313/posts/lr2-gas-v2/" title="LR2自动灯简易配置方法" /><link rel="alternate" type="text/plain" href="http://localhost:1313/posts/lr2-gas/index.md" title="在LR2中使用GAS方法的相关问题 - 帕琪的小屋"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "在LR2中使用GAS方法的相关问题",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/posts\/lr2-gas\/"
+    },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "音游, 开发","wordcount":  823 ,
+    "url": "http:\/\/localhost:1313\/posts\/lr2-gas\/","datePublished": "2023-01-06T00:00:00+00:00","dateModified": "2023-01-06T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+      "@type": "Organization",
+      "name": "pakiknowledge","logo": "http:\/\/localhost:1313\/images\/avatar.png"},"author": {
+        "@type": "Person",
+        "name": "     \"PAKIKNOWLEDGE\""
+      },"description": ""
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-instant-intensity="viewport" data-header-desktop="fixed" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span><span class="header-title-text">帕琪的小屋</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a class="menu-link" href="/posts/">所有文章</a></li><li class="menu-item">
+              <a class="menu-link" href="/tags/">标签</a></li><li class="menu-item">
+              <a class="menu-link" href="/categories/">分类</a></li><li class="menu-item">
+              <a class="menu-link" href="/categories/documentation/">文档</a></li><li class="menu-item">
+              <a class="menu-link" href="/about/">关于</a></li><li class="menu-item">
+              <a class="menu-link" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i> </a></li><li class="menu-item">
+              <a class="menu-link" href="/friends/" title="我的小伙伴们">友链</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="搜索文章标题或内容……" id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+              <i class="fa-solid fa-search" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+              <i class="fa-solid fa-times-circle" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" role="button" aria-label="切换主题" title="切换主题"><i class="fa-solid fa-adjust" aria-hidden="true"></i></li><li class="menu-item language-switch">
+            <span role="button" aria-label="选择语言" title="选择语言"><i class="fa-solid fa-language" aria-hidden="true"></i></span>
+            <ul class="sub-menu"><li class="menu-item">没有更多翻译</li></ul>
+          </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
     <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/-/"> 关于 </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
-                            <i class="fas fa-search" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
-                            <i class="fas fa-times-circle" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                    <i class="fas fa-adjust" aria-hidden="true"></i>
-                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/lr2-gas/" selected>简体中文</option></select>
-                </a></div>
-        </div>
+      <div class="header-title">
+        <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span><span class="header-title-text">帕琪的小屋</span></a><span class="header-subtitle"></span></div>
+      <div class="theme-switch" role="button" aria-label="切换主题"><i class="fa-solid fa-adjust" aria-hidden="true"></i></div>
+      <div class="menu-toggle" id="menu-toggle-mobile" role="button" aria-labelledby="menu-mobile">
+        <span></span><span></span><span></span>
+      </div>
     </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>帕琪的小屋</a>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="搜索文章标题或内容……" id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                <i class="fa-solid fa-search" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                <i class="fa-solid fa-times-circle" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i>
+              </span>
             </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                    <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
-                            <i class="fas fa-search" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
-                            <i class="fas fa-times-circle" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                        取消
-                    </a>
-                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/-/" title="">关于</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                <i class="fas fa-adjust" aria-hidden="true"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/posts/lr2-gas/" selected>简体中文</option></select>
-                </a></div>
-    </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              取消
+            </a>
+          </li><li class="menu-item"><a class="menu-link" href="/posts/">所有文章</a></li><li class="menu-item"><a class="menu-link" href="/tags/">标签</a></li><li class="menu-item"><a class="menu-link" href="/categories/">分类</a></li><li class="menu-item"><a class="menu-link" href="/categories/documentation/">文档</a></li><li class="menu-item"><a class="menu-link" href="/about/">关于</a></li><li class="menu-item"><a class="menu-link" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i> </a></li><li class="menu-item"><a class="menu-link" href="/friends/" title="我的小伙伴们">友链</a></li><li class="menu-item menu-system"><span class="menu-system-item language-switch">
+              <span role="button" aria-label="选择语言" title="选择语言">简体中文<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i></span>
+              <select id="language-select" class="language-select" onchange="location = this.value;"><option disabled>没有更多翻译</option></select>
+            </span></li>
+      </ul>
+    </nav>
+  </div>
 </header><div class="search-dropdown desktop">
-        <div id="search-dropdown-desktop"></div>
-    </div>
-    <div class="search-dropdown mobile">
-        <div id="search-dropdown-mobile"></div>
-    </div><main class="main">
-                <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">目录</h2>
-            <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">在LR2中使用GAS方法的相关问题</h1><h2 class="single-subtitle">代理消失的世界是崩坏的世界</h2><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i>     "PAKIKNOWLEDGE"</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt" aria-hidden="true"></i>&nbsp;<time datetime="2023-01-06">2023-01-06</time>&nbsp;<i class="fas fa-pencil-alt" aria-hidden="true"></i>&nbsp;约 823 字&nbsp;
-                <i class="far fa-clock" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
-        </div><div class="featured-image"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/img1/pSEVAqe.jpg"
-        data-srcset="/img1/pSEVAqe.jpg, /img1/pSEVAqe.jpg 1.5x, /img1/pSEVAqe.jpg 2x"
-        data-sizes="auto"
-        alt="/img1/pSEVAqe.jpg"
-        title="/img1/pSEVAqe.jpg" /></div><div class="details toc" id="toc-static"  data-kept="true">
-                <div class="details-summary toc-title">
-                    <span>目录</span>
-                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
-                </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><blockquote>
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="fi-container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="合集"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>在LR2中使用GAS方法的相关问题</span>
+      </h1><p class="single-subtitle animate__animated animate__fadeIn">代理消失的世界是崩坏的世界</p></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+           "PAKIKNOWLEDGE"</span></span></div><div class="post-meta-line"><span title="发布于 2023-01-06 00:00:00"><i class="fa-solid fa-calendar-days me-1" aria-hidden="true"></i><time datetime="2023-01-06">2023-01-06</time></span>&nbsp;<span title="823 字"><i class="fa-solid fa-pencil-alt me-1" aria-hidden="true"></i>约 900 字</span>&nbsp;<span><i class="fa-regular fa-clock me-1" aria-hidden="true"></i>预计阅读 2 分钟</span>&nbsp;</div>
+    </div><div class="featured-image"><img loading="eager" src='/img1/pSEVAqe.jpg' sizes="(max-width: 680px) 100vw, (max-width: 960px) 80vw, (max-width: 1440px) 56vw, 800px" alt="/img1/pSEVAqe.jpg"></div><div class="content" id="content"><blockquote>
 <p>前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。</p>
 </blockquote>
-<h1 id="1-gas是什么">1 GAS是什么</h1>
-<p>就是自动灯，这里不再赘述。</p>
+<h1 class="heading-element" id="1-gas是什么"><span>1 GAS是什么</span>
+  <a href="#1-gas%e6%98%af%e4%bb%80%e4%b9%88" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><p>就是自动灯，这里不再赘述。</p>
 <hr>
-<h1 id="2-在lr2中使用gas的方法">2 在LR2中使用GAS的方法：</h1>
-<p>首先，这个GAS似乎是与<a href="https://bokutachi.xyz/" target="_blank" rel="noopener noreffer ">Bokutachi IR</a>绑定使用的，在使用GAS之前你需要先连上这个IR。这个IR的官网直连是可以进入的，但是仍然需要代理。</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/img1/pSEV4sO.png"
-        data-srcset="/img1/pSEV4sO.png, /img1/pSEV4sO.png 1.5x, /img1/pSEV4sO.png 2x"
-        data-sizes="auto"
-        alt="/img1/pSEV4sO.png"
-        title="1" /></p>
+<h1 class="heading-element" id="2-在lr2中使用gas的方法"><span>2 在LR2中使用GAS的方法：</span>
+  <a href="#2-%e5%9c%a8lr2%e4%b8%ad%e4%bd%bf%e7%94%a8gas%e7%9a%84%e6%96%b9%e6%b3%95" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><p>首先，这个GAS似乎是与<a href="https://bokutachi.xyz/" target="_blank" rel="external nofollow noopener noreferrer">Bokutachi IR</a>绑定使用的，在使用GAS之前你需要先连上这个IR。这个IR的官网直连是可以进入的，但是仍然需要代理。</p>
+<p><img loading="lazy" src='/img1/pSEV4sO.png' alt="1"></p>
 <p>点击注册会提示你看规则，需要看30秒，这里还告诉你禁止创建小号，看完进行注册的时候<strong>坑就来了</strong>。</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/img1/pSEZiYn.md.png"
-        data-srcset="/img1/pSEZiYn.md.png, /img1/pSEZiYn.md.png 1.5x, /img1/pSEZiYn.md.png 2x"
-        data-sizes="auto"
-        alt="/img1/pSEZiYn.md.png"
-        title="2" /></p>
+<p><img loading="lazy" src='/img1/pSEZiYn.md.png' alt="2"></p>
 <p>哈哈！如果你这时候没用挂代理的话就会发现<strong>Captcha failed</strong>了！那么这是怎么回事呢？其实就是因为没挂代理谷歌验证码加载不出来。这个问题在你裸连登录的时候同样会遇到，所以前言就建议全程挂代理。</p>
 <hr>
 <p>注册完之后需要去邮箱里点确认链接，请确保你的代理还是开着的情况下去邮箱验证。验证完登录你就会看到类似的界面：</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/img1/pSEZcnS.png"
-        data-srcset="/img1/pSEZcnS.png, /img1/pSEZcnS.png 1.5x, /img1/pSEZcnS.png 2x"
-        data-sizes="auto"
-        alt="/img1/pSEZcnS.png"
-        title="pSEZcnS.png" /></p>
-<p>这个时候在确保IR已登录的情况下去<a href="https://bokutachi.xyz/client-file-flow/CXLR2Hook" target="_blank" rel="noopener noreffer ">这里</a>，你会下载到一个叫<code>BokutachiAuth.json</code>的文件，请把他放到LR2的根目录。</p>
+<p><img loading="lazy" src='/img1/pSEZcnS.png' alt="pSEZcnS.png"></p>
+<p>这个时候在确保IR已登录的情况下去<a href="https://bokutachi.xyz/client-file-flow/CXLR2Hook" target="_blank" rel="external nofollow noopener noreferrer">这里</a>，你会下载到一个叫<code>BokutachiAuth.json</code>的文件，请把他放到LR2的根目录。</p>
 <p>这时候你基本已经要成功了！</p>
-<p>然后再去<a href="https://github.com/MatVeiQaaa/BokutachiHook/releases" target="_blank" rel="noopener noreffer ">这里</a>下载bokutachi IR的启动器，再去<a href="https://github.com/MatVeiQaaa/LR2GAS/releases" target="_blank" rel="noopener noreffer ">这里</a>得到<code>LR2GAS.dll</code>把所有文件放在LR2的根目录。</p>
+<p>然后再去<a href="https://github.com/MatVeiQaaa/BokutachiHook/releases" target="_blank" rel="external nofollow noopener noreferrer">这里</a>下载bokutachi IR的启动器，再去<a href="https://github.com/MatVeiQaaa/LR2GAS/releases" target="_blank" rel="external nofollow noopener noreferrer">这里</a>得到<code>LR2GAS.dll</code>把所有文件放在LR2的根目录。</p>
 <p>然后这时候你的LR2目录大概是这样子：</p>
-<p>[<img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/img1/pSEZbBF.png"
-        data-srcset="/img1/pSEZbBF.png, /img1/pSEZbBF.png 1.5x, /img1/pSEZbBF.png 2x"
-        data-sizes="auto"
-        alt="/img1/pSEZbBF.png"
-        title="pSEZbBF.png" />]</p>
+<p>[<img loading="lazy" src='/img1/pSEZbBF.png' alt="pSEZbBF.png">]</p>
 <p>这之后，用BokutachiLauncher.exe启动LR2就可以使用GAS插件了！然后这里笔者遇到了个坑，那就是直接点击BokutachiLauncher.exe启动会直接闪退，但是对这个程序使用<strong>LEGUI</strong>之后就正常了，推测是转区一类的问题，请各位自行避雷。还有一个好消息是你现在可以把你的代理关掉了，在裸连的情况下你依然可以正常连上bokutachiIR并使用GAS插件。</p>
 <hr>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/img1/QQ%e5%9b%be%e7%89%8720230106184017.png"
-        data-srcset="/img1/QQ%e5%9b%be%e7%89%8720230106184017.png, /img1/QQ%e5%9b%be%e7%89%8720230106184017.png 1.5x, /img1/QQ%e5%9b%be%e7%89%8720230106184017.png 2x"
-        data-sizes="auto"
-        alt="/img1/QQ图片20230106184017.png"
-        title="1" /></p>
+<p><img loading="lazy" src='/img1/QQ图片20230106184017.png' alt="1"></p>
 <p>最后经过群友提醒，该IR的管理员似乎极度反感二次元，那么笔者是不是很二次元呢？显然是，看那个banner是不是二次元？然而这种”尺度“的图片会不会被该管理员认定为<strong>nsfw</strong>呢？由于《<strong>最终解释权</strong>》归他，所以笔者倡议大家<strong>索性不要上传头像了</strong>。</p>
 <p>FIN!</p>
 </div><div class="post-footer" id="post-footer">
-    <div class="post-info">
-        <div class="post-info-line">
-            <div class="post-info-mod">
-                <span>更新于 2023-01-06</span>
-            </div></div>
-        <div class="post-info-line">
-            <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/posts/lr2-gas/index.md" target="_blank">阅读原始文档</a>
-                        </span></div>
-            <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 X" data-sharer="x" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题" data-hashtags="音游,开发"><i class="fab fa-x-twitter" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Threads" data-sharer="threads" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题"><i class="fab fa-threads" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/lr2-gas/" data-hashtag="音游"><i class="fab fa-facebook-square" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题"><i class="fab fa-hacker-news" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题" data-image="/img1/pSEVAqe.jpg" data-ralateuid="5513975973"><i class="fab fa-weibo" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Diaspora" data-sharer="diaspora" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题" data-description=""><i class="fab fa-diaspora" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=http%3a%2f%2flocalhost%3a1313%2fposts%2flr2-gas%2f&amp;text=%e5%9c%a8LR2%e4%b8%ad%e4%bd%bf%e7%94%a8GAS%e6%96%b9%e6%b3%95%e7%9a%84%e7%9b%b8%e5%85%b3%e9%97%ae%e9%a2%98" target="_blank" title="分享到 Telegram"><i class="fab fa-telegram" aria-hidden="true"></i></a></span>
-            </div>
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod"><span title="更新于 2023-01-06 00:00:00">更新于 2023-01-06&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"><span><a href="/posts/lr2-gas/index.md" title="阅读原始文档" class="link-to-markdown">阅读原始文档</a></span><span><a href="vscode://file//home/pakiknowledge/%e6%96%87%e6%a1%a3/blog/hugofullbackuo-main/content/posts/lr2-gas.md" title="在编辑器中打开" target="_blank" rel="external nofollow noopener noreferrer" class="link-to-vscode">在编辑器中打开</a></span></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="分享到 X" data-sharer="twitter" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题" data-hashtags="音游,开发"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/lr2-gas/" data-hashtag="音游"><i class="fa-brands fa-facebook-square" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题"><i class="fa-brands fa-hacker-news" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题"><svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LINE</title><path d="M19.365 9.863c.349.0.63.285.63.631.0.345-.281.63-.63.63H17.61v1.125h1.755c.349.0.63.283.63.63.0.344-.281.629-.63.629h-2.386c-.345.0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346.0.627.285.627.63.0.349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211.0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346.0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195.0.375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345.0.63.285.63.63v4.771zm-5.741.0c0 .344-.282.629-.631.629-.345.0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346.0.628.285.628.63v4.771zm-2.466.629H4.917c-.345.0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348.0.63.285.63.63v4.141h1.756c.348.0.629.283.629.63.0.344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943.0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/lr2-gas/" data-title="在LR2中使用GAS方法的相关问题" data-image="/img1/pSEVAqe.jpg" data-ralateuid="5513975973"><i class="fa-brands fa-weibo" aria-hidden="true"></i></a>
+  </span>
         </div>
-    </div>
+      </div></div>
 
-    <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%9F%B3%E6%B8%B8/">音游</a>,&nbsp;<a href="/tags/%E5%BC%80%E5%8F%91/">开发</a></section>
-        <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
-        </section>
-    </div>
-
-    <div class="post-nav"><a href="/posts/%E5%9C%B0%E9%9B%B7/" class="prev" rel="prev" title="地雷："><i class="fas fa-angle-left" aria-hidden="true"></i>地雷：</a>
-            <a href="/posts/lr2-gas-v2/" class="next" rel="next" title="LR2自动灯简易配置方法">LR2自动灯简易配置方法<i class="fas fa-angle-right" aria-hidden="true"></i></a></div>
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags me-1" aria-hidden="true"></i><a href="/tags/%E9%9F%B3%E6%B8%B8/" class="post-tag" title="标签 - 音游">音游</a><a href="/tags/%E5%BC%80%E5%8F%91/" class="post-tag" title="标签 - 开发">开发</a></section>
+    <section><span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+    </section>
+  </div><div class="post-nav"><a href="/posts/%E5%9C%B0%E9%9B%B7/" class="post-nav-item" rel="prev" title="地雷："><i class="fa-solid fa-angle-left" aria-hidden="true"></i>地雷：</a><a href="/posts/lr2-gas-v2/" class="post-nav-item" rel="next" title="LR2自动灯简易配置方法">LR2自动灯简易配置方法<i class="fa-solid fa-angle-right" aria-hidden="true"></i></a></div>
 </div>
-</article></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.160.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 1.0.0"><i class="far fa-kiss-wink-heart" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2026</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-        </div>
-    </footer></div>
+</article>
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
-                <i class="fas fa-arrow-up" aria-hidden="true"></i>
-            </a>
-        </div>
-
-        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="查看评论">
-                <i class="fas fa-comment" aria-hidden="true"></i>
-            </a>
-        </div><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/algoliasearch/lite/browser.umd.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script>window.config={"comment":{},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script src="/js/theme.js"></script></body>
+  <aside class="toc" id="toc-auto" aria-label="目录"></aside></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.160.1"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.5"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2020 - 2026</span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons"><div class="fixed-button back-to-top animate__faster d-none" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/algoliasearch/algoliasearch-lite.umd.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/cell-tooltip/cell-tooltip.umd.js" defer></script><script src="/js/config/e919bddbe73376ccca90b0fdaa8ed828.js" defer></script><script src="/js/theme.min.js" defer></script></body>
 </html>
