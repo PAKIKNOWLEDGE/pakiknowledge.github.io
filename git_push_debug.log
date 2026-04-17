@@ -1,0 +1,3 @@
+21:43:09.010185 git.c:502               trace: built-in: git push origin main
+21:43:09.013238 run-command.c:673       trace: run_command: unset GIT_PREFIX; ssh git@github.com 'git-receive-pack '\''PAKIKNOWLEDGE/PAKIKNOWLEDGE.github.io.git'\'''
+21:43:09.013266 run-command.c:765       trace: start_command: /usr/bin/ssh git@github.com 'git-receive-pack '\''PAKIKNOWLEDGE/PAKIKNOWLEDGE.github.io.git'\'''
