@@ -7,8 +7,15 @@
     <generator>Hugo 0.160.1 &amp; FixIt v0.4.5</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 17 Apr 2026 20:25:13 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 14:18:19 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Niri个人日用体验</title>
+      <link>http://localhost:1313/posts/niri-me/</link>
+      <pubDate>Tue, 21 Apr 2026 14:18:19 +0800</pubDate>
+      <guid>http://localhost:1313/posts/niri-me/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文写于niri。哈哈😄&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>近期遇到的tips</title>
       <link>http://localhost:1313/posts/archtips/</link>
