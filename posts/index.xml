@@ -7,14 +7,21 @@
     <generator>Hugo 0.160.1 &amp; FixIt v0.4.5</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 21 Apr 2026 14:18:19 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 17:19:35 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搞半天还要自己拼？手搓一份Mangowc配置和声明式配置体验</title>
+      <link>http://localhost:1313/posts/mangowcconf/</link>
+      <pubDate>Fri, 24 Apr 2026 17:19:35 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mangowcconf/</guid>
+      <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;0前言&#34;&gt;&lt;span&gt;0.前言&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e5%89%8d%e8%a8%80&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;在配置好niri+DMS的方案之后，我原本以为几乎已经毕业，但是有人竟然挑刺，声称空载内存太高，于是我蠢人灵机一动找来同样是跑在wayland上的mangowc，因为这个合成器似乎占用更少。在网络上对于mango的评价和抨击主要在于社区资料太少，其他的倒没有什么评价。我查了一下资料确实少，可能也比较难找，不过作者给出了还算详尽的文档。不想看咋办？让ai帮你看得了。于是我先准备了gemini在旁边陪嫁，然后突然蠢人灵机一动套用了mangowc作者自己在github上发的一个配置，结果发现臭不可闻，不知道这个作者什么审美，给屏幕装一个莫名其妙的屎黄色蓝光滤镜，图标和字体更是不知道哪来的狗屎审美，我当即觉得mangowc难堪大用，一通&lt;code&gt;pacman -R&lt;/code&gt;把他们都枪毙了。但是上了一天课之后，我突然反思，我觉得可能是dms那种高度集成化配置的轮椅坐多了害我没法走路了，那个作者配置的用的自己舒心完全是因为配置文件是他从头到尾手搓的，如果我想要一份舒心的配置，我显然需要也从头为自己去定制一套配置，感受强大的声明式配置，顺便练习使用neovim+lazyvim（其实中途好多次叛逃去kate），&lt;del&gt;然后放到网上引得别人来用然后重走我的老路&lt;/del&gt;。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Niri个人日用体验</title>
       <link>http://localhost:1313/posts/niri-me/</link>
       <pubDate>Tue, 21 Apr 2026 14:18:19 +0800</pubDate>
       <guid>http://localhost:1313/posts/niri-me/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文写于niri。哈哈😄&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文写于niri。哈哈😄&#xA;&lt;img loading=&#34;lazy&#34; src=&#39;http://localhost:1313/img1/1776753294940893645.png&#39; alt=&#34;/img1/1776753294940893645.png&#34;&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 class=&#34;heading-element&#34; id=&#34;0开端&#34;&gt;&lt;span&gt;0.开端&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e5%bc%80%e7%ab%af&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;在之前gnome+i3wm的配置被坑害之后，我又听闻有一现代wayland合成器名叫&lt;code&gt;niri&lt;/code&gt; 这让我非常好奇，早就听说全键盘式的流转进行写作和开发是一种非常高效率的行为，现在这个niri似乎又提供了一个机会让我体验和顺便练习vim。 &lt;del&gt;哪个神人用了八年不会用vim？原来是我啊&lt;/del&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>近期遇到的tips</title>

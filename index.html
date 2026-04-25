@@ -9,8 +9,8 @@
     <title>帕琪的小屋</title><meta name="author" content="">
 <meta name="description" content="">
   <meta itemprop="name" content="帕琪的小屋">
-  <meta itemprop="datePublished" content="2026-04-21T14:18:19+08:00">
-  <meta itemprop="dateModified" content="2026-04-21T14:18:19+08:00"><meta property="og:url" content="http://localhost:1313/">
+  <meta itemprop="datePublished" content="2026-04-24T17:19:35+08:00">
+  <meta itemprop="dateModified" content="2026-04-24T17:19:35+08:00"><meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="帕琪的小屋">
   <meta property="og:title" content="帕琪的小屋">
   <meta property="og:locale" content="zh_CN">
@@ -105,6 +105,16 @@
     </a><a href="mailto:2772962906@qq.com" title="Email" target="_blank" rel="external nofollow noopener noreferrer me"><i class="fa-regular fa-envelope" aria-hidden="true"></i>
     </a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+      <a href="/posts/mangowcconf/" aria-label="搞半天还要自己拼？手搓一份Mangowc配置和声明式配置体验"><img loading="eager" src='/img1/swappy-20260424_202811.png' sizes="(max-width: 680px) 100vw, (max-width: 960px) 80vw, (max-width: 1440px) 56vw, 800px" alt="Featured image for 搞半天还要自己拼？手搓一份Mangowc配置和声明式配置体验" height="336" width="800"></a>
+    </div><h2 class="single-title" itemprop="name headline"><a href="/posts/mangowcconf/">搞半天还要自己拼？手搓一份Mangowc配置和声明式配置体验</a>
+  </h2><div class="post-meta"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      8777</span></span>&nbsp;<span class="post-publish" title='2026-04-24 17:19:35'>发布于 <time datetime="2026-04-24">2026-04-24</time></span></div><div class="content"><h3 class="heading-element" id="0前言"><span>0.前言</span>
+  <a href="#0%e5%89%8d%e8%a8%80" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>在配置好niri+DMS的方案之后，我原本以为几乎已经毕业，但是有人竟然挑刺，声称空载内存太高，于是我蠢人灵机一动找来同样是跑在wayland上的mangowc，因为这个合成器似乎占用更少。在网络上对于mango的评价和抨击主要在于社区资料太少，其他的倒没有什么评价。我查了一下资料确实少，可能也比较难找，不过作者给出了还算详尽的文档。不想看咋办？让ai帮你看得了。于是我先准备了gemini在旁边陪嫁，然后突然蠢人灵机一动套用了mangowc作者自己在github上发的一个配置，结果发现臭不可闻，不知道这个作者什么审美，给屏幕装一个莫名其妙的屎黄色蓝光滤镜，图标和字体更是不知道哪来的狗屎审美，我当即觉得mangowc难堪大用，一通<code>pacman -R</code>把他们都枪毙了。但是上了一天课之后，我突然反思，我觉得可能是dms那种高度集成化配置的轮椅坐多了害我没法走路了，那个作者配置的用的自己舒心完全是因为配置文件是他从头到尾手搓的，如果我想要一份舒心的配置，我显然需要也从头为自己去定制一套配置，感受强大的声明式配置，顺便练习使用neovim+lazyvim（其实中途好多次叛逃去kate），<del>然后放到网上引得别人来用然后重走我的老路</del>。</p></div><div class="post-footer">
+    <a href="/posts/mangowcconf/">阅读全文</a><div class="post-tags"><i class="fa-solid fa-tags me-1" aria-hidden="true"></i><a href='/tags/%E5%BC%80%E5%8F%91/' class="post-tag">开发</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
       <a href="/posts/niri-me/" aria-label="Niri个人日用体验"><img loading="eager" src='/img1/HGUFz_ObcAEAYq8.jpg' sizes="(max-width: 680px) 100vw, (max-width: 960px) 80vw, (max-width: 1440px) 56vw, 800px" alt="Featured image for Niri个人日用体验" height="336" width="800"></a>
     </div><h2 class="single-title" itemprop="name headline"><a href="/posts/niri-me/">Niri个人日用体验</a>
   </h2><div class="post-meta"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
@@ -230,16 +240,6 @@
   </a>
 </h3><p>近来为某个神秘游戏寻得一程序，通过ue4 mod的方式进行lua注入从而添加自定义音乐。随后一日，模组更新了特性，支持在bgm选择界面时加入了预览音频的逻辑。其自述文件如此写：</p></div><div class="post-footer">
     <a href="/posts/ue4musicpreview/">阅读全文</a><div class="post-tags"><i class="fa-solid fa-tags me-1" aria-hidden="true"></i><a href='/tags/%E5%BC%80%E5%8F%91/' class="post-tag">开发</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-      <a href="/posts/our-struggle-is-my-struggle/" aria-label="吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？"><img loading="eager" src='/img1/HDxXsMZXYAAlha1.jpg' sizes="(max-width: 680px) 100vw, (max-width: 960px) 80vw, (max-width: 1440px) 56vw, 800px" alt="Featured image for 吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？" height="336" width="800"></a>
-    </div><h2 class="single-title" itemprop="name headline"><a href="/posts/our-struggle-is-my-struggle/">吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？</a>
-  </h2><div class="post-meta"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      招笑期刊</span></span>&nbsp;<span class="post-publish" title='2026-03-19 20:45:09'>发布于 <time datetime="2026-03-19">2026-03-19</time></span></div><div class="content"><h4 class="heading-element" id="矛盾螺旋"><span>矛盾螺旋</span>
-  <a href="#%e7%9f%9b%e7%9b%be%e8%9e%ba%e6%97%8b" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h4><p>学术圈其实已经够乱，令人人心惶惶。即使我抱着好面子和在学校多赖几年这种不纯动机在我的乐色本校一声不吭的喊口号要目指研究生，我还是不得不承认，我只是一个涉世未深的新兵蛋子本科生。但是犹如二战时期躲到瑞士避难听着外面风声鹤唳未免也心里发毛，近几年，在硕士及以上的学历段爆出的抽象新闻已成规模，并且抽象文献已经在各门学科里百花齐放，百家争鸣，堂而皇之的登上各种期刊，成为个人、实验室、乃至学校学术的门面。早在笔者还在读高中时期就耳闻生物学圈子的肠道菌群研究出来的sci疑似为一群江湖骗子招摇撞骗，各种堪比六脉神剑的神功尽出，譬如用无菌小鼠动物模型的研究成果类比到人类肠道上的，菌群研究发表顶刊后被资本包装成“益生菌胶囊包治百病”一类的、更有甚者，还有论文数据直接用捏造却逃过顶刊一轮轮审核登大雅之堂的。</p></div><div class="post-footer">
-    <a href="/posts/our-struggle-is-my-struggle/">阅读全文</a><div class="post-tags"><i class="fa-solid fa-tags me-1" aria-hidden="true"></i><a href='/tags/%E9%9A%8F%E7%AC%94/' class="post-tag">随笔</a><a href='/tags/%E5%AD%A6%E6%9C%AF/' class="post-tag">学术</a></div></div>
 </article><ul class="pagination"><li class="page-item active">
           <span class="page-link">
             <a href="/">1</a>
