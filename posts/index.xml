@@ -2,299 +2,299 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>所有文章 - 帕琪的小屋</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://pakiknowledge.pages.dev/posts/</link>
     <description>帕琪的小屋</description>
     <generator>Hugo 0.160.1 &amp; FixIt v0.4.5</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Fri, 24 Apr 2026 17:19:35 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pakiknowledge.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>搞半天还要自己拼？手搓一份Mangowc配置和声明式配置体验</title>
-      <link>http://localhost:1313/posts/mangowcconf/</link>
+      <link>https://pakiknowledge.pages.dev/posts/mangowcconf/</link>
       <pubDate>Fri, 24 Apr 2026 17:19:35 +0800</pubDate>
-      <guid>http://localhost:1313/posts/mangowcconf/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/mangowcconf/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;0前言&#34;&gt;&lt;span&gt;0.前言&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e5%89%8d%e8%a8%80&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;在配置好niri+DMS的方案之后，我原本以为几乎已经毕业，但是有人竟然挑刺，声称空载内存太高，于是我蠢人灵机一动找来同样是跑在wayland上的mangowc，因为这个合成器似乎占用更少。在网络上对于mango的评价和抨击主要在于社区资料太少，其他的倒没有什么评价。我查了一下资料确实少，可能也比较难找，不过作者给出了还算详尽的文档。不想看咋办？让ai帮你看得了。于是我先准备了gemini在旁边陪嫁，然后突然蠢人灵机一动套用了mangowc作者自己在github上发的一个配置，结果发现臭不可闻，不知道这个作者什么审美，给屏幕装一个莫名其妙的屎黄色蓝光滤镜，图标和字体更是不知道哪来的狗屎审美，我当即觉得mangowc难堪大用，一通&lt;code&gt;pacman -R&lt;/code&gt;把他们都枪毙了。但是上了一天课之后，我突然反思，我觉得可能是dms那种高度集成化配置的轮椅坐多了害我没法走路了，那个作者配置的用的自己舒心完全是因为配置文件是他从头到尾手搓的，如果我想要一份舒心的配置，我显然需要也从头为自己去定制一套配置，感受强大的声明式配置，顺便练习使用neovim+lazyvim（其实中途好多次叛逃去kate），&lt;del&gt;然后放到网上引得别人来用然后重走我的老路&lt;/del&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Niri个人日用体验</title>
-      <link>http://localhost:1313/posts/niri-me/</link>
+      <link>https://pakiknowledge.pages.dev/posts/niri-me/</link>
       <pubDate>Tue, 21 Apr 2026 14:18:19 +0800</pubDate>
-      <guid>http://localhost:1313/posts/niri-me/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文写于niri。哈哈😄&#xA;&lt;img loading=&#34;lazy&#34; src=&#39;http://localhost:1313/img1/1776753294940893645.png&#39; alt=&#34;/img1/1776753294940893645.png&#34;&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 class=&#34;heading-element&#34; id=&#34;0开端&#34;&gt;&lt;span&gt;0.开端&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e5%bc%80%e7%ab%af&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;在之前gnome+i3wm的配置被坑害之后，我又听闻有一现代wayland合成器名叫&lt;code&gt;niri&lt;/code&gt; 这让我非常好奇，早就听说全键盘式的流转进行写作和开发是一种非常高效率的行为，现在这个niri似乎又提供了一个机会让我体验和顺便练习vim。 &lt;del&gt;哪个神人用了八年不会用vim？原来是我啊&lt;/del&gt;&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/posts/niri-me/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文写于niri。哈哈😄&#xA;&lt;img loading=&#34;lazy&#34; src=&#39;https://pakiknowledge.pages.dev/img1/1776753294940893645.png&#39; alt=&#34;/img1/1776753294940893645.png&#34;&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 class=&#34;heading-element&#34; id=&#34;0开端&#34;&gt;&lt;span&gt;0.开端&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e5%bc%80%e7%ab%af&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;在之前gnome+i3wm的配置被坑害之后，我又听闻有一现代wayland合成器名叫&lt;code&gt;niri&lt;/code&gt; 这让我非常好奇，早就听说全键盘式的流转进行写作和开发是一种非常高效率的行为，现在这个niri似乎又提供了一个机会让我体验和顺便练习vim。 &lt;del&gt;哪个神人用了八年不会用vim？原来是我啊&lt;/del&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>近期遇到的tips</title>
-      <link>http://localhost:1313/posts/archtips/</link>
+      <link>https://pakiknowledge.pages.dev/posts/archtips/</link>
       <pubDate>Fri, 17 Apr 2026 20:25:13 +0800</pubDate>
-      <guid>http://localhost:1313/posts/archtips/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/archtips/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;前言&#34;&gt;&lt;span&gt;前言&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e5%89%8d%e8%a8%80&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;archLinux的使用的充满陡峭的学习曲线的，这几天使用还没过半个月又遇到零零碎碎的各种问题，自己自用记录一下。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【杂谈/dev-note】人是路径依赖动物</title>
-      <link>http://localhost:1313/posts/iamfuckinghatei3wm/</link>
+      <link>https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/</link>
       <pubDate>Mon, 13 Apr 2026 21:50:28 +0800</pubDate>
-      <guid>http://localhost:1313/posts/iamfuckinghatei3wm/</guid>
-      <description>&lt;h3 class=&#34;heading-element&#34; id=&#34;0已跑路&#34;&gt;&lt;span&gt;0:已跑路&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e5%b7%b2%e8%b7%91%e8%b7%af&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;http://localhost:1313/img1/屏幕截图_20260414_141359.png&#39; alt=&#34;/img1/屏幕截图_20260414_141359.png&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/posts/iamfuckinghatei3wm/</guid>
+      <description>&lt;h3 class=&#34;heading-element&#34; id=&#34;0已跑路&#34;&gt;&lt;span&gt;0:已跑路&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e5%b7%b2%e8%b7%91%e8%b7%af&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://pakiknowledge.pages.dev/img1/屏幕截图_20260414_141359.png&#39; alt=&#34;/img1/屏幕截图_20260414_141359.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>【杂谈】 一个开源软件使用者失禁的一天</title>
-      <link>http://localhost:1313/posts/mtfarchandmore/</link>
+      <link>https://pakiknowledge.pages.dev/posts/mtfarchandmore/</link>
       <pubDate>Fri, 10 Apr 2026 19:01:09 +0800</pubDate>
-      <guid>http://localhost:1313/posts/mtfarchandmore/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/mtfarchandmore/</guid>
       <description>&lt;pre&gt;&lt;code&gt;&#xA;                                &#xA;                                      (S&#xA;                                     sGGP&#xA;                                    )GGGGS  &#xA;                                    GGGGGGb   &#xA;                                   SGGGGGGGSC  &#xA;                                  PGGGGGGGGGb   &#xA;                                 SGGGGGGGGGGGS&#xA;                  eu u          SGGGGGGGGGGGGGb   &#xA;                   SbDPPPbeeu  SGGGGGGGGGGGGGGGb              su   &#xA;                    SQQQQQDDSSe  PGGGGGGGGGGGGGGb seSSGSDDDDDDP   &#xA;                    SqQQQQDDdGGGbu )PGGGGGGGGGGGGGGGGSDDQQQQDP   &#xA;                    SeDQQbeGGGGGGGGSeCSGGGGGGGGGGGGGGSDDQQQDP  &#xA;                    (GSbDGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGbQDDPD&#xA;                     (SSGGGPSGGGGGGGGGGGGGGGGGGGGGGSPSGSSPC  &#xA;                        GGGpuu)PSGGGGGGGGGGGGGGGPSuueSG  &#xA;                       sGGGGGSbu )GGGGSGGSSGGGDu)eSGGGGp   &#xA;                      SGGGGPSuueSbPPPuuDSuu(PPGSpuu(PSGGb  &#xA;                     SGGGGGpeSPPPPPPPuuuuuePPPPPPGSbeSbPeb   &#xA;                    PGGbSePPPSPPPPPPO     )PPPPPPSSeSPbPbGS  &#xA;                  sGGGGGGGPPPPPPPPD         SPPPPPPPPPGGGGGSueeeeeeeeeeuu  &#xA;                eGGGGGGGPPPPPPPPP(           SPPPPPPPPPGGGGGGbSC((   (SSPeeQPe   &#xA;           eeeQebGGGGGGGPPPPPPPPP      ueeePDDPPPPPPPPPGGGGGGGb           eeQP&#xA;       seQPPS  SGGGGGGGGQPPPPPPPueGeQDPPG(C   )PPPPPPPPGbDDSPSGb     seeGDPO&#xA;     sGDP     SGGGGGGGSPPDDDDQDDPOC            PPPPPPPPPPPSSeeeDDDQDPPOO&#xA;    (Qb     sGPPSDDDDDQDDDbbPPPPu              DDDDDDQqDDDDDeebSu&#xA;     eQGbGbDQDDDDDebSSGPPPPPPPSC         eeeDDPPPPQPPPPPGGGGGGGGGSeu&#xA;          eSGGGGGGGGGSPCCu           eeDOP           )SPPeGGGGGGGGGGp&#xA;         SGGGGGGPPS)               edPO                    )SPGGGGGGGb&#xA;       sPGGGPSC                  sQeO                           (PSGGGb&#xA;      sGPS)                      eP                                 )PSP&#xA;    C(P                                                                 SC&lt;/code&gt;&lt;/pre&gt;&lt;h3 class=&#34;heading-element&#34; id=&#34;请跟读ˈdɛbiən&#34;&gt;&lt;span&gt;请跟读，/ˈdɛbiən/&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e8%af%b7%e8%b7%9f%e8%af%bb%cb%88d%c9%9bbi%c9%99n&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;其实之前已经说过，我在我的t430上装了macos,但是后面我发现这太蠢了，macos12很多支持已经被放弃了，而且黑苹果下英特尔网卡驱动有很大的问题，导致下载和上网的速度奇慢无比。而最近我又恰逢焦虑期，因为我感到周遭的一切都在变得不值钱，内存涨价的狂潮还有我红掉的c盘让我每天寝食难安，soc更新、还有各种技术（譬如说NVDIA DLSS）的迭代无不都在提醒你“该买了！“消费主义的营销和侵蚀已经开始肆虐，消费主义的核心套路之一，就是通过软硬件捆绑来制造人为的“过时”。那还有什么可说的，炮打apple.inc，我的一封小字报，让我们拥抱open source,投入开源社区和GNU/LINUX的怀抱吧！&lt;/p&gt;</description>
     </item>
     <item>
       <title>ue4模组开发中创建预览音频的问题</title>
-      <link>http://localhost:1313/posts/ue4musicpreview/</link>
+      <link>https://pakiknowledge.pages.dev/posts/ue4musicpreview/</link>
       <pubDate>Thu, 02 Apr 2026 13:01:52 +0800</pubDate>
-      <guid>http://localhost:1313/posts/ue4musicpreview/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/ue4musicpreview/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;需求概述&#34;&gt;&lt;span&gt;需求概述&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e9%9c%80%e6%b1%82%e6%a6%82%e8%bf%b0&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;近来为某个神秘游戏寻得一程序，通过ue4 mod的方式进行lua注入从而添加自定义音乐。随后一日，模组更新了特性，支持在bgm选择界面时加入了预览音频的逻辑。其自述文件如此写：&lt;/p&gt;</description>
     </item>
     <item>
       <title>吾辈之扯淡，即我辈共扯淡：人文社科完蛋了吗？</title>
-      <link>http://localhost:1313/posts/our-struggle-is-my-struggle/</link>
+      <link>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</link>
       <pubDate>Thu, 19 Mar 2026 20:45:09 +0800</pubDate>
-      <guid>http://localhost:1313/posts/our-struggle-is-my-struggle/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/our-struggle-is-my-struggle/</guid>
       <description>&lt;h3 class=&#34;heading-element&#34; id=&#34;矛盾螺旋&#34;&gt;&lt;span&gt;矛盾螺旋&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e7%9f%9b%e7%9b%be%e8%9e%ba%e6%97%8b&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;学术圈其实已经够乱，令人人心惶惶。即使我抱着好面子和在学校多赖几年这种不纯动机在我的乐色本校一声不吭的喊口号要目指研究生，我还是不得不承认，我只是一个涉世未深的新兵蛋子本科生。但是犹如二战时期躲到瑞士避难听着外面风声鹤唳未免也心里发毛，近几年，在硕士及以上的学历段爆出的抽象新闻已成规模，并且抽象文献已经在各门学科里百花齐放，百家争鸣，堂而皇之的登上各种期刊，成为个人、实验室、乃至学校学术的门面。早在笔者还在读高中时期就耳闻生物学圈子的肠道菌群研究出来的sci疑似为一群江湖骗子招摇撞骗，各种堪比六脉神剑的神功尽出，譬如用无菌小鼠动物模型的研究成果类比到人类肠道上的，菌群研究发表顶刊后被资本包装成“益生菌胶囊包治百病”一类的、更有甚者，还有论文数据直接用捏造却逃过顶刊一轮轮审核登大雅之堂的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thinkpad t430 Hackintosh 以及其他心得</title>
-      <link>http://localhost:1313/posts/t430hackintoshandmore/</link>
+      <link>https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/</link>
       <pubDate>Wed, 11 Mar 2026 20:49:58 +0800</pubDate>
-      <guid>http://localhost:1313/posts/t430hackintoshandmore/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/t430hackintoshandmore/</guid>
       <description>&lt;h3 class=&#34;heading-element&#34; id=&#34;0-前言&#34;&gt;&lt;span&gt;0 前言&lt;/span&gt;&#xA;  &lt;a href=&#34;#0-%e5%89%8d%e8%a8%80&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;首先很遗憾的通知大家，那台之前被我折腾过的松下 sz6 不幸的坏了。鉴于松下的配件难以替换还有在国内要找人修的难度实在太高，所以我&lt;strong&gt;遗弃了它）&lt;/strong&gt; 接下来，鉴于我一向来不喜欢用游戏本办公和写作业的缘故，（包括这篇文章也在 t430 上写的）所以这意味着我必须物色一台新宠来满足我的需求。那么买全新肯定是不可能的了，实则就是，在电子硬件的选择与购买上，我觉得现在的情势突出两字：&lt;strong&gt;挣扎&lt;/strong&gt;。（请注意我的用词和定语，我们就现在把它留下，因为后面会继续提到的。）抛开新闻稿上写的所谓什么“算力潮”和什么“供应链”云云，这些带来的实际客观情况就是，全新内存（DDR4/5) 和存储（包括固态 ssd、机械硬盘 hdd）都是全面四五倍的涨幅。但是在目前，DIY 装机对我来说是一种伪需求，但是存储的升级是一种迫切的需求。哎呀！这让我当时在隐星 p15 游戏本的内存选配犯下的错（指没有选择 1t ssd 而是 512g ssd）的代价更大了——因为我发现：&lt;/p&gt;</description>
     </item>
     <item>
       <title>東方音弾遊戯RE2 全曲评分</title>
-      <link>http://localhost:1313/posts/thodanre2/</link>
+      <link>https://pakiknowledge.pages.dev/posts/thodanre2/</link>
       <pubDate>Mon, 08 Sep 2025 22:56:05 +0800</pubDate>
-      <guid>http://localhost:1313/posts/thodanre2/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/thodanre2/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;0-概述&#34;&gt;&lt;span&gt;0 概述&lt;/span&gt;&#xA;  &lt;a href=&#34;#0-%e6%a6%82%e8%bf%b0&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;鉴于本次东弹re2竟然堪堪只有24首作品，于是心血来潮决定全部打一次进行评分。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我们必须接受人生的岔路口没有信号灯的事实</title>
-      <link>http://localhost:1313/posts/2025half/</link>
+      <link>https://pakiknowledge.pages.dev/posts/2025half/</link>
       <pubDate>Mon, 02 Jun 2025 12:59:37 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2025half/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/2025half/</guid>
       <description>&lt;p&gt;2025的上半年过去了，如果要用一个词来形容的话，我竟然有点想用“倒霉”了。但是人生也未必消极，六个月过去了也未必一整年就万劫不复了。对上半年的评点和反思也只能让我们在2025这个段落的前面多几个缩进罢了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我的一些迷思</title>
-      <link>http://localhost:1313/posts/2025512/</link>
+      <link>https://pakiknowledge.pages.dev/posts/2025512/</link>
       <pubDate>Mon, 12 May 2025 02:02:21 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2025512/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/2025512/</guid>
       <description>&lt;h1 class=&#34;heading-element&#34; id=&#34;迷思&#34;&gt;&lt;span&gt;迷思&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e8%bf%b7%e6%80%9d&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&lt;p&gt;这篇文章注定会很乱。因为我的思绪犹如泉水，向外喷涌，没有条理。&lt;/p&gt;</description>
     </item>
     <item>
       <title>帝王，诗人，浪子</title>
-      <link>http://localhost:1313/posts/2025422/</link>
+      <link>https://pakiknowledge.pages.dev/posts/2025422/</link>
       <pubDate>Tue, 22 Apr 2025 19:23:33 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2025422/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/2025422/</guid>
       <description>&lt;p&gt;之前听闻了一个说法，男人可以分成帝王，诗人，浪子。如果你让我自评，我可能介于诗人和浪子之间。我谈不上是什么帝王，很少有人说我有一种“霸气”和果断的蛮狠。诗人和浪子的特质，我多少都被吸附了。诗人沉浸在自己的艺术里，在自我搭建的框架里安贫乐道。浪子追求自由，我也讨厌既定的框架，如果有一个东西把我框住，我会痛不欲生，不遗余力的从里面想要往外挣脱。如果我们这样讲，我们这样子界定，这样子评估，倒也是一种说法，但是这显然不是我要说的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>完美黑苹果终局：松下sz6 0x6d补丁修复睡眠秒醒问题</title>
-      <link>http://localhost:1313/posts/macbattery/</link>
+      <link>https://pakiknowledge.pages.dev/posts/macbattery/</link>
       <pubDate>Sun, 20 Apr 2025 19:47:30 +0800</pubDate>
-      <guid>http://localhost:1313/posts/macbattery/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/macbattery/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;避实就虚&#34;&gt;&lt;span&gt;避实就虚&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e9%81%bf%e5%ae%9e%e5%b0%b1%e8%99%9a&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;上文提到了，sz6会被xdci项目参数每分钟不断唤醒（也就是没有深度定制USB导致的接口程序识别紊乱），导致没办法进入深睡眠，在不断查阅相关资料的过程中，了解到大概有两种解决方式，一种是&lt;strong&gt;一刀切式&lt;/strong&gt;的通过&lt;em&gt;SSDT-GPRW.dsl&lt;/em&gt;进行全权重命名，屏蔽所有USB接口，另外一种则是自行定制和屏蔽接口。虽然前文我讲过，黑苹果的定制是一个需要以深度定制为主的工作流，但是我不得不承认，在解决睡眠问题上，&lt;strong&gt;我更愿意用通法&lt;/strong&gt;。使用一刀切式重命名屏蔽代价仅仅是只能使用电源键去唤醒电脑，而深度定制USB则需要花费成倍数增长的工作量。下面分享一下过程。&lt;/p&gt;</description>
     </item>
     <item>
       <title>only Panasonic can do！松下sz6双系统黑苹果记录</title>
-      <link>http://localhost:1313/posts/blackapple/</link>
+      <link>https://pakiknowledge.pages.dev/posts/blackapple/</link>
       <pubDate>Thu, 17 Apr 2025 01:11:36 +0800</pubDate>
-      <guid>http://localhost:1313/posts/blackapple/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/blackapple/</guid>
       <description>&lt;h3 class=&#34;heading-element&#34; id=&#34;0-前言&#34;&gt;&lt;span&gt;0 前言&lt;/span&gt;&#xA;  &lt;a href=&#34;#0-%e5%89%8d%e8%a8%80&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;时隔多年，终于用上黑苹果，感慨万千。松下sz6这机器体制挺好的，黑果完已经可以基本日用了。本篇文章就是在mac的环境下完成的。后来发现，黑果就是一个前人种树，后人乘凉的东西。有了前人的探索，才能有如今这么方便的经验和过程可以借鉴。&lt;/p&gt;</description>
     </item>
     <item>
       <title>doomer也许存在即合理 但是我反对他的持续性</title>
-      <link>http://localhost:1313/posts/doomertalking/</link>
+      <link>https://pakiknowledge.pages.dev/posts/doomertalking/</link>
       <pubDate>Wed, 19 Mar 2025 19:36:26 +0800</pubDate>
-      <guid>http://localhost:1313/posts/doomertalking/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/doomertalking/</guid>
       <description>&lt;h3 class=&#34;heading-element&#34; id=&#34;0-存在即合理&#34;&gt;&lt;span&gt;0 存在即合理&lt;/span&gt;&#xA;  &lt;a href=&#34;#0-%e5%ad%98%e5%9c%a8%e5%8d%b3%e5%90%88%e7%90%86&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;我们也许不得不承认，这真的是一个经济下行和不公的社会，大部分人主观上和客观上在压力下挣扎。Doomer在这样的世道上诞生了。孤独中迷茫无措的个体找到共鸣，就很容易汇聚成群体，人群而成艺术，催生Doomer。我们这个社会真的有很多问题。看看东北的废弃钢铁巨兽，看看前苏联的粗野主义的建筑，这是doomer的表现，也是doomer的由来。时代年轮滚下大地，留下伤痕，留下痛苦。我们肉眼可见的矛盾从晚期冷战就暴露了社会的制度缺陷性，并且留下许多恶果。局部冲突；核威胁；更敏感的譬如阶级固化、全球化、技术异化、环境崩溃等多重危机叠加下，年轻人普遍感受到个体努力与系统性困境之间的无力对抗。但是我不得不说现在很多年轻群体眼界是相对狭隘的，于是这又异化成了&lt;strong&gt;对传统成功学的反叛&lt;/strong&gt;，Doomer 形象颠覆了主流社会推崇的 “积极进取” 人设，以颓废、失败者的姿态消解了 “奋斗必有回报” 的神话。这种解构既是对消费主义裹挟下 “内卷” 的抵抗，也是对个体价值被量化标准异化的反抗。这是一种文化降格，在社会结构变化和人群属性改变的演进下其精神内涵反而是狭隘化了。当然，我不反对doomer文化的存在性，生命的荒诞性命题是绕不开的一个话题，启蒙史观下对于人类未解决的忧患性因素（譬如说战争、贫困、生态危机等）是具有隐晦的回避性的。太极阴阳两生调和，有严肃向好，科技昌明的宏大叙事，自然也会有将个体的选择困境放大为宿命论的玩笑的doomer形态。既消解了宏大叙事的严肃性，又暴露出普通人在历史洪流中的渺小与无力。&lt;/p&gt;</description>
     </item>
     <item>
       <title>读《明朝那些事儿》：当一个异类更难了</title>
-      <link>http://localhost:1313/posts/misfit/</link>
+      <link>https://pakiknowledge.pages.dev/posts/misfit/</link>
       <pubDate>Fri, 14 Mar 2025 10:55:30 +0800</pubDate>
-      <guid>http://localhost:1313/posts/misfit/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/misfit/</guid>
       <description>&lt;p&gt;《明朝那些事》抽空读了，首先我要说的是，这本书确实是适合大众阅读的通俗性科普读物，其小说和史料结合的笔法在我读过的历史读物中属于优秀的水平，可以比肩黄仁宇的《万历十五年》。历史叙述作品持续存在的一个问题在于：太过深奥、生硬的叙事风格令普通读者难以接受，实在有点过于“阳春白雪”。譬如说费正清的《剑桥中国史》算是“阳春白雪”的话，《明朝那些事儿》可以算作是“下里巴人”了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>行动是永远的基本盘</title>
-      <link>http://localhost:1313/posts/heart/</link>
+      <link>https://pakiknowledge.pages.dev/posts/heart/</link>
       <pubDate>Sun, 09 Mar 2025 19:45:35 +0800</pubDate>
-      <guid>http://localhost:1313/posts/heart/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/heart/</guid>
       <description>&lt;p&gt;事实证明，行动是永远的基本盘。人生更加得心应手的前提，必须是让行动跑在思想的前面。扶大厦之将倾，人暴起而动，行为姑且充数。大厦将倾，人不动，若有所思，冷眼观大厦之坍塌也。思考，等待，并失去。心在渐渐碎裂，不如动起来找点东西补上，不然就成了冷眼。&#xA;思想常常在给行动设限。多虑者将一事无成，我不是支持鲁莽行事，而是行动中直接碰到的客观问题往往才是最需要解决的根源性事物，而不是行动之前脑海里那些无所谓的臆测。&#xA;这就是为什么我一直说：认识即重担。猜忌、多虑、对未知的恐惧毁了你。 不要问有没有，来了就知道。规则的确有设限的作用，但是停下行动已经不是畏手畏脚的问题了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>月之癌</title>
-      <link>http://localhost:1313/posts/myths-of-pig-farming/</link>
+      <link>https://pakiknowledge.pages.dev/posts/myths-of-pig-farming/</link>
       <pubDate>Mon, 03 Mar 2025 22:45:51 +0800</pubDate>
-      <guid>http://localhost:1313/posts/myths-of-pig-farming/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/myths-of-pig-farming/</guid>
       <description>&lt;p&gt;月儿是家里的大姐。&lt;/p&gt;&#xA;&lt;p&gt;月儿出生时接生婆把她举到父母跟前，她当然记不得那两双眼睛如何暗下去。后来碧霞元君显灵送了个带把的，爹娘抱着襁褓时眼里才又有了光。&lt;/p&gt;</description>
     </item>
     <item>
       <title>网易云的拙劣mp3标签注释</title>
-      <link>http://localhost:1313/posts/neteaseshit/</link>
+      <link>https://pakiknowledge.pages.dev/posts/neteaseshit/</link>
       <pubDate>Thu, 27 Feb 2025 23:45:03 +0800</pubDate>
-      <guid>http://localhost:1313/posts/neteaseshit/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/neteaseshit/</guid>
       <description>&lt;p&gt;直入主题吧。总所周知网易云有主播电台（现已改名“播客”）的功能，允许用户上传一些自己的音频上去，而这个音频是可以上传到网易云的云盘的，这样的工作链条是不是版权禁飞区暂且不论，今天中午我正在听彩虹社管人&lt;strong&gt;葉加瀬冬雪&lt;/strong&gt;翻唱的&lt;em&gt;ゴーゴー幽霊船&lt;/em&gt;，在平板电脑上我下载了播客之后我照常上传到云盘上，然后想添加进我的歌单：&lt;/p&gt;</description>
     </item>
     <item>
       <title>城市脉动:从化区</title>
-      <link>http://localhost:1313/posts/city-ch/</link>
+      <link>https://pakiknowledge.pages.dev/posts/city-ch/</link>
       <pubDate>Tue, 25 Feb 2025 16:35:53 +0800</pubDate>
-      <guid>http://localhost:1313/posts/city-ch/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/city-ch/</guid>
       <description>&lt;h3 class=&#34;heading-element&#34; id=&#34;0-认识即重担&#34;&gt;&lt;span&gt;0 认识即重担&lt;/span&gt;&#xA;  &lt;a href=&#34;#0-%e8%ae%a4%e8%af%86%e5%8d%b3%e9%87%8d%e6%8b%85&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;假设我们从顶层设计去考虑一个地区的市政规划，那我觉得该停下了。在这个开题后面的东西都是赘述。但是如果你从他的过程来谈，那至少还有余地。&lt;/p&gt;</description>
     </item>
     <item>
       <title>城市脉动：天河区</title>
-      <link>http://localhost:1313/posts/city-th/</link>
+      <link>https://pakiknowledge.pages.dev/posts/city-th/</link>
       <pubDate>Tue, 25 Feb 2025 08:56:07 +0800</pubDate>
-      <guid>http://localhost:1313/posts/city-th/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/city-th/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;天体的秩序？（笑）&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 class=&#34;heading-element&#34; id=&#34;0羊城的圣堂&#34;&gt;&lt;span&gt;0.羊城的圣堂&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e7%be%8a%e5%9f%8e%e7%9a%84%e5%9c%a3%e5%a0%82&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&lt;p&gt;地缘政治飘下一条羽毛，却砸死了一群蚂蚁。各种各样解释不清的“投胎”出结果后，一些人不幸的禁锢到了“小”地方。而正所谓有些鸟是笼子关不住的，广东的芸芸们涌向了思想上隐约的顶端：省会羊城。而天河区又几乎成了羊城的圣堂，虽然恒大徒有其表的身躯轰然倒塌，但是天体（天河体育中心）2013年万人齐唱海阔天空，广州恒大夺下亚冠的过去依然还是值得讴歌。天河城的迷路传说到现在传了二十多年。于是我就来了，我抽空来瞻仰了下羊城的门面。&lt;/p&gt;</description>
     </item>
     <item>
       <title>hugo0.144.2版把我害惨了？让我们来谈谈这个问题吧</title>
-      <link>http://localhost:1313/posts/2025224newproblem/</link>
+      <link>https://pakiknowledge.pages.dev/posts/2025224newproblem/</link>
       <pubDate>Mon, 24 Feb 2025 16:19:46 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2025224newproblem/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/2025224newproblem/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;0-问题复现和起因&#34;&gt;&lt;span&gt;0 问题复现和起因&lt;/span&gt;&#xA;  &lt;a href=&#34;#0-%e9%97%ae%e9%a2%98%e5%a4%8d%e7%8e%b0%e5%92%8c%e8%b5%b7%e5%9b%a0&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;偶然之下，我动用了&lt;strong&gt;Chocolatey&lt;/strong&gt;这个运行在Windows平台上的包管理器来安装hugo。（当然，我也用这个来装git，这真方便。）这个包管理器给我装载了hugo0.144.2版，还不用我手动加环境变量。但是当我把数据迁过来之后，我像往常一样&lt;code&gt;hugo&lt;/code&gt;跑了起来,然而&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>十四号线不会吞噬任何人，我也一样</title>
-      <link>http://localhost:1313/posts/20241116line14/</link>
+      <link>https://pakiknowledge.pages.dev/posts/20241116line14/</link>
       <pubDate>Sat, 16 Nov 2024 12:57:47 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20241116line14/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/20241116line14/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;如果我们不奔波那么我们的灵魂就枯竭而后失去生命&#34;&gt;&lt;span&gt;如果我们不奔波，那么我们的灵魂就枯竭，而后失去生命。&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e5%a6%82%e6%9e%9c%e6%88%91%e4%bb%ac%e4%b8%8d%e5%a5%94%e6%b3%a2%e9%82%a3%e4%b9%88%e6%88%91%e4%bb%ac%e7%9a%84%e7%81%b5%e9%ad%82%e5%b0%b1%e6%9e%af%e7%ab%ad%e8%80%8c%e5%90%8e%e5%a4%b1%e5%8e%bb%e7%94%9f%e5%91%bd&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;我在十四号线的尾端下车，我是否是就这样死在了城市的角落？&lt;/p&gt;</description>
     </item>
     <item>
       <title>我讨厌雨天</title>
-      <link>http://localhost:1313/posts/20241115rainy/</link>
+      <link>https://pakiknowledge.pages.dev/posts/20241115rainy/</link>
       <pubDate>Fri, 15 Nov 2024 15:50:40 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20241115rainy/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/20241115rainy/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;我讨厌雨&#34;&gt;&lt;span&gt;我讨厌雨&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e6%88%91%e8%ae%a8%e5%8e%8c%e9%9b%a8&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;我讨厌雨，这是以前的事。雨天令人睡意朦胧，而往往是想睡却不能。无论是几月的雨都禁绝了我出门的念头。然而出门又意味着什么呢？&lt;/p&gt;</description>
     </item>
     <item>
       <title>碎碎念</title>
-      <link>http://localhost:1313/posts/think20241110/</link>
+      <link>https://pakiknowledge.pages.dev/posts/think20241110/</link>
       <pubDate>Sun, 10 Nov 2024 16:09:59 +0800</pubDate>
-      <guid>http://localhost:1313/posts/think20241110/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/think20241110/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;1-vscode-markdown转正的问题&#34;&gt;&lt;span&gt;1 vscode markdown转正的问题&lt;/span&gt;&#xA;  &lt;a href=&#34;#1-vscode-markdown%e8%bd%ac%e6%ad%a3%e7%9a%84%e9%97%ae%e9%a2%98&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;主要问题是，从2018年左右我开始写markdown的时候我就习惯typora那样的边写边渲染的形式，在vscode里有个插件可以实现，但是我重装电脑后把这事忘了，现在干脆在这记录一下。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Skrillex：缔造者</title>
-      <link>http://localhost:1313/posts/skrillex-thefounder/</link>
+      <link>https://pakiknowledge.pages.dev/posts/skrillex-thefounder/</link>
       <pubDate>Fri, 13 Sep 2024 21:25:48 +0800</pubDate>
-      <guid>http://localhost:1313/posts/skrillex-thefounder/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/skrillex-thefounder/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;前言&#34;&gt;&lt;span&gt;前言&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e5%89%8d%e8%a8%80&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;作为2015年就开始听skrillex的听众，我不能说是skrillex音乐风格演变的研究专家，但起码我是一名见证者。最近又开始回听2012年的老专&lt;code&gt;The Best Of Skrillex Vol.1&lt;/code&gt;,帧帧回忆浮上心头。一段小学生活，一段半夜起来蹦迪的日子，一段胡吃海塞听EDM的日子，一段会聚集一群人在房间里听Brostep蹦床单的日子，一段响度为王的日子。&lt;/p&gt;</description>
     </item>
     <item>
       <title>新设备更换记录</title>
-      <link>http://localhost:1313/posts/newdevide/</link>
+      <link>https://pakiknowledge.pages.dev/posts/newdevide/</link>
       <pubDate>Wed, 21 Aug 2024 05:27:08 +0800</pubDate>
-      <guid>http://localhost:1313/posts/newdevide/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/newdevide/</guid>
       <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;设备名称&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;旧&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;新&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;手机&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Redmi Note11T Pro+&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Redmi K70U+iPhone8Plus乞丐版&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;笔记本&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;联想小新 Pro 14 2021(i5 1135G7/16GB/512GB/IrisXeG)&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;七彩虹隐星P15(i5-12450H/16GB/512GB/RTX4060)&lt;br /&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;其他&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;用不起&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;NsSwitch Lite硬破双系统&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;自从变成悲哀准大学人之后，就对手头的设备进行了一波更新，现在一个个评点一下&lt;/p&gt;</description>
     </item>
     <item>
       <title>个人博客换主题/重生构建开发记录</title>
-      <link>http://localhost:1313/posts/rebirth20248/</link>
+      <link>https://pakiknowledge.pages.dev/posts/rebirth20248/</link>
       <pubDate>Fri, 16 Aug 2024 22:35:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/rebirth20248/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/rebirth20248/</guid>
       <description>&lt;p&gt;呵呵，大家好啊，别来无恙。本来毕业完我该产出一堆内容的，但是文还没写呢，主题先炸了。好的，现在我们就来看看是怎么炸的，怎么修的。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 class=&#34;heading-element&#34; id=&#34;0时间序流&#34;&gt;&lt;span&gt;0.时间序流&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e6%97%b6%e9%97%b4%e5%ba%8f%e6%b5%81&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&lt;h2 class=&#34;heading-element&#34; id=&#34;2024-8-9永远无法到达的八月&#34;&gt;&lt;span&gt;2024-8-9：永远无法到达的八月&lt;/span&gt;&#xA;  &lt;a href=&#34;#2024-8-9%e6%b0%b8%e8%bf%9c%e6%97%a0%e6%b3%95%e5%88%b0%e8%be%be%e7%9a%84%e5%85%ab%e6%9c%88&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;8月9日，七夕前一天，坐拥新电脑新手机新游戏机的我准备来记录一下手头开发环境的更新，于是我照常的：&lt;/p&gt;</description>
     </item>
     <item>
       <title>未来/未知/炒作？</title>
-      <link>http://localhost:1313/posts/future-hype/</link>
+      <link>https://pakiknowledge.pages.dev/posts/future-hype/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/future-hype/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/future-hype/</guid>
       <description>&lt;p&gt;属实搞笑，2024年的第一篇文章居然拖到现在才来写。博主马上要前往一所广东省会城市偏僻民办大学了，说到这里，可能很多人也有不同的看法，我自己个人也难免多想。例如，上网一查学校有很多黑料（然而不可全信）；很多人也唱衰，用一个大学一场考试一个成绩一个数值去定义一个人。我暂且不争论，我想，不如我们谈谈体验吧。&lt;/p&gt;</description>
     </item>
     <item>
       <title>日轻analysis：《邻家天使》/《邻座的艾琳同学》</title>
-      <link>http://localhost:1313/posts/light-novel-analysis-1/</link>
+      <link>https://pakiknowledge.pages.dev/posts/light-novel-analysis-1/</link>
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/light-novel-analysis-1/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/light-novel-analysis-1/</guid>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;banner是ai生的喂了张k77进去这人打欧冠次回合ac米兰真的灾难表呃呃呃看了糟心真的老独&#34;&gt;&lt;span&gt;（BANNER是AI生的，喂了张K77进去，这人打欧冠次回合AC米兰真的灾难表呃呃呃，看了糟心，真的老独！）&lt;/span&gt;&#xA;  &lt;a href=&#34;#banner%e6%98%afai%e7%94%9f%e7%9a%84%e5%96%82%e4%ba%86%e5%bc%a0k77%e8%bf%9b%e5%8e%bb%e8%bf%99%e4%ba%ba%e6%89%93%e6%ac%a7%e5%86%a0%e6%ac%a1%e5%9b%9e%e5%90%88ac%e7%b1%b3%e5%85%b0%e7%9c%9f%e7%9a%84%e7%81%be%e9%9a%be%e8%a1%a8%e5%91%83%e5%91%83%e5%91%83%e7%9c%8b%e4%ba%86%e7%b3%9f%e5%bf%83%e7%9c%9f%e7%9a%84%e8%80%81%e7%8b%ac&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;hr&gt;&#xA;&lt;h1 class=&#34;heading-element&#34; id=&#34;0先上结论&#34;&gt;&lt;span&gt;0.先上结论&lt;/span&gt;&#xA;  &lt;a href=&#34;#0%e5%85%88%e4%b8%8a%e7%bb%93%e8%ae%ba&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&lt;p&gt;《邻家天使》目前看到第四卷，只带了四本去学校，刚好看完修成正果，满足，暂评&lt;code&gt;7.5/10&lt;/code&gt;。看番组上有人说后面质量下滑，但是我觉得应该不会差到哪去。生活的苦咖啡需要加糖，那就读《邻家天使》。&lt;/p&gt;</description>
     </item>
     <item>
       <title>放課後シンデレラ-田寄多乃实 线 FIN</title>
-      <link>http://localhost:1313/posts/tayadorikitami/</link>
+      <link>https://pakiknowledge.pages.dev/posts/tayadorikitami/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tayadorikitami/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/tayadorikitami/</guid>
       <description>&lt;h1 class=&#34;heading-element&#34; id=&#34;1--总览&#34;&gt;&lt;span&gt;1  总览&lt;/span&gt;&#xA;  &lt;a href=&#34;#1--%e6%80%bb%e8%a7%88&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&lt;p&gt;多乃实线我个人认为是《放学后的灰姑娘女孩》中最优秀的一条线，推完此线后，该作终结，我也没有再继续推本就计划外的青梅和学姐、以及超级候补位的大小姐等线的打算。&lt;/p&gt;</description>
     </item>
     <item>
       <title>妄想税</title>
-      <link>http://localhost:1313/posts/dont-think/</link>
+      <link>https://pakiknowledge.pages.dev/posts/dont-think/</link>
       <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dont-think/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/dont-think/</guid>
       <description>&lt;hr&gt;&#xA;&lt;p&gt;为什么我们常说生活难以预测，那是因为生活中有太多太多的变量。比如我现在就告诉你，由于开学第一周没有晚练极大的提升了我的生活质量。生活的定义往往就是这样，因为一个变化而千里之堤溃于蚁穴。但是我又要说生活其实大部分是单调的重复，因为HELLO I AM 上学人，这个学我是一天也上不下去了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LR2自动灯简易配置方法</title>
-      <link>http://localhost:1313/posts/lr2-gas-v2/</link>
+      <link>https://pakiknowledge.pages.dev/posts/lr2-gas-v2/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lr2-gas-v2/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/lr2-gas-v2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;前言：由于笔者在访问GitHub仍然遇到诸多困难，所以请确保在开始配置之前您可以顺利的访问GitHub，此外仍然强烈建议开启或者保留代理软件作为最后手段。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在LR2中使用GAS方法的相关问题</title>
-      <link>http://localhost:1313/posts/lr2-gas/</link>
+      <link>https://pakiknowledge.pages.dev/posts/lr2-gas/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lr2-gas/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/lr2-gas/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;前言：本文涉及的绝大部分操作如果不使用代理软件将无法完成，请自行准备相关工具。强烈建议在代理打开的情况下完成所有操作。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 class=&#34;heading-element&#34; id=&#34;1-gas是什么&#34;&gt;&lt;span&gt;1 GAS是什么&lt;/span&gt;&#xA;  &lt;a href=&#34;#1-gas%e6%98%af%e4%bb%80%e4%b9%88&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&lt;p&gt;就是自动灯，这里不再赘述。&lt;/p&gt;</description>
     </item>
     <item>
       <title>地雷：</title>
-      <link>http://localhost:1313/posts/%E5%9C%B0%E9%9B%B7/</link>
+      <link>https://pakiknowledge.pages.dev/posts/%E5%9C%B0%E9%9B%B7/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E5%9C%B0%E9%9B%B7/</guid>
-      <description>&lt;h1 class=&#34;heading-element&#34; id=&#34;1github桌面端报错本文头图状况&#34;&gt;&lt;span&gt;1.Github桌面端报错（本文头图状况）&lt;/span&gt;&#xA;  &lt;a href=&#34;#1github%e6%a1%8c%e9%9d%a2%e7%ab%af%e6%8a%a5%e9%94%99%e6%9c%ac%e6%96%87%e5%a4%b4%e5%9b%be%e7%8a%b6%e5%86%b5&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&lt;h2 class=&#34;heading-element&#34; id=&#34;q1&#34;&gt;&lt;span&gt;在push的时候出现：&#xA;&lt;img loading=&#34;lazy&#34; src=&#39;http://localhost:1313/img1/pSkMy11.png&#39; alt=&#34;q1&#34;&gt;&lt;/span&gt;&#xA;  &lt;a href=&#34;#q1&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;解决：&lt;strong&gt;重新配置SSH&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/posts/%E5%9C%B0%E9%9B%B7/</guid>
+      <description>&lt;h1 class=&#34;heading-element&#34; id=&#34;1github桌面端报错本文头图状况&#34;&gt;&lt;span&gt;1.Github桌面端报错（本文头图状况）&lt;/span&gt;&#xA;  &lt;a href=&#34;#1github%e6%a1%8c%e9%9d%a2%e7%ab%af%e6%8a%a5%e9%94%99%e6%9c%ac%e6%96%87%e5%a4%b4%e5%9b%be%e7%8a%b6%e5%86%b5&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&lt;h2 class=&#34;heading-element&#34; id=&#34;q1&#34;&gt;&lt;span&gt;在push的时候出现：&#xA;&lt;img loading=&#34;lazy&#34; src=&#39;https://pakiknowledge.pages.dev/img1/pSkMy11.png&#39; alt=&#34;q1&#34;&gt;&lt;/span&gt;&#xA;  &lt;a href=&#34;#q1&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;解决：&lt;strong&gt;重新配置SSH&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>放課後シンデレラ-築島 つくし线 FIN</title>
-      <link>http://localhost:1313/posts/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
+      <link>https://pakiknowledge.pages.dev/posts/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
-      <description>&lt;p&gt;[&lt;img loading=&#34;lazy&#34; src=&#39;http://localhost:1313/img1/bc9157e7b6db52359c7315d34a1d9bac.jpg&#39; alt=&#34;pSkYGLR.jpg&#34;&gt;]&lt;/p&gt;&#xA;&lt;p&gt;寒假在家消极学习，就想着又想推GAL了，于是就选了钩子社的这一作（我一开始就是奔着废萌去的) &lt;code&gt;放課後シンデレラ&lt;/code&gt;,其实我本来想推2的，听说2的那个口罩妹风评很高啊，但是我似乎找不到汉化，所以就来1体验一下。&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/posts/%E7%81%B0%E5%A7%91%E5%A8%98-%E7%B2%89%E6%AF%9B/</guid>
+      <description>&lt;p&gt;[&lt;img loading=&#34;lazy&#34; src=&#39;https://pakiknowledge.pages.dev/img1/bc9157e7b6db52359c7315d34a1d9bac.jpg&#39; alt=&#34;pSkYGLR.jpg&#34;&gt;]&lt;/p&gt;&#xA;&lt;p&gt;寒假在家消极学习，就想着又想推GAL了，于是就选了钩子社的这一作（我一开始就是奔着废萌去的) &lt;code&gt;放課後シンデレラ&lt;/code&gt;,其实我本来想推2的，听说2的那个口罩妹风评很高啊，但是我似乎找不到汉化，所以就来1体验一下。&lt;/p&gt;</description>
     </item>
     <item>
       <title>为什么重拾博客？</title>
-      <link>http://localhost:1313/posts/whyblog/</link>
+      <link>https://pakiknowledge.pages.dev/posts/whyblog/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/whyblog/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/whyblog/</guid>
       <description>&lt;h1 class=&#34;heading-element&#34; id=&#34;为什么重新想起了博客&#34;&gt;&lt;span&gt;为什么重新想起了博客？&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%87%8d%e6%96%b0%e6%83%b3%e8%b5%b7%e4%ba%86%e5%8d%9a%e5%ae%a2&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&lt;p&gt;会想起这个东西，主要是因为某个契机。在谷歌找galgame资讯的时候误入了一个&lt;a href=&#34;https://plumz.me/&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;博客&lt;/a&gt;，看着人家从2011年一直坚持到现在一直在坚持写，而反观自己，人生的断片就这样被自己在不经意间抛弃了，而回首过往，只剩下的很模糊的混沌一片。这是多么可惜啊!幸福往往就是这一个个断片拼接而成的，而我却抛弃了她。我以为是琐事，我拒绝了繁琐，从而我也丢弃了绚烂。人真的会麻木，而回首这些断片，却可以让你接触生活真正的色彩。不知道这次开始写博客能坚持多久呢？比起2020年，我已变了太多。在夕阳下拾遗，让我们对着晚霞不回头的向前走吧。&lt;/p&gt;</description>
     </item>
     <item>
       <title>BOFXVI个人精选</title>
-      <link>http://localhost:1313/posts/bofxvi/</link>
+      <link>https://pakiknowledge.pages.dev/posts/bofxvi/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bofxvi/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/bofxvi/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;http://manbow.nothing.sh/event/page/bofxvi/teamlist20/upload/136teambanner.gif&#39; alt=&#34;avatar&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;帕琪KNOWLEDGE个人的bofxvi选集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 class=&#34;heading-element&#34; id=&#34;victory-sense&#34;&gt;&lt;span&gt;Victory Sense&lt;/span&gt;&#xA;  &lt;a href=&#34;#victory-sense&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;SenseRave Tech&lt;/p&gt;</description>
     </item>
     <item>
       <title>深渊之梦</title>
-      <link>http://localhost:1313/posts/2020-8-30-dream/</link>
+      <link>https://pakiknowledge.pages.dev/posts/2020-8-30-dream/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2020-8-30-dream/</guid>
+      <guid>https://pakiknowledge.pages.dev/posts/2020-8-30-dream/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;不可避免的，同千千万万的“旅人”一样，坠入了这无底的深渊。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;深渊充满着恐惧，但恐惧归根结底来自于内心的污秽。来自中世纪对极恶之地的描写根本不值一提，教徒也许会畏惧永冻的冰湖，但我反而觉得那很酷。这有些戏谑式的遐想刚落下帷幕，一阵有些古韵的乐声传到了我的耳中。深渊从来不会仁慈，以恋结缘的纯真情感正以一种常人所无法理解的方式蚕食着我的心灵。怨念与悲伤开始了演奏，消沉的躯体令我在这无底之地放弃了所有的抵抗。&lt;/p&gt;</description>
     </item>
     <item>
       <title>不朽的王城</title>
-      <link>http://localhost:1313/posts/2020-8-21-king/</link>
+      <link>https://pakiknowledge.pages.dev/posts/2020-8-21-king/</link>
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2020-8-21-king/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;王城中止战火，士兵斩断悲伤。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;http://localhost:1313/img1/dYOkqK.png&#39; alt=&#34;avatar&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; 在坚固的城墙面前，战火识趣地止步了。悲伤的冥河得以不在流淌。对待一切事物，似乎可以变得从容不迫了。没有人再去在意从城墙上掉落的粉尘了，这粉尘经历了战火，竟似有似无地沾染上金色的光辉。&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/posts/2020-8-21-king/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;王城中止战火，士兵斩断悲伤。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://pakiknowledge.pages.dev/img1/dYOkqK.png&#39; alt=&#34;avatar&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt; 在坚固的城墙面前，战火识趣地止步了。悲伤的冥河得以不在流淌。对待一切事物，似乎可以变得从容不迫了。没有人再去在意从城墙上掉落的粉尘了，这粉尘经历了战火，竟似有似无地沾染上金色的光辉。&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于Github Pages无法正常访问后的一堆破事</title>
-      <link>http://localhost:1313/posts/2020-8-11-gitpages/</link>
+      <link>https://pakiknowledge.pages.dev/posts/2020-8-11-gitpages/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2020-8-11-gitpages/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Github Pages就是人间之屑啊。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;http://localhost:1313/img1/aO92zn.jpg&#39; alt=&#34;avatar&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（gitee）上，框架依旧使用Jekyll，因为生成的设备迁移都要优于hexo。但是这中途也碰到很多种问题，例如gitee的域名太长，原博客的配置文件絮乱等。后来的解决方案呢，是把静态文件继续放在GitHub的仓库上，然后把仓库名改成适合gitee的&lt;em&gt;短域名&lt;/em&gt;的形式，然后利用gitee的同步功能就可以啦！&lt;/p&gt;</description>
+      <guid>https://pakiknowledge.pages.dev/posts/2020-8-11-gitpages/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Github Pages就是人间之屑啊。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://pakiknowledge.pages.dev/img1/aO92zn.jpg&#39; alt=&#34;avatar&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;嘛，就是这样，Github Pages突然就炸了，我想了很多种办法，最后还是决定迁移我们国内OSChina的码云（gitee）上，框架依旧使用Jekyll，因为生成的设备迁移都要优于hexo。但是这中途也碰到很多种问题，例如gitee的域名太长，原博客的配置文件絮乱等。后来的解决方案呢，是把静态文件继续放在GitHub的仓库上，然后把仓库名改成适合gitee的&lt;em&gt;短域名&lt;/em&gt;的形式，然后利用gitee的同步功能就可以啦！&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
