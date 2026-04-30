@@ -2,37 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-04-24T17:19:35+08:00</lastmod>
+    <lastmod>2026-04-29T21:00:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/swayconf/</loc>
+    <lastmod>2026-04-29T21:00:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-04-24T17:19:35+08:00</lastmod>
+    <lastmod>2026-04-29T21:00:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/tags/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/tags/"/>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/mangowcconf/</loc>
-    <lastmod>2026-04-24T17:19:35+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tags/%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2026-04-24T17:19:35+08:00</lastmod>
+    <lastmod>2026-04-29T21:00:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-24T17:19:35+08:00</lastmod>
+    <lastmod>2026-04-29T21:00:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/"/>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/mangowcconf/</loc>
+    <lastmod>2026-04-24T17:19:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/niri-me/</loc>
