@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Nix二进制打包心得 - 帕琪的小屋</title><meta name="author" content="8777">
+<meta name="description" content="二进制 base 打包：Nix 不编译、只打包。产物体检四型 &#43; 语言速查表 &#43; 本机实证验证。"><meta name="keywords" content='开发'>
+	<meta itemprop="name" content="nix二进制打包心得">
+	<meta itemprop="description" content="二进制 base 打包：Nix 不编译、只打包。产物体检四型 &#43; 语言速查表 &#43; 本机实证验证。">
+	<meta itemprop="datePublished" content="2026-08-13T02:48:10+08:00">
+	<meta itemprop="dateModified" content="2026-08-13T02:48:10+08:00">
+	<meta itemprop="wordCount" content="3182">
+	<meta itemprop="keywords" content="开发"><meta property="og:url" content="http://localhost:1313/posts/nix-binary-packages/">
+	<meta property="og:site_name" content="帕琪的小屋">
+	<meta property="og:title" content="nix二进制打包心得">
+	<meta property="og:description" content="二进制 base 打包：Nix 不编译、只打包。产物体检四型 &#43; 语言速查表 &#43; 本机实证验证。">
+	<meta property="og:locale" content="zh_CN">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-08-13T02:48:10+08:00">
+		<meta property="article:modified_time" content="2026-08-13T02:48:10+08:00">
+		<meta property="article:tag" content="开发">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="nix二进制打包心得">
+	<meta name="twitter:description" content="二进制 base 打包：Nix 不编译、只打包。产物体检四型 &#43; 语言速查表 &#43; 本机实证验证。">
+<meta name="application-name" content="帕琪的小屋">
+<meta name="apple-mobile-web-app-title" content="帕琪的小屋"><meta name="theme-color" data-light="#ffffff" data-dark="#ffffff" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/posts/nix-binary-packages/" title="nix二进制打包心得 - 帕琪的小屋" /><link rel="prev" type="text/html" href="http://localhost:1313/posts/robotmemory/" title="机忆" /><link rel="alternate" type="text/plain" href="http://localhost:1313/posts/nix-binary-packages/index.md" title="nix二进制打包心得 - 帕琪的小屋"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "nix二进制打包心得",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/posts\/nix-binary-packages\/"
+    },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "开发","wordcount":  3182 ,
+    "url": "http:\/\/localhost:1313\/posts\/nix-binary-packages\/","datePublished": "2026-08-13T02:48:10+08:00","dateModified": "2026-08-13T02:48:10+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+      "@type": "Organization",
+      "name": "pakiknowledge","logo": "http:\/\/localhost:1313\/images\/avatar.png"},"author": {
+        "@type": "Person",
+        "name": "8777"
+      },"description": "二进制 base 打包：Nix 不编译、只打包。产物体检四型 + 语言速查表 + 本机实证验证。"
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-instant-intensity="viewport" data-header-desktop="fixed" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span><span class="header-title-text">帕琪的小屋</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a class="menu-link" href="/posts/">所有文章</a></li><li class="menu-item">
+              <a class="menu-link" href="/tags/">标签</a></li><li class="menu-item">
+              <a class="menu-link" href="/categories/">分类</a></li><li class="menu-item">
+              <a class="menu-link" href="/categories/documentation/">文档</a></li><li class="menu-item">
+              <a class="menu-link" href="/about/">关于</a></li><li class="menu-item">
+              <a class="menu-link" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i> </a></li><li class="menu-item">
+              <a class="menu-link" href="/friends/" title="我的小伙伴们">友链</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="搜索文章标题或内容……" id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+              <i class="fa-solid fa-search" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+              <i class="fa-solid fa-times-circle" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" role="button" aria-label="切换主题" title="切换主题"><i class="fa-solid fa-adjust" aria-hidden="true"></i></li><li class="menu-item language-switch">
+            <span role="button" aria-label="选择语言" title="选择语言"><i class="fa-solid fa-language" aria-hidden="true"></i></span>
+            <ul class="sub-menu"><li class="menu-item">没有更多翻译</li></ul>
+          </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="帕琪的小屋"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span><span class="header-title-text">帕琪的小屋</span></a><span class="header-subtitle"></span></div>
+      <div class="theme-switch" role="button" aria-label="切换主题"><i class="fa-solid fa-adjust" aria-hidden="true"></i></div>
+      <div class="menu-toggle" id="menu-toggle-mobile" role="button" aria-labelledby="menu-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="搜索文章标题或内容……" id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                <i class="fa-solid fa-search" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                <i class="fa-solid fa-times-circle" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              取消
+            </a>
+          </li><li class="menu-item"><a class="menu-link" href="/posts/">所有文章</a></li><li class="menu-item"><a class="menu-link" href="/tags/">标签</a></li><li class="menu-item"><a class="menu-link" href="/categories/">分类</a></li><li class="menu-item"><a class="menu-link" href="/categories/documentation/">文档</a></li><li class="menu-item"><a class="menu-link" href="/about/">关于</a></li><li class="menu-item"><a class="menu-link" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i> </a></li><li class="menu-item"><a class="menu-link" href="/friends/" title="我的小伙伴们">友链</a></li><li class="menu-item menu-system"><span class="menu-system-item language-switch">
+              <span role="button" aria-label="选择语言" title="选择语言">简体中文<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i></span>
+              <select id="language-select" class="language-select" onchange="location = this.value;"><option disabled>没有更多翻译</option></select>
+            </span></li>
+      </ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="fi-container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="合集"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Nix二进制打包心得</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      8777</span></span></div><div class="post-meta-line"><span title="发布于 2026-08-13 02:48:10"><i class="fa-solid fa-calendar-days me-1" aria-hidden="true"></i><time datetime="2026-08-13">2026-08-13</time></span>&nbsp;<span title="3182 字"><i class="fa-solid fa-pencil-alt me-1" aria-hidden="true"></i>约 3200 字</span>&nbsp;<span><i class="fa-regular fa-clock me-1" aria-hidden="true"></i>预计阅读 7 分钟</span>&nbsp;</div>
+    </div><div class="featured-image"><img loading="eager" src='/img1/20260813.jpg' sizes="(max-width: 680px) 100vw, (max-width: 960px) 80vw, (max-width: 1440px) 56vw, 800px" alt="/img1/20260813.jpg"></div><div class="details toc" id="toc-static" data-kept="true">
+        <div class="details-summary toc-title">
+          <span>目录</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#一缘起为什么想摆脱-nix-打包">一、缘起:为什么想摆脱 Nix 打包</a></li>
+    <li><a href="#二研究方法不是拍脑袋是交叉验证">二、研究方法:不是拍脑袋,是交叉验证</a></li>
+    <li><a href="#三核心发现一现有方案隐含了三个-rustcargo-假设">三、核心发现一:现有方案隐含了三个 Rust/cargo 假设</a></li>
+    <li><a href="#四核心发现二正确的分治轴--产物体检四型">四、核心发现二:正确的分治轴 —— &ldquo;产物体检&quot;四型</a></li>
+    <li><a href="#五核心发现三引用扫描器让零配置动态二进制成立实证">五、核心发现三:引用扫描器,让&quot;零配置动态二进制&quot;成立(实证)</a></li>
+    <li><a href="#六语言可行性速查联网--实证交叉验证">六、语言可行性速查(联网 + 实证交叉验证)</a></li>
+    <li><a href="#七顺带纠正的两个常识误区">七、顺带纠正的两个常识误区</a></li>
+    <li><a href="#八这算反模式吗-是的但有个诚实的定位">八、这算反模式吗?—— 是的,但有个诚实的定位</a></li>
+    <li><a href="#九结论与建议">九、结论与建议</a></li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><h2 class="heading-element" id="一缘起为什么想摆脱-nix-打包"><span>一、缘起:为什么想摆脱 Nix 打包</span>
+  <a href="#%e4%b8%80%e7%bc%98%e8%b5%b7%e4%b8%ba%e4%bb%80%e4%b9%88%e6%83%b3%e6%91%86%e8%84%b1-nix-%e6%89%93%e5%8c%85" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Nix 打包很强大,但<strong>很贵</strong>:</p>
+<ul>
+<li>每个项目要写 <code>buildRustPackage</code> / <code>buildGoModule</code> / <code>buildNpmPackage</code>,要声明依赖、锁 <code>vendorHash</code> / <code>npmDepsHash</code>;</li>
+<li>依赖一变,hash 就变,重新 <code>nix build</code> 往往要重新编译大半依赖树;</li>
+<li>为一个&quot;本机自用的小工具&quot;维护这套东西,性价比极低。</li>
+</ul>
+<p>而现实是:很多工具本机早就编译好了——<code>cargo build --release</code> 出一个二进制,<code>go build</code> 出一个二进制,<code>bun build --compile</code> 也能出一个。<strong>既然产物已经在本地了,为什么还要让 Nix 重新编译一遍?</strong></p>
+<p>于是有了一个朴素的思路:<strong>&ldquo;二进制 base&quot;打包</strong> —— Nix 不编译,只打包:用 <code>stdenv.mkDerivation</code> 跳过所有构建阶段,用路径字面量把本机构建产物直接拷进 <code>$out</code>,然后 <code>nix profile install ./result</code>,秒级进系统。</p>
+<p>这套思路最初是为 <strong>Rust + cargo</strong> 打磨的(Oscivoid 一个 Rust TUI、Sleephat 一个 Tauri GUI),验证可行。问题来了:</p>
+<blockquote>
+<p><strong>这套&quot;二进制 base&quot;思想,能不能不局限于 Rust 和 cargo,推广到任意语言?</strong></p>
+</blockquote>
+<h2 class="heading-element" id="二研究方法不是拍脑袋是交叉验证"><span>二、研究方法:不是拍脑袋,是交叉验证</span>
+  <a href="#%e4%ba%8c%e7%a0%94%e7%a9%b6%e6%96%b9%e6%b3%95%e4%b8%8d%e6%98%af%e6%8b%8d%e8%84%91%e8%a2%8b%e6%98%af%e4%ba%a4%e5%8f%89%e9%aa%8c%e8%af%81" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>为了回答这个问题,我用了三层手段交叉验证:</p>
+<ol>
+<li><strong>4 路并行联网研究 agent</strong>,各自负责一族:Go / Rust 的静态 vs 动态边界、Node 生态(bun compile / SEA / deno / pkg)、Python(PyInstaller / Nuitka / 解释型)、通用机制(patchShebangs / autoPatchelfHook / FHS / 社区共识);</li>
+<li><strong>主循环 8 次直接搜索</strong>,钉住关键事实(bun 在 NixOS 的 interpreter bug、PyInstaller onefile 的社区结论等);</li>
+<li><strong>本机 5 次实证构建</strong>,把&quot;能不能跑&quot;从理论变成数据——这是最重要的一层,后面会看到它甚至纠正了我自己的一个错误判断。</li>
+</ol>
+<h2 class="heading-element" id="三核心发现一现有方案隐含了三个-rustcargo-假设"><span>三、核心发现一:现有方案隐含了三个 Rust/cargo 假设</span>
+  <a href="#%e4%b8%89%e6%a0%b8%e5%bf%83%e5%8f%91%e7%8e%b0%e4%b8%80%e7%8e%b0%e6%9c%89%e6%96%b9%e6%a1%88%e9%9a%90%e5%90%ab%e4%ba%86%e4%b8%89%e4%b8%aa-rustcargo-%e5%81%87%e8%ae%be" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>复盘现有方案,发现它其实已经&quot;按产物类型&quot;分模板(basic / gui / patchelf),但分类轴不对,且三个隐含假设没写出来:</p>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th>隐含假设(Rust 思维)</th>
+            <th>现实(其他语言)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>产物是<strong>单文件 ELF</strong></td>
+            <td>Go/Rust/C 成立;Node/Python 纯脚本是解释型,根本没有单文件</td>
+        </tr>
+        <tr>
+            <td>产物&quot;自包含&rdquo; = <strong>静态链接</strong></td>
+            <td>Oscivoid 其实是动态链 libc,靠 Nix 引用扫描器补闭包,不是静态</td>
+        </tr>
+        <tr>
+            <td><code>buildInputs</code> 补库就够了</td>
+            <td>外来动态二进制 <code>buildInputs</code> <strong>不会重写 rpath</strong>,必须 autoPatchelf</td>
+        </tr>
+    </tbody>
+  </table>
+</div><p><strong>结论:不能按语言选模板,要按产物的 ELF 形态选。</strong></p>
+<h2 class="heading-element" id="四核心发现二正确的分治轴--产物体检四型"><span>四、核心发现二:正确的分治轴 —— &ldquo;产物体检&quot;四型</span>
+  <a href="#%e5%9b%9b%e6%a0%b8%e5%bf%83%e5%8f%91%e7%8e%b0%e4%ba%8c%e6%ad%a3%e7%a1%ae%e7%9a%84%e5%88%86%e6%b2%bb%e8%bd%b4--%e4%ba%a7%e7%89%a9%e4%bd%93%e6%a3%80%e5%9b%9b%e5%9e%8b" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>三个命令,语言无关,任何产物都先做这一步:</p>
+<div class="code-block highlight" data-mode="classic" data-copyable="true"><div class="chroma">
+<div class="code-header language-bash"><span class="code-title"><i class="arrow fa-solid fa-chevron-down" aria-hidden="true"></i></span><span class="ellipses-btn" aria-label="Show more options" role="button"><i class="fa-solid fa-ellipsis-h" aria-hidden="true"></i></span><span class="action-btn line-nos-btn" aria-label="切换行号" role="button" title="切换行号" data-ct-tooltip><i class="fa-solid fa-list-ol" aria-hidden="true"></i></span><span class="action-btn line-wrap-btn" aria-label="切换自动换行" role="button" title="切换自动换行" data-ct-tooltip><i class="fa-solid fa-right-left" aria-hidden="true"></i></span><span class="action-btn copy-btn" aria-label="复制到剪贴板" role="button" title="复制到剪贴板" data-copied-text="已复制" data-ct-tooltip><i class="fa-regular fa-clone" aria-hidden="true"></i></span></div><div class="code-wrapper" data-max="10" data-line-digit="1" style="--fi-max-shown-lines:10;--fi-line-digit:1;--fi-line-start:1;"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">file &lt;产物&gt;                              <span class="c1"># statically / dynamically linked</span>
+</span></span><span class="line"><span class="cl">readelf -l &lt;产物&gt; <span class="p">|</span> grep interp          <span class="c1"># ELF 解释器(interpreter)指向哪</span>
+</span></span><span class="line"><span class="cl">ldd &lt;产物&gt;                               <span class="c1"># 动态库依赖</span></span></span></code></pre></td></tr></table></div>
+</div>
+</div><p>据此分四型:</p>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th>类型</th>
+            <th>判据</th>
+            <th>处理</th>
+            <th>典型</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>A 静态</strong></td>
+            <td><code>ldd</code> 报 <code>not a dynamic executable</code></td>
+            <td>直接 cp,闭包零依赖</td>
+            <td>Go 纯静态、Rust musl、<code>gcc -static</code></td>
+        </tr>
+        <tr>
+            <td><strong>B 动态·store 内</strong></td>
+            <td>interpreter/RUNPATH 指向 <code>/nix/store/...</code></td>
+            <td>直接 cp,闭包自动补齐</td>
+            <td>在 NixOS / nix shell 里构建的任何产物</td>
+        </tr>
+        <tr>
+            <td><strong>C 动态·外来</strong></td>
+            <td>interpreter 是 <code>/lib64/ld-linux-...</code></td>
+            <td>autoPatchelfHook 补库</td>
+            <td>在 Ubuntu 等非 nix 环境构建的</td>
+        </tr>
+        <tr>
+            <td><strong>D 解释型/多文件</strong></td>
+            <td>不是单 ELF</td>
+            <td>单文件化 / wrapProgram / nix 原生</td>
+            <td>Node/Python 纯脚本</td>
+        </tr>
+    </tbody>
+  </table>
+</div><h2 class="heading-element" id="五核心发现三引用扫描器让零配置动态二进制成立实证"><span>五、核心发现三:引用扫描器,让&quot;零配置动态二进制&quot;成立(实证)</span>
+  <a href="#%e4%ba%94%e6%a0%b8%e5%bf%83%e5%8f%91%e7%8e%b0%e4%b8%89%e5%bc%95%e7%94%a8%e6%89%ab%e6%8f%8f%e5%99%a8%e8%ae%a9%e9%9b%b6%e9%85%8d%e7%bd%ae%e5%8a%a8%e6%80%81%e4%ba%8c%e8%bf%9b%e5%88%b6%e6%88%90%e7%ab%8b%e5%ae%9e%e8%af%81" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>这是整件事的<strong>机制基础</strong>,也是我中途差点搞错、最终靠实证钉死的点。</p>
+<p>Q:一个动态链接的二进制(依赖 libc、libgcc),零 <code>buildInputs</code> 拷进 <code>$out</code>,闭包里会不会有 glibc?会不会被 <code>nix-collect-garbage</code> 删掉?</p>
+<p>我最初基于一次<strong>构建失败的假数据</strong>判断&quot;闭包不含 glibc,GC 会删库&rdquo;,吓得要给 basic 模板打补丁。重测后真相是:</p>
+<div class="code-block highlight" data-mode="classic" data-copyable="true"><div class="chroma">
+<div class="code-header language-fallback"><span class="code-title"><i class="arrow fa-solid fa-chevron-down" aria-hidden="true"></i></span><span class="ellipses-btn" aria-label="Show more options" role="button"><i class="fa-solid fa-ellipsis-h" aria-hidden="true"></i></span><span class="action-btn line-nos-btn" aria-label="切换行号" role="button" title="切换行号" data-ct-tooltip><i class="fa-solid fa-list-ol" aria-hidden="true"></i></span><span class="action-btn line-wrap-btn" aria-label="切换自动换行" role="button" title="切换自动换行" data-ct-tooltip><i class="fa-solid fa-right-left" aria-hidden="true"></i></span><span class="action-btn copy-btn" aria-label="复制到剪贴板" role="button" title="复制到剪贴板" data-copied-text="已复制" data-ct-tooltip><i class="fa-regular fa-clone" aria-hidden="true"></i></span></div><div class="code-wrapper" data-max="10" data-line-digit="1" style="--fi-max-shown-lines:10;--fi-line-digit:1;--fi-line-start:1;"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 用真实 oscivoid 二进制,零 buildInputs 打包
+</span></span><span class="line"><span class="cl">$ nix-store -q --references &lt;output&gt;
+</span></span><span class="line"><span class="cl">/nix/store/8kvxvr3pmsypxiypq4g8zy13glnfr7nx-glibc-2.42-67
+</span></span><span class="line"><span class="cl">/nix/store/hngmi01i8wgi25a0byrxcn4ysz5j79mw-gcc-15.2.0-lib</span></span></code></pre></td></tr></table></div>
+</div>
+</div><p><strong>Nix 的引用扫描器会扫描输出文件的字节</strong>——凡出现 <code>/nix/store/&lt;hash&gt;-...</code> 字符串就记为引用。二进制的 RUNPATH 和解释器里就嵌着 glibc 的 store 路径(链接时 cc-wrapper 写入的),所以扫描器自动把 glibc/libgcc 补进闭包:</p>
+<ul>
+<li>✅ <strong>GC 安全</strong>——闭包引用着它们,删不掉;</li>
+<li>✅ <strong>零配置能跑</strong>——实测从 store 直接运行打包产物,ldd 全部解析,无 <code>not found</code>;</li>
+<li>✅ <strong>basic 模板本来就是对的。</strong></li>
+</ul>
+<p><strong>所以&quot;在 NixOS / nix shell 里构建&quot;才是 B 型的唯一前提</strong>,也是这套打法成立的技术根基。而 A 型(静态)更进一步,闭包只有它自己。</p>
+<h2 class="heading-element" id="六语言可行性速查联网--实证交叉验证"><span>六、语言可行性速查(联网 + 实证交叉验证)</span>
+  <a href="#%e5%85%ad%e8%af%ad%e8%a8%80%e5%8f%af%e8%a1%8c%e6%80%a7%e9%80%9f%e6%9f%a5%e8%81%94%e7%bd%91--%e5%ae%9e%e8%af%81%e4%ba%a4%e5%8f%89%e9%aa%8c%e8%af%81" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th>语言</th>
+            <th>本机构建命令</th>
+            <th>类型</th>
+            <th>结论</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Go</strong> 纯静态</td>
+            <td><code>CGO_ENABLED=0 go build -trimpath</code></td>
+            <td>A</td>
+            <td>✅ 塞进去就跑,最顺的路径</td>
+        </tr>
+        <tr>
+            <td><strong>Go</strong> 带 cgo</td>
+            <td>NixOS 原生 <code>go build</code></td>
+            <td>B</td>
+            <td>✅ 闭包自动补 glibc;外来构建则 C</td>
+        </tr>
+        <tr>
+            <td><strong>Rust</strong> 无 C 依赖</td>
+            <td><code>cargo build --target x86_64-unknown-linux-musl</code></td>
+            <td>A</td>
+            <td>✅ 全静态;静态只能走 musl,glibc 静态链不可行</td>
+        </tr>
+        <tr>
+            <td><strong>Rust</strong> 带 C 依赖/Tauri</td>
+            <td>NixOS 原生 <code>cargo build --release</code></td>
+            <td>B</td>
+            <td>✅ 现有 gui 模板就是这路</td>
+        </tr>
+        <tr>
+            <td><strong>C/C++</strong></td>
+            <td>NixOS 原生编译</td>
+            <td>B</td>
+            <td>✅;外来构建则 C</td>
+        </tr>
+        <tr>
+            <td><strong>Node</strong> 单文件</td>
+            <td><code>bun build --compile</code> / Node SEA / <code>deno compile</code></td>
+            <td>A/B</td>
+            <td>⚠️ 可行但有坑:动态链 glibc、<strong>不能 strip</strong></td>
+        </tr>
+        <tr>
+            <td><strong>Python</strong></td>
+            <td><code>pyinstaller --onedir</code> / <code>nuitka --standalone</code></td>
+            <td>C</td>
+            <td>⚠️ 目录式 + autoPatchelfHook 可行;<strong><code>--onefile</code> 明确不可行</strong></td>
+        </tr>
+        <tr>
+            <td><strong>解释型脚本</strong></td>
+            <td>无</td>
+            <td>D</td>
+            <td>❌ 非单文件;wrapProgram + 解释器进闭包,或走 nix 原生</td>
+        </tr>
+        <tr>
+            <td><strong>Electron / AppImage</strong></td>
+            <td>—</td>
+            <td>—</td>
+            <td>❌ 排除,走 appimageTools.wrapType2 / nix 原生</td>
+        </tr>
+    </tbody>
+  </table>
+</div><p>几个值得单列的坑:</p>
+<ul>
+<li><strong>PyInstaller <code>--onefile</code> 在 NixOS 上救不了</strong>:它是自解压 zip,运行时才把内部 ELF 解压到 <code>/tmp</code>,构建期磁盘上不存在 → autoPatchelf 补不到。社区结论是&quot;别 patch 了,换 onedir 或直接 poetry2nix&quot;。</li>
+<li><strong>bun compile 产物不能 strip</strong>:JS 运行时内嵌在二进制里,strip 会删掉它;而且 interpreter 会硬编码 nix store 路径,GC 后可能失效。</li>
+<li><strong>静态 ≠ 无环境依赖</strong>:Go <code>CGO_ENABLED=0</code> / musl 产物不依赖库文件,但运行时仍读 <code>/etc/resolv.conf</code>、<code>/etc/passwd</code>——DNS 走纯 Go 解析器、用户查询只读 passwd,<strong>绕过 /etc/nsswitch.conf</strong>,LDAP、mDNS 等 NSS 后端能力丢失。这是&quot;塞进去就能用&quot;最容易忽略的隐性前提。</li>
+</ul>
+<h2 class="heading-element" id="七顺带纠正的两个常识误区"><span>七、顺带纠正的两个常识误区</span>
+  <a href="#%e4%b8%83%e9%a1%ba%e5%b8%a6%e7%ba%a0%e6%ad%a3%e7%9a%84%e4%b8%a4%e4%b8%aa%e5%b8%b8%e8%af%86%e8%af%af%e5%8c%ba" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>研究过程中发现两个流传甚广但不准确的说法,顺手修正了:</p>
+<ol>
+<li><strong>&ldquo;NixOS 上 <code>/usr/bin/env</code> 不存在&rdquo;</strong> —— 不准确。宿主机上它其实存在,是 <code>environment.usrbinenv</code> 创建的(整个 <code>/usr</code> 目录几乎只为这一个文件存在)。<strong>不存在的是解释器本身</strong>(<code>/usr/bin/python</code> 等),以及构建沙箱里连 env 都没有。所以 <code>patchShebangs</code> 的本质不是&quot;修一个不存在的路径&quot;,而是<strong>把 shebang 改写成 store 绝对路径,让脚本独立于用户 PATH 也能跑</strong>。</li>
+<li><strong>&ldquo;installPhase 用 runHook preInstall/postInstall 是实战提炼&rdquo;</strong> —— 现有 skill 这么写,但两个参考项目的 default.nix 都没用。好实践没错,但不该标榜&quot;从项目提炼&quot;,改成&quot;建议&quot;更诚实。</li>
+</ol>
+<h2 class="heading-element" id="八这算反模式吗-是的但有个诚实的定位"><span>八、这算反模式吗?—— 是的,但有个诚实的定位</span>
+  <a href="#%e5%85%ab%e8%bf%99%e7%ae%97%e5%8f%8d%e6%a8%a1%e5%bc%8f%e5%90%97-%e6%98%af%e7%9a%84%e4%bd%86%e6%9c%89%e4%b8%aa%e8%af%9a%e5%ae%9e%e7%9a%84%e5%ae%9a%e4%bd%8d" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>联网研究显示,Nix 社区普遍把&quot;拿预编译产物塞 store&quot;看作<strong>反模式</strong>:</p>
+<ul>
+<li>它违背 nix 的核心价值(从源码、可复现构建);</li>
+<li>反例引用 XZ 后门事件:预生成产物可能含源码里没有的恶意东西;</li>
+<li><code>AdoptOpenJDK</code> 那条 nixpkgs issue 说得直接:预编译二进制&quot;丢掉全部构建期依赖信息&quot;。</li>
+</ul>
+<p>但社区也承认一个<strong>实用豁免</strong>:自用、本机、不想维护 derivation 时,这是能接受的。而且&quot;本机构建产物&quot;比&quot;下载第三方 blob&quot;好——至少是你自己工具链产的,只是不可复现。</p>
+<p>所以这套方法的诚实定位是:</p>
+<blockquote>
+<p><strong>&ldquo;快而脏的本地工具&rdquo;</strong>:本机个人使用、秒级进系统、复用打包经验。<strong>不是</strong>正统发布流程——要进 nixpkgs、要跨机器/跨架构、要审计供应链时,走源码构建(buildGoModule / buildNpmPackage / buildPythonApplication)。</p>
+</blockquote>
+<h2 class="heading-element" id="九结论与建议"><span>九、结论与建议</span>
+  <a href="#%e4%b9%9d%e7%bb%93%e8%ae%ba%e4%b8%8e%e5%bb%ba%e8%ae%ae" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ol>
+<li><strong>二进制 base 完全可以语言无关</strong>,但判据是产物的 ELF 形态,不是语言。先体检,再选模板。</li>
+<li><strong>&ldquo;在 NixOS/nix shell 里构建&quot;是 B 型成立的唯一前提</strong>;外来动态二进制直接上 autoPatchelf,别跟 buildInputs 较劲。</li>
+<li><strong>想彻底&quot;塞进去就跑&rdquo;</strong>:Go 用 <code>CGO_ENABLED=0</code>,Rust 用 musl,Node 用 bun compile(记得 <code>dontStrip</code>),Python 用 <code>--onedir</code>。</li>
+<li><strong>记住两个边界</strong>:解释型脚本没有单文件,得靠 wrapper 或单文件化;静态产物也会降级 NSS——DNS 和用户查询行为要实测。</li>
+<li><strong>别把它当发布流程</strong>:发布走 nix 原生构建,自用才走二进制 base。</li>
+</ol>
+<hr>
+<p><em>所有机制结论都在 NixOS 本机用 <code>nix-build</code> + <code>nix-store -qR</code> 实证验证过;联网结论区分了&quot;官方文档事实&quot;和&quot;社区经验&quot;。过程中我自己的一次误判(GC 恐慌)也被实证修正——这正是&quot;先实证再下结论&quot;的价值。</em></p>
+</div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod"><span title="更新于 2026-08-13 02:48:10">更新于 2026-08-13&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"><span><a href="vscode://file//home/pakiknowledge/%e6%96%87%e6%a1%a3/blog/hugofullbackuo-main/content/posts/nix-binary-packages.md" title="在编辑器中打开" target="_blank" rel="external nofollow noopener noreferrer" class="link-to-vscode">在编辑器中打开</a></span></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="分享到 X" data-sharer="twitter" data-url="http://localhost:1313/posts/nix-binary-packages/" data-title="Nix二进制打包心得" data-hashtags="开发"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/nix-binary-packages/" data-hashtag="开发"><i class="fa-brands fa-facebook-square" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/posts/nix-binary-packages/" data-title="Nix二进制打包心得"><i class="fa-brands fa-hacker-news" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://localhost:1313/posts/nix-binary-packages/" data-title="Nix二进制打包心得"><svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LINE</title><path d="M19.365 9.863c.349.0.63.285.63.631.0.345-.281.63-.63.63H17.61v1.125h1.755c.349.0.63.283.63.63.0.344-.281.629-.63.629h-2.386c-.345.0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346.0.627.285.627.63.0.349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211.0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346.0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195.0.375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345.0.63.285.63.63v4.771zm-5.741.0c0 .344-.282.629-.631.629-.345.0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346.0.628.285.628.63v4.771zm-2.466.629H4.917c-.345.0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348.0.63.285.63.63v4.141h1.756c.348.0.629.283.629.63.0.344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943.0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/nix-binary-packages/" data-title="Nix二进制打包心得" data-image="/img1/20260813.jpg" data-ralateuid="5513975973"><i class="fa-brands fa-weibo" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags me-1" aria-hidden="true"></i><a href="/tags/%E5%BC%80%E5%8F%91/" class="post-tag" title="标签 - 开发">开发</a></section>
+    <section><span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+    </section>
+  </div><div class="post-nav"><a href="/posts/robotmemory/" class="post-nav-item" rel="prev" title="机忆"><i class="fa-solid fa-angle-left" aria-hidden="true"></i>机忆</a></div>
+</div>
+</article>
+
+  <aside class="toc" id="toc-auto" aria-label="目录"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside><dialog id="toc-dialog" aria-labelledby="toc-dialog-title" role="dialog">
+      <div class="toc">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-drawer"><nav >
+  <ul>
+    <li><a href="#一缘起为什么想摆脱-nix-打包">一、缘起:为什么想摆脱 Nix 打包</a></li>
+    <li><a href="#二研究方法不是拍脑袋是交叉验证">二、研究方法:不是拍脑袋,是交叉验证</a></li>
+    <li><a href="#三核心发现一现有方案隐含了三个-rustcargo-假设">三、核心发现一:现有方案隐含了三个 Rust/cargo 假设</a></li>
+    <li><a href="#四核心发现二正确的分治轴--产物体检四型">四、核心发现二:正确的分治轴 —— &ldquo;产物体检&quot;四型</a></li>
+    <li><a href="#五核心发现三引用扫描器让零配置动态二进制成立实证">五、核心发现三:引用扫描器,让&quot;零配置动态二进制&quot;成立(实证)</a></li>
+    <li><a href="#六语言可行性速查联网--实证交叉验证">六、语言可行性速查(联网 + 实证交叉验证)</a></li>
+    <li><a href="#七顺带纠正的两个常识误区">七、顺带纠正的两个常识误区</a></li>
+    <li><a href="#八这算反模式吗-是的但有个诚实的定位">八、这算反模式吗?—— 是的,但有个诚实的定位</a></li>
+    <li><a href="#九结论与建议">九、结论与建议</a></li>
+  </ul>
+</nav></div>
+      </div>
+    </dialog></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.163.3"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.5"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2020 - 2026</span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons"><div class="fixed-button back-to-top animate__faster d-none" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></div><div id="toc-drawer-button" class="fixed-button toc-drawer-button d-none" role="button" aria-label="目录"><i class="fa-solid fa-bars" aria-hidden="true"></i></div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/algoliasearch/algoliasearch-lite.umd.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/cell-tooltip/cell-tooltip.umd.js" defer></script><script src="/js/config/00abed4ef7000b0c4abaefada79f779e.js" defer></script><script src="/js/theme.min.js" defer></script></body>
+</html>
